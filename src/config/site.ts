@@ -29,21 +29,37 @@ export const SITE = {
   // === LOCATIONS ===
   locations: {
     entebbe: {
-      name: "Eritage ENT Care – Entebbe",
-      address: "Along Entebbe Road, Entebbe, Central Region, Uganda",
+      // GBP-exact name — MUST match Google Business Profile precisely
+      name: "Eritage ENT Care - Entebbe",
+      // Display name (em-dash variant, used in UI headings)
+      displayName: "Eritage ENT Care – Entebbe",
+      // Full NAP address — MUST match Google Business Profile precisely
+      address: "Plot 34, 48 Berkeley Road, Entebbe Road, Entebbe, Uganda",
+      // Schema-split address fields for structured data
+      streetAddress: "Plot 34, 48 Berkeley Road, Entebbe Road",
+      addressLocality: "Entebbe",
+      addressRegion: "Central Region",
+      addressCountry: "UG",
       hours: "Open 24 Hours",
       mapUrl: "https://maps.app.goo.gl/jyV5xBRkD95u2i4B8",
       reviewUrl: "https://g.page/r/Ceg235aaSzr6EBI/review",
+      gbpUrl: "https://maps.app.goo.gl/jyV5xBRkD95u2i4B8",
       lat: "0.0527778",
       lng: "32.4580556",
       mapEmbed:
         "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7584444444444!2d32.4580556!3d0.0527778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177d8a4b5c6d7e8f%3A0x1234567890abcdef!2sEritage%20Ear%2C%20Nose%20and%20throat%20home%20%E2%80%93Entebbe%20road!5e0!3m2!1sen!2sug!4v1701907200000!5m2!1sen!2sug",
     },
     kampala: {
-      name: "Eritage ENT Care – Kampala",
+      name: "Eritage ENT Care - Kampala",
+      displayName: "Eritage ENT Care – Kampala",
       address: "Coming Soon",
+      streetAddress: "",
+      addressLocality: "Kampala",
+      addressRegion: "Central Region",
+      addressCountry: "UG",
       hours: "Opening Soon",
       mapUrl: "",
+      gbpUrl: "",
       isComingSoon: true,
     },
   },

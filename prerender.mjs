@@ -65,9 +65,9 @@ const ROUTES = [
   },
   {
     path: "/locations/entebbe",
-    title: "Eritage ENT Care – Entebbe | ENT Specialist Clinic in Entebbe, Uganda",
+    title: "Eritage ENT Care - Entebbe | ENT Clinic, Plot 34 Berkeley Road, Entebbe",
     description:
-      "Visit Eritage ENT Care in Entebbe for expert ENT specialist ear, nose, and throat treatment. Located along Entebbe Road. Call +256 740 166 778.",
+      "Eritage ENT Care - Entebbe. ENT specialist clinic at Plot 34, 48 Berkeley Road, Entebbe Road, Entebbe, Uganda. Hearing tests, sinus care, urgent ENT. Call +256 740 166 778.",
   },
   {
     path: "/locations/kampala",

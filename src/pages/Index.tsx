@@ -60,7 +60,7 @@ const Index = () => {
     "email": "info@eritageentcare.com",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Along Entebbe Road",
+      "streetAddress": "Plot 34, 48 Berkeley Road, Entebbe Road",
       "addressLocality": "Entebbe",
       "addressRegion": "Central Region",
       "addressCountry": "UG"

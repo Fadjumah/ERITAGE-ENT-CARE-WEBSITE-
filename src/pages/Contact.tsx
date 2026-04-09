@@ -54,10 +54,12 @@ const Contact = () => {
   const locations = [
     {
       name: "Entebbe",
-      address: "Along Entebbe Road, Entebbe, Central Region",
+      gbpName: "Eritage ENT Care - Entebbe",
+      address: "Plot 34, 48 Berkeley Road, Entebbe Road, Entebbe, Uganda",
       phone: "+256 740 166 778",
       hours: "Open 24 hours",
       mapLink: "https://maps.app.goo.gl/jyV5xBRkD95u2i4B8",
+      reviewLink: "https://g.page/r/Ceg235aaSzr6EBI/review",
       isOpen: true
     },
     {
@@ -74,10 +76,18 @@ const Contact = () => {
   const schemaData = {
     "@context": "https://schema.org",
     "@type": "MedicalOrganization",
+    "@id": "https://eritageentcare.com/#organization",
     "name": "Eritage ENT Care",
     "description": "Professional ENT care across Uganda offering expert ear, nose, and throat services.",
-    "url": "https://eritageentcare.com/contact",
+    "url": "https://eritageentcare.com",
     "telephone": "+256740166778",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Plot 34, 48 Berkeley Road, Entebbe Road",
+      "addressLocality": "Entebbe",
+      "addressRegion": "Central Region",
+      "addressCountry": "UG"
+    },
     "areaServed": {
       "@type": "Country",
       "name": "Uganda"
@@ -177,7 +187,7 @@ const Contact = () => {
                       <div className="flex items-center gap-2 mb-3">
                         <MapPin className="h-5 w-5 text-primary" />
                         <h3 className="font-bold text-foreground text-lg">
-                          Eritage ENT Care – {location.name}
+                          {location.gbpName ?? `Eritage ENT Care – ${location.name}`}
                         </h3>
                       </div>
                       {!location.isOpen && (
@@ -197,15 +207,28 @@ const Contact = () => {
                         </div>
                       </div>
                       {location.isOpen && location.mapLink && (
-                        <Button asChild className="w-full">
-                          <a 
-                            href={location.mapLink} 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                          >
-                            Get Directions
-                          </a>
-                        </Button>
+                        <div className="space-y-2">
+                          <Button asChild className="w-full">
+                            <a
+                              href={location.mapLink}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              Get Directions on Google Maps
+                            </a>
+                          </Button>
+                          {location.reviewLink && (
+                            <Button asChild variant="outline" className="w-full">
+                              <a
+                                href={location.reviewLink}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                              >
+                                Leave a Google Review ★
+                              </a>
+                            </Button>
+                          )}
+                        </div>
                       )}
                       {!location.isOpen && (
                         <Button variant="outline" className="w-full" disabled>
