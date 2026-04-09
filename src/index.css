@@ -1,0 +1,210 @@
+@tailwind base;
+
+html {
+  scroll-behavior: smooth;
+}
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 210 40% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 210 40% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 40% 15%;
+
+    /* Vibrant teal-cyan primary - modern & professional */
+    --primary: 186 94% 45%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Warm blue-green secondary */
+    --secondary: 190 60% 92%;
+    --secondary-foreground: 186 70% 25%;
+
+    /* Soft muted tones with warmth */
+    --muted: 190 50% 95%;
+    --muted-foreground: 190 15% 45%;
+
+    /* Vibrant accent with green warmth */
+    --accent: 165 85% 92%;
+    --accent-foreground: 165 70% 35%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 190 40% 88%;
+    --input: 190 40% 88%;
+    --ring: 186 94% 45%;
+
+    --radius: 0.75rem;
+    
+    /* Extended color palette */
+    --medical-blue: 186 94% 45%;
+    --medical-blue-dark: 186 94% 35%;
+    --medical-blue-light: 186 94% 92%;
+    --warm-teal: 175 80% 50%;
+    --vibrant-green: 165 75% 45%;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 200 20% 12%;
+    --foreground: 190 50% 95%;
+
+    --card: 200 20% 15%;
+    --card-foreground: 190 50% 95%;
+
+    --popover: 200 20% 15%;
+    --popover-foreground: 190 50% 95%;
+
+    --primary: 186 94% 55%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 190 30% 22%;
+    --secondary-foreground: 186 70% 90%;
+
+    --muted: 190 25% 20%;
+    --muted-foreground: 190 20% 65%;
+
+    --accent: 165 60% 25%;
+    --accent-foreground: 165 70% 90%;
+
+    --destructive: 0 62.8% 50.6%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 190 30% 22%;
+    --input: 190 30% 22%;
+    --ring: 186 94% 55%;
+    --sidebar-background: 200 25% 10%;
+    --sidebar-foreground: 190 50% 92%;
+    --sidebar-primary: 186 94% 55%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 190 25% 18%;
+    --sidebar-accent-foreground: 190 50% 92%;
+    --sidebar-border: 190 25% 18%;
+    --sidebar-ring: 186 94% 55%;
+    
+    --medical-blue: 186 94% 55%;
+    --medical-blue-dark: 186 94% 45%;
+    --medical-blue-light: 186 50% 25%;
+    --warm-teal: 175 70% 45%;
+    --vibrant-green: 165 65% 40%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Animation utilities for better UX */
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 0.6s ease-out forwards;
+  }
+
+  .animate-fade-in-up {
+    animation: fadeInUp 0.7s ease-out forwards;
+  }
+
+  .animate-scale-in {
+    animation: scaleIn 0.5s ease-out forwards;
+  }
+
+  .hover-lift {
+    @apply transition-all duration-300 ease-out;
+  }
+
+  .hover-lift:hover {
+    @apply -translate-y-1 shadow-lg;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@layer utilities {
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+  
+  .animate-scroll {
+    animation: scroll 30s linear infinite;
+  }
+}
