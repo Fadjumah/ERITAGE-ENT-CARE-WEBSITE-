@@ -26,9 +26,16 @@ const LocationEntebbe = () => {
     "@context": "https://schema.org",
     "@type": "MedicalBusiness",
     "@id": "https://eritageentcare.com/locations/entebbe#business",
-    "name": "ERITAGE ENT CARE - ENTEBBE",
-    "alternateName": ["Eritage ENT Care – Entebbe", "Eritage ENT Clinic Entebbe", "Eritage Ear Nose Throat Entebbe", "ENT Specialist Entebbe"],
-    "description": "Professional ENT specialist clinic in Entebbe offering expert ear, nose, and throat care including hearing tests, sinus treatment, tonsillitis care, and emergency ENT services. Trusted ENT specialists serving Uganda.",
+    // Exact GBP name — must match Google Business Profile character-for-character
+    "name": "Eritage ENT Care - Entebbe",
+    "alternateName": [
+      "Eritage ENT Care – Entebbe",
+      "Eritage ENT Clinic Entebbe",
+      "Eritage Ear Nose Throat Entebbe",
+      "ENT Specialist Entebbe",
+      "ENT Clinic Entebbe Road"
+    ],
+    "description": "Professional ENT specialist clinic at Plot 34, 48 Berkeley Road, Entebbe Road, Entebbe, Uganda. Expert ear, nose, and throat care including hearing tests, sinus treatment, tonsillitis care, and emergency ENT services.",
     "url": "https://eritageentcare.com/locations/entebbe",
     "telephone": "+256740166778",
     "email": "info@eritageentcare.com",
@@ -36,10 +43,10 @@ const LocationEntebbe = () => {
     "logo": "https://eritageentcare.com/eritage-logo.png",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Along Entebbe Road",
+      // Exact GBP address — must match Google Business Profile precisely
+      "streetAddress": "Plot 34, 48 Berkeley Road, Entebbe Road",
       "addressLocality": "Entebbe",
       "addressRegion": "Central Region",
-      "postalCode": "",
       "addressCountry": "UG"
     },
     "geo": {
@@ -121,6 +128,13 @@ const LocationEntebbe = () => {
     ],
     "hasMap": "https://maps.app.goo.gl/jyV5xBRkD95u2i4B8",
     "isAcceptingNewPatients": true,
+    "knowsAbout": [
+      "Ear infections in Entebbe",
+      "Hearing tests Entebbe Uganda",
+      "Sinusitis treatment Entebbe",
+      "ENT specialist Entebbe Road",
+      "Tonsillitis treatment Uganda"
+    ],
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "4.8",
@@ -189,11 +203,11 @@ const LocationEntebbe = () => {
   return (
     <>
       <Helmet>
-        <title>Eritage ENT Care – Entebbe | ENT Specialist Clinic in Entebbe, Uganda</title>
-        <meta name="description" content="Visit Eritage ENT Care in Entebbe for expert ENT specialist ear, nose, and throat treatment. Located along Entebbe Road with hearing tests, sinus care, and urgent ENT services. Call +256 740 166 778." />
-        <meta name="keywords" content="ENT specialist Entebbe, ENT clinic Entebbe, ear doctor Entebbe, ENT doctor Entebbe Uganda, hearing test Entebbe, sinus treatment Entebbe, throat doctor Entebbe Uganda, otolaryngologist Entebbe, ear nose throat specialist Entebbe" />
-        <meta property="og:title" content="Eritage ENT Care – Entebbe | ENT Specialist Clinic in Entebbe" />
-        <meta property="og:description" content="Expert ENT specialist care in Entebbe. Comprehensive ear, nose, and throat services along Entebbe Road." />
+        <title>Eritage ENT Care - Entebbe | ENT Specialist Clinic, Plot 34 Berkeley Road</title>
+        <meta name="description" content="Eritage ENT Care - Entebbe. ENT specialist clinic at Plot 34, 48 Berkeley Road, Entebbe Road, Entebbe, Uganda. Hearing tests, sinus care, urgent ENT services. Call +256 740 166 778." />
+        <meta name="keywords" content="ENT specialist Entebbe, ENT clinic Entebbe Road, ear doctor Entebbe, ENT doctor Entebbe Uganda, hearing test Entebbe, sinus treatment Entebbe, throat doctor Entebbe Uganda, Berkeley Road ENT clinic, Plot 34 Entebbe ENT" />
+        <meta property="og:title" content="Eritage ENT Care - Entebbe | ENT Specialist Clinic in Entebbe" />
+        <meta property="og:description" content="Expert ENT specialist care at Plot 34, 48 Berkeley Road, Entebbe Road, Entebbe. Comprehensive ear, nose, and throat services. Call +256 740 166 778." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://eritageentcare.com/locations/entebbe" />
         <meta property="og:locale" content="en_UG" />
@@ -223,11 +237,14 @@ const LocationEntebbe = () => {
               <MapPin className="h-4 w-4" />
               Flagship ENT Specialist Clinic
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-foreground mb-6">
-              Eritage ENT Care – Entebbe
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-foreground mb-4">
+              Eritage ENT Care - Entebbe
             </h1>
+            <p className="text-base text-muted-foreground mb-2">
+              Plot 34, 48 Berkeley Road, Entebbe Road, Entebbe, Uganda
+            </p>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto mb-8">
-              Your trusted ENT specialist clinic in Entebbe, providing comprehensive ear, nose, and throat care for the community
+              Your trusted ENT specialist clinic on Entebbe Road, providing comprehensive ear, nose, and throat care for Entebbe and the wider Central Region
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" asChild className="gap-2">
@@ -268,10 +285,18 @@ const LocationEntebbe = () => {
                         <div>
                           <h3 className="font-semibold text-lg">Address</h3>
                           <p className="text-muted-foreground">
-                            Along Entebbe Road<br />
-                            Entebbe, Central Region<br />
-                            Uganda
+                            Plot 34, 48 Berkeley Road<br />
+                            Entebbe Road, Entebbe<br />
+                            Central Region, Uganda
                           </p>
+                          <a
+                            href="https://maps.app.goo.gl/jyV5xBRkD95u2i4B8"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-sm text-primary hover:underline mt-1 inline-block"
+                          >
+                            View on Google Maps →
+                          </a>
                         </div>
                       </div>
 
@@ -302,15 +327,26 @@ const LocationEntebbe = () => {
                       </div>
                     </div>
 
-                    <div className="mt-8 pt-6 border-t">
+                    <div className="mt-8 pt-6 border-t space-y-3">
                       <Button asChild className="w-full gap-2" size="lg">
-                        <a 
-                          href="https://g.page/r/Ceg235aaSzr6EBI/review" 
-                          target="_blank" 
+                        <a
+                          href="https://g.page/r/Ceg235aaSzr6EBI/review"
+                          target="_blank"
                           rel="noopener noreferrer"
                         >
                           <Star className="h-5 w-5" />
                           Leave a Review on Google
+                          <ExternalLink className="h-4 w-4" />
+                        </a>
+                      </Button>
+                      <Button asChild variant="outline" className="w-full gap-2" size="lg">
+                        <a
+                          href="https://maps.app.goo.gl/jyV5xBRkD95u2i4B8"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <MapPin className="h-5 w-5" />
+                          Find Us on Google Business
                           <ExternalLink className="h-4 w-4" />
                         </a>
                       </Button>
@@ -425,14 +461,55 @@ const LocationEntebbe = () => {
           </div>
         </section>
 
+        {/* Google Business Profile Trust Block */}
+        <section className="py-12 bg-secondary/20">
+          <div className="container mx-auto px-4">
+            <div className="max-w-3xl mx-auto text-center">
+              <h2 className="text-xl font-serif font-bold mb-3">Find Us on Google</h2>
+              <p className="text-muted-foreground text-sm mb-6">
+                Search <strong>"Eritage ENT Care - Entebbe"</strong> on Google Maps or click below to find our clinic,
+                leave a review, or get turn-by-turn directions to Plot 34, 48 Berkeley Road, Entebbe Road.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-3 justify-center">
+                <Button asChild variant="outline" className="gap-2">
+                  <a
+                    href="https://maps.app.goo.gl/jyV5xBRkD95u2i4B8"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <MapPin className="h-4 w-4" />
+                    Open in Google Maps
+                  </a>
+                </Button>
+                <Button asChild variant="outline" className="gap-2">
+                  <a
+                    href="https://g.page/r/Ceg235aaSzr6EBI/review"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Star className="h-4 w-4" />
+                    Leave a Google Review
+                  </a>
+                </Button>
+              </div>
+              <p className="text-xs text-muted-foreground mt-4">
+                Rated 4.8 ★ on Google Business Profile · Entebbe Road, Entebbe, Uganda
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* CTA */}
         <section className="py-16 bg-primary/5">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-2xl md:text-3xl font-serif font-bold mb-4">
               Ready to Visit Our Entebbe ENT Specialist Clinic?
             </h2>
-            <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">
+            <p className="text-muted-foreground mb-2 max-w-2xl mx-auto">
               Book your appointment today and experience expert ENT specialist care at our flagship Entebbe location.
+            </p>
+            <p className="text-sm text-muted-foreground mb-8">
+              Plot 34, 48 Berkeley Road, Entebbe Road, Entebbe · Open 24 Hours · +256 740 166 778
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" asChild className="gap-2">
@@ -442,9 +519,9 @@ const LocationEntebbe = () => {
                 </a>
               </Button>
               <Button size="lg" variant="outline" asChild className="gap-2">
-                <a 
-                  href="https://wa.me/256740166778?text=Hello%2C%20I%20would%20like%20to%20book%20an%20appointment%20with%20the%20ENT%20specialist%20at%20the%20Entebbe%20clinic." 
-                  target="_blank" 
+                <a
+                  href="https://wa.me/256740166778?text=Hello%2C%20I%20would%20like%20to%20book%20an%20appointment%20with%20the%20ENT%20specialist%20at%20the%20Entebbe%20clinic."
+                  target="_blank"
                   rel="noopener noreferrer"
                 >
                   Book via WhatsApp

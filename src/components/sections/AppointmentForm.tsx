@@ -129,7 +129,7 @@ const AppointmentForm = () => {
               <div className="mt-6 pt-6 border-t text-sm text-muted-foreground space-y-1">
                 <p><span className="font-medium">Phone:</span> +256 740 166 778</p>
                 <p><span className="font-medium">Email:</span> info@eritageentcare.com</p>
-                <p><span className="font-medium">Location:</span> Along Entebbe Road, Entebbe</p>
+                <p><span className="font-medium">Location:</span> Plot 34, 48 Berkeley Road, Entebbe Road, Entebbe</p>
               </div>
             </SheetContent>
           </Sheet>

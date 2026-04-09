@@ -15,6 +15,10 @@
     <!-- Canonical — must point to the homepage root, NO www -->
     <link rel="canonical" href="https://eritageentcare.com/" />
 
+    <!-- hreflang — Uganda English targeting -->
+    <link rel="alternate" hreflang="en-UG" href="https://eritageentcare.com/" />
+    <link rel="alternate" hreflang="en" href="https://eritageentcare.com/" />
+
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Eritage ENT Care | Expert ENT Specialists in Uganda" />
@@ -39,13 +43,21 @@
       crossorigin="anonymous"
     ></script>
 
-    <!-- Google Fonts — Playfair Display -->
+    <!-- Google Fonts — Playfair Display (non-render-blocking) -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="preload"
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap"
-      rel="stylesheet"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
     />
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap"
+        rel="stylesheet"
+      />
+    </noscript>
 
     <!-- Organization Schema (static fallback) -->
     <script type="application/ld+json">
@@ -61,7 +73,7 @@
       "areaServed": { "@type": "Country", "name": "Uganda" },
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Along Entebbe Road",
+        "streetAddress": "Plot 34, 48 Berkeley Road, Entebbe Road",
         "addressLocality": "Entebbe",
         "addressRegion": "Central Region",
         "addressCountry": "UG"

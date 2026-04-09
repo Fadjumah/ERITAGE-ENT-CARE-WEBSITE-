@@ -17,6 +17,7 @@ const Index = () => {
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "MedicalOrganization",
+    "@id": "https://eritageentcare.com/#organization",
     "name": "Eritage ENT Care",
     "description": "Uganda's leading ENT specialists providing expert diagnosis and treatment for ear, nose, and throat conditions. Over 10 years clinical experience serving patients nationwide.",
     "url": "https://eritageentcare.com",
@@ -51,6 +52,7 @@ const Index = () => {
   const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "MedicalBusiness",
+    "@id": "https://eritageentcare.com/#business",
     "name": "Eritage ENT Care",
     "description": "Professional ENT clinic offering expert ear, nose, and throat care including hearing tests, sinus treatment, and emergency ENT services across Uganda.",
     "url": "https://eritageentcare.com",
@@ -58,7 +60,15 @@ const Index = () => {
     "email": "info@eritageentcare.com",
     "address": {
       "@type": "PostalAddress",
+      "streetAddress": "Plot 34, 48 Berkeley Road, Entebbe Road",
+      "addressLocality": "Entebbe",
+      "addressRegion": "Central Region",
       "addressCountry": "UG"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "0.0527778",
+      "longitude": "32.4580556"
     },
     "areaServed": {
       "@type": "Country",
@@ -66,6 +76,13 @@ const Index = () => {
     },
     "medicalSpecialty": "Otolaryngology",
     "priceRange": "$$",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "50",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "ENT Services",
@@ -95,6 +112,7 @@ const Index = () => {
     },
     "parentOrganization": {
       "@type": "MedicalOrganization",
+      "@id": "https://eritageentcare.com/#organization",
       "name": "Eritage ENT Care"
     },
     "sameAs": [
@@ -106,12 +124,7 @@ const Index = () => {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "Eritage ENT Care",
-    "url": "https://eritageentcare.com",
-    "potentialAction": {
-      "@type": "SearchAction",
-      "target": "https://eritageentcare.com/blog?search={search_term_string}",
-      "query-input": "required name=search_term_string"
-    }
+    "url": "https://eritageentcare.com"
   };
 
    return (
@@ -125,6 +138,10 @@ const Index = () => {
         <meta property="og:image" content="https://eritageentcare.com/eritage-logo.png" />
         <meta name="keywords" content="ENT specialist Uganda, ear doctor Uganda, nose doctor Uganda, throat doctor Uganda, hearing test Uganda, sinusitis treatment, tonsillitis treatment, ear infection treatment, Eritage ENT Care" />
         <meta name="robots" content="index, follow" />
+        <meta name="geo.region" content="UG-C" />
+        <meta name="geo.placename" content="Entebbe, Uganda" />
+        <meta name="geo.position" content="0.0527778;32.4580556" />
+        <meta name="ICBM" content="0.0527778, 32.4580556" />
         <link rel="canonical" href="https://eritageentcare.com/" />
         <script type="application/ld+json">
           {JSON.stringify(organizationSchema)}

@@ -19,7 +19,8 @@ const locations: Location[] = [
   {
     id: "entebbe",
     name: "Entebbe",
-    address: "Along Entebbe Road, Entebbe, Central Region",
+    gbpName: "Eritage ENT Care - Entebbe",
+    address: "Plot 34, 48 Berkeley Road, Entebbe Road, Entebbe",
     phone: "+256 740 166 778",
     hours: "Open 24 Hours",
     mapLink: "https://maps.app.goo.gl/jyV5xBRkD95u2i4B8",

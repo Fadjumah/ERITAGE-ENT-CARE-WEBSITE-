@@ -130,6 +130,15 @@ const ENTServices = () => {
     ]
   };
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://eritageentcare.com" },
+      { "@type": "ListItem", "position": 2, "name": "ENT Specialist Services", "item": "https://eritageentcare.com/ent-services" }
+    ]
+  };
+
   return (
     <>
       <Helmet>
@@ -142,6 +151,9 @@ const ENTServices = () => {
         <link rel="canonical" href="https://eritageentcare.com/ent-services" />
         <script type="application/ld+json">
           {JSON.stringify(schemaData)}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify(breadcrumbSchema)}
         </script>
       </Helmet>
 

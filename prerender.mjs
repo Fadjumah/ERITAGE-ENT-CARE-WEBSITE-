@@ -108,9 +108,9 @@ const STATIC_ROUTES = [
   },
   {
     path: "/locations/entebbe",
-    title: "Eritage ENT Care – Entebbe | ENT Specialist Clinic in Entebbe, Uganda",
+    title: "Eritage ENT Care - Entebbe | ENT Clinic, Plot 34 Berkeley Road, Entebbe",
     description:
-      "Visit Eritage ENT Care in Entebbe for expert ENT specialist ear, nose, and throat treatment. Located along Entebbe Road. Call +256 740 166 778.",
+      "Eritage ENT Care - Entebbe. ENT specialist clinic at Plot 34, 48 Berkeley Road, Entebbe Road, Entebbe, Uganda. Hearing tests, sinus care, urgent ENT. Call +256 740 166 778.",
     lastmod: "2026-03-06",
     changefreq: "monthly",
     priority: 0.9,
@@ -184,7 +184,7 @@ for (const route of ALL_ROUTES) {
   const dir = path.join(DIST_DIR, routePath);
   const file = path.join(dir, "index.html");
 
-  // Inject per-page title, description, and canonical
+  // Inject per-page title, description, canonical, and Open Graph tags
   let html = template
     .replace(/<title>[^<]*<\/title>/, `<title>${route.title}</title>`)
     .replace(
@@ -198,6 +198,14 @@ for (const route of ALL_ROUTES) {
     .replace(
       /<meta property="og:url"[^>]*>/,
       `<meta property="og:url" content="${BASE_URL}${route.path}" />`
+    )
+    .replace(
+      /<meta property="og:title"[^>]*>/,
+      `<meta property="og:title" content="${route.title}" />`
+    )
+    .replace(
+      /<meta property="og:description"[^>]*>/,
+      `<meta property="og:description" content="${route.description}" />`
     );
 
   fs.mkdirSync(dir, { recursive: true });
