@@ -101,22 +101,32 @@ const BlogArticle = () => {
     "description": article.description,
     "datePublished": article.date,
     "dateModified": article.date,
+    "image": {
+      "@type": "ImageObject",
+      "url": "https://eritageentcare.com/eritage-logo.png",
+      "width": 800,
+      "height": 600
+    },
     "author": {
       "@type": "Person",
       "name": article.author,
       "jobTitle": "ENT Specialist",
       "worksFor": {
         "@type": "MedicalBusiness",
-        "name": "Eritage ENT Care – Entebbe"
+        "@id": "https://eritageentcare.com/#business",
+        "name": "Eritage ENT Care"
       }
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Eritage ENT Care – Entebbe",
+      "@id": "https://eritageentcare.com/#organization",
+      "name": "Eritage ENT Care",
       "url": "https://eritageentcare.com",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://eritageentcare.com/favicon.png"
+        "url": "https://eritageentcare.com/eritage-logo.png",
+        "width": 600,
+        "height": 60
       }
     },
     "mainEntityOfPage": {
@@ -151,7 +161,7 @@ const BlogArticle = () => {
   return (
     <>
       <Helmet>
-        <title>{article.title} | ERITAGE ENT CARE Blog</title>
+        <title>{article.title} | Eritage ENT Care</title>
         <meta name="description" content={article.description} />
         <meta property="og:title" content={article.title} />
         <meta property="og:description" content={article.description} />
@@ -182,7 +192,7 @@ const BlogArticle = () => {
               {/* Back Button */}
               <Button 
                 variant="ghost" 
-                onClick={() => navigate('/#blog')}
+                onClick={() => navigate('/blog')}
                 className="mb-8"
               >
                 <ArrowLeft className="mr-2 h-4 w-4" />

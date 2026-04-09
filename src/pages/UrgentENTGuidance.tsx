@@ -30,6 +30,15 @@ const UrgentENTGuidance = () => {
     "Get clear ENT guidance promptly"
   ];
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://eritageentcare.com" },
+      { "@type": "ListItem", "position": 2, "name": "Urgent ENT Guidance", "item": "https://eritageentcare.com/urgent-ent-guidance" }
+    ]
+  };
+
   return (
     <>
       <Helmet>
@@ -38,8 +47,12 @@ const UrgentENTGuidance = () => {
         <meta property="og:title" content="Urgent ENT Guidance | Ear, Nose & Throat Help" />
         <meta property="og:description" content="Professional ENT guidance for urgent symptoms. Review your symptoms via WhatsApp and get clear direction on next steps." />
         <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://eritageentcare.com/urgent-ent-guidance" />
         <meta name="keywords" content="urgent ENT help, ear pain guidance, throat bleeding help, blocked ear advice, hearing changes, ENT symptoms Uganda, ENT WhatsApp consultation" />
         <link rel="canonical" href="https://eritageentcare.com/urgent-ent-guidance" />
+        <script type="application/ld+json">
+          {JSON.stringify(breadcrumbSchema)}
+        </script>
       </Helmet>
 
       <div className="min-h-screen bg-background">

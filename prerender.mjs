@@ -119,7 +119,7 @@ for (const route of ROUTES) {
   const dir = path.join(DIST_DIR, routePath);
   const file = path.join(dir, "index.html");
 
-  // Inject per-page title, description, and canonical
+  // Inject per-page title, description, canonical, and Open Graph tags
   let html = template
     .replace(/<title>[^<]*<\/title>/, `<title>${route.title}</title>`)
     .replace(
@@ -133,6 +133,14 @@ for (const route of ROUTES) {
     .replace(
       /<meta property="og:url"[^>]*>/,
       `<meta property="og:url" content="${BASE_URL}${route.path}" />`
+    )
+    .replace(
+      /<meta property="og:title"[^>]*>/,
+      `<meta property="og:title" content="${route.title}" />`
+    )
+    .replace(
+      /<meta property="og:description"[^>]*>/,
+      `<meta property="og:description" content="${route.description}" />`
     );
 
   fs.mkdirSync(dir, { recursive: true });

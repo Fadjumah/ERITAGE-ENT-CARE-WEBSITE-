@@ -110,6 +110,15 @@ const HearingTests = () => {
     ]
   };
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://eritageentcare.com" },
+      { "@type": "ListItem", "position": 2, "name": "Hearing Tests", "item": "https://eritageentcare.com/hearing-tests" }
+    ]
+  };
+
   return (
     <>
       <Helmet>
@@ -122,6 +131,9 @@ const HearingTests = () => {
         <link rel="canonical" href="https://eritageentcare.com/hearing-tests" />
         <script type="application/ld+json">
           {JSON.stringify(schemaData)}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify(breadcrumbSchema)}
         </script>
       </Helmet>
 

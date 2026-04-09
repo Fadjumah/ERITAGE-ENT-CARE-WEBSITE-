@@ -66,9 +66,10 @@ const About = () => {
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "MedicalOrganization",
+    "@id": "https://eritageentcare.com/#organization",
     "name": "Eritage ENT Care",
     "description": "Specialist-led ENT platform providing evidence-based ear, nose, and throat care across Uganda with over 10 years of clinical experience.",
-    "url": "https://eritageentcare.com/about",
+    "url": "https://eritageentcare.com",
     "medicalSpecialty": "Otolaryngology",
     "areaServed": {
       "@type": "Country",
@@ -85,6 +86,35 @@ const About = () => {
     ]
   };
 
+  const specialistsSchema = [
+    {
+      "@context": "https://schema.org",
+      "@type": "Physician",
+      "name": "Lubega Fahad Juma",
+      "jobTitle": "ENT Specialist",
+      "medicalSpecialty": "Otolaryngology",
+      "description": "ENT specialist with over 10 years of clinical experience in ear, nose, and throat medicine, serving patients across Uganda.",
+      "worksFor": {
+        "@type": "MedicalOrganization",
+        "@id": "https://eritageentcare.com/#organization",
+        "name": "Eritage ENT Care"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Physician",
+      "name": "Dr. Mukisa Joseph",
+      "jobTitle": "ENT Specialist",
+      "medicalSpecialty": "Otolaryngology",
+      "description": "ENT specialist with over 13 years of clinical experience in otolaryngology, serving patients across Uganda.",
+      "worksFor": {
+        "@type": "MedicalOrganization",
+        "@id": "https://eritageentcare.com/#organization",
+        "name": "Eritage ENT Care"
+      }
+    }
+  ];
+
   return (
     <>
       <Helmet>
@@ -98,6 +128,11 @@ const About = () => {
         <script type="application/ld+json">
           {JSON.stringify(organizationSchema)}
         </script>
+        {specialistsSchema.map((schema, i) => (
+          <script key={i} type="application/ld+json">
+            {JSON.stringify(schema)}
+          </script>
+        ))}
       </Helmet>
 
       <div className="min-h-screen bg-background">
