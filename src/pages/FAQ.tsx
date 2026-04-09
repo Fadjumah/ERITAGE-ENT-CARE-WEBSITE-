@@ -12,10 +12,18 @@ const FAQ = () => {
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "What services does Eritage EntCare offer?",
+        "name": "What services does an ENT specialist provide at Eritage ENT Care?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Eritage ENT Care provides comprehensive ear, nose, and throat treatments for both children and adults. Our services include ENT consultations, hearing tests through partnered audiology centers, treatment for infections, allergies, sinus conditions, voice disorders, and surgical referrals when needed."
+          "text": "Our ENT specialists provide comprehensive ear, nose, and throat treatments for both children and adults. Services include ENT consultations, hearing tests (PTA, Tympanometry, OAE), treatment for ear infections, sinus conditions, allergies, voice disorders, tonsillitis, adenoid problems, and surgical referrals when needed."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I know if I need to see an ENT specialist?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You should consult an ENT specialist if you experience persistent ear pain, hearing loss, chronic nasal congestion, recurring sinus infections, sore throat lasting more than 2 weeks, voice changes, difficulty swallowing, or unexplained neck lumps. Early consultation with an ENT specialist ensures proper diagnosis and treatment."
         }
       },
       {
@@ -23,39 +31,79 @@ const FAQ = () => {
         "name": "Do you perform Hearing Tests (PTA, Tympanometry, OAE)?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes! We partner with certified audiology centers in Entebbe to provide comprehensive hearing tests including Pure Tone Audiometry (PTA), Tympanometry, Otoacoustic Emissions (OAE), Auditory Brainstem Response (ABR), and newborn hearing screening. Our ENT specialist interprets results and provides personalized care plans."
+          "text": "Yes! Our ENT specialists partner with certified audiology centers to provide comprehensive hearing tests including Pure Tone Audiometry (PTA), Tympanometry, Otoacoustic Emissions (OAE), Auditory Brainstem Response (ABR), and newborn hearing screening. Our ENT specialist interprets results and provides personalized care plans."
         }
       },
       {
         "@type": "Question",
-        "name": "How can I book an appointment?",
+        "name": "What ENT conditions do you treat in children?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "You can easily book an appointment by calling us at +256 740 166 778 or +256 769 616 091. You can also reach us via WhatsApp for quick appointment scheduling. We recommend booking in advance, though walk-ins are also welcome."
+          "text": "Our ENT specialists provide pediatric care for recurrent ear infections, enlarged tonsils and adenoids, hearing problems affecting speech development, chronic runny nose and allergies, sleep-disordered breathing, and foreign body removal. We offer gentle, child-friendly ENT specialist care tailored to each age group."
         }
       },
       {
         "@type": "Question",
-        "name": "Where is the clinic located?",
+        "name": "How can I book an appointment with an ENT specialist?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Eritage ENT Care is conveniently located along Entebbe Road, Entebbe, Central Region, Uganda. You can find us easily on Google Maps for directions to our clinic."
+          "text": "You can easily book an appointment with our ENT specialists by calling +256 740 166 778 or +256 769 616 091. You can also reach us via WhatsApp for quick ENT specialist appointment scheduling. We recommend booking in advance, though walk-ins are also welcome."
         }
       },
       {
         "@type": "Question",
-        "name": "Do you treat both children and adults?",
+        "name": "Where are your ENT specialist clinics located in Uganda?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Absolutely! Our ENT specialist is experienced in treating patients of all ages, from newborns requiring hearing screening to elderly patients with age-related hearing concerns. We provide gentle, compassionate care tailored to each age group."
+          "text": "Eritage ENT Care operates ENT specialist clinics across Uganda. Our flagship clinic is located along Entebbe Road, Entebbe, Central Region. We're expanding with a new ENT specialist clinic coming soon in Kampala. Visit our locations page for directions and contact details."
         }
       },
       {
         "@type": "Question",
-        "name": "Do you accept walk-ins?",
+        "name": "Do your ENT specialists treat both children and adults?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes, we welcome walk-in patients! However, to ensure minimal waiting time and guarantee availability, we recommend scheduling an appointment in advance by calling or messaging us on WhatsApp."
+          "text": "Absolutely! Our ENT specialists are experienced in treating patients of all ages, from newborns requiring hearing screening to elderly patients with age-related hearing concerns. We provide compassionate ENT specialist care tailored to each age group and condition."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What should I expect during my first ENT specialist consultation?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "During your first visit, our ENT specialist will review your medical history, discuss your symptoms, and perform a thorough examination of your ears, nose, and throat. Depending on your condition, the ENT specialist may recommend diagnostic tests like hearing assessments or imaging studies to ensure accurate diagnosis."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you offer emergency ENT specialist services?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, our ENT specialists handle urgent cases including severe nosebleeds, foreign objects in ear/nose/throat, sudden hearing loss, difficulty breathing due to throat swelling, and fish bones stuck in the throat. Contact our ENT specialists immediately for emergency care."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the cost of seeing an ENT specialist at Eritage ENT Care?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Our ENT specialist consultation fees are competitive and transparent. We offer affordable ENT specialist care without compromising quality. Contact us for specific pricing, and remember that early consultation with an ENT specialist often prevents more costly treatments later."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you accept walk-ins for ENT specialist consultations?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, we welcome walk-in patients for ENT specialist consultations! However, to ensure minimal waiting time and guarantee availability with our ENT specialists, we recommend scheduling an appointment in advance by calling or messaging us on WhatsApp."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do ENT specialists diagnose hearing problems?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Our ENT specialists use comprehensive hearing assessments including Pure Tone Audiometry to measure hearing sensitivity, Tympanometry to evaluate middle ear function, and Otoacoustic Emissions to assess inner ear health. The ENT specialist interprets results and recommends appropriate treatment or hearing aids if needed."
         }
       }
     ]
