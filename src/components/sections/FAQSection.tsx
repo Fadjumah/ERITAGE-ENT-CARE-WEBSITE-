@@ -76,20 +76,6 @@ const FAQSection = ({ variant = "full", className = "" }: FAQSectionProps) => {
 
   const displayItems = variant === "compact" ? faqItems.slice(0, 4) : faqItems;
 
-  // Generate FAQ Schema for SEO
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": displayItems.map(item => ({
-      "@type": "Question",
-      "name": item.question,
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": item.answer
-      }
-    }))
-  };
-
   return (
     <section className={`py-16 bg-accent/20 ${className}`}>
       <div className="container mx-auto px-4">
@@ -102,9 +88,6 @@ const FAQSection = ({ variant = "full", className = "" }: FAQSectionProps) => {
               Find answers to common questions about our ENT specialist services across Uganda
             </p>
           </div>
-
-          {/* Inject FAQ Schema */}
-          <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
           <Accordion type="single" collapsible className="space-y-4">
             {displayItems.map((item, index) => (
