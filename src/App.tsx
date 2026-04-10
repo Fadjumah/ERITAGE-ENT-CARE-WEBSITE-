@@ -22,6 +22,7 @@ import LocationEntebbe from "@/pages/locations/LocationEntebbe";
 import LocationKampala from "@/pages/locations/LocationKampala";
 import PrivacyPolicy from "@/pages/legal/PrivacyPolicy";
 import TermsOfService from "@/pages/legal/TermsOfService";
+import Bookings from "@/pages/Bookings";
 import NotFound from "@/pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -44,6 +45,7 @@ const App = () => (
             <Route path="/faq" element={<FAQ />} />
             <Route path="/reviews" element={<Reviews />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/bookings" element={<Bookings />} />
 
             {/* Locations */}
             <Route path="/locations/entebbe" element={<LocationEntebbe />} />

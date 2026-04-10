@@ -107,6 +107,15 @@ const STATIC_ROUTES = [
     priority: 0.8,
   },
   {
+    path: "/bookings",
+    title: "Book an ENT Appointment | Eritage ENT Care | Entebbe, Uganda",
+    description:
+      "Book your ENT consultation at Eritage ENT Care – Entebbe. Schedule via WhatsApp, phone, or our online booking form. Specialists available 24 hours.",
+    lastmod: "2026-04-10",
+    changefreq: "monthly",
+    priority: 0.9,
+  },
+  {
     path: "/locations/entebbe",
     title: "Eritage ENT Care - Entebbe | ENT Clinic, Plot 34 Berkeley Road, Entebbe",
     description:

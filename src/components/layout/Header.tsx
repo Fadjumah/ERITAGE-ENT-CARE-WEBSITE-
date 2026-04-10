@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { Menu, X, MapPin } from "lucide-react";
+import { Menu, X, Calendar } from "lucide-react";
+import { Link } from "react-router-dom";
 import logo from "@/assets/eritage-logo.png";
 
 const Header = () => {
@@ -27,16 +28,23 @@ const Header = () => {
           </a>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center gap-8">
+          <nav className="hidden md:flex items-center gap-6">
             {navItems.map((item) => (
-              <a 
-                key={item.href} 
+              <a
+                key={item.href}
                 href={item.href}
                 className="text-foreground hover:text-primary transition-colors font-medium"
               >
                 {item.label}
               </a>
             ))}
+            <Link
+              to="/bookings"
+              className="inline-flex items-center gap-1.5 bg-primary text-primary-foreground hover:bg-primary/90 transition-colors font-medium text-sm px-4 py-2 rounded-md"
+            >
+              <Calendar className="w-4 h-4" />
+              Book
+            </Link>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -62,6 +70,14 @@ const Header = () => {
                 {item.label}
               </a>
             ))}
+            <Link
+              to="/bookings"
+              onClick={() => setIsMenuOpen(false)}
+              className="inline-flex items-center gap-2 bg-primary text-primary-foreground hover:bg-primary/90 transition-colors font-medium text-sm px-4 py-2 rounded-md w-fit"
+            >
+              <Calendar className="w-4 h-4" />
+              Book an Appointment
+            </Link>
           </nav>
         )}
       </div>
