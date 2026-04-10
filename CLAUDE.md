@@ -176,13 +176,13 @@ This means every committed change — including the bookings page and any future
 
 ---
 
-## Last Session Snapshot (auto-updated: 2026-04-10 22:55 UTC)
+## Last Session Snapshot (auto-updated: 2026-04-10 23:06 UTC)
 - **Branch:** `main`
 - **Last 5 commits:**
 ```
+4c51090 seo: fix og:image, og:url, schema, and meta description issues across all pages
+3961349 chore: auto-update CLAUDE.md session snapshot [2026-04-10 22:55 UTC]
 31ecb81 fix: stop hook — commit all tracked changes and pull before push
 8d9305c chore: auto-update CLAUDE.md session snapshot [2026-04-10 22:52 UTC]
 1ca4dc9 fix: add /bookings to sitemap and write sitemap to dist/ at build time
-35862c7 Rename 1775696054362.png to hero-doctor-patient.jpg
-a9aa8c1 Delete src/assets/hero-doctor-patient.jpg
 ```
