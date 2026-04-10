@@ -176,13 +176,13 @@ This means every committed change — including the bookings page and any future
 
 ---
 
-## Last Session Snapshot (auto-updated: 2026-04-10 21:15 UTC)
+## Last Session Snapshot (auto-updated: 2026-04-10 21:19 UTC)
 - **Branch:** `main`
 - **Last 5 commits:**
 ```
+3e7ce41 chore: auto-push on session end + update CLAUDE.md
+c07443f chore: auto-update CLAUDE.md session snapshot [2026-04-10 21:15 UTC]
 cf6d383 chore: auto-update CLAUDE.md session snapshot [2026-04-10 21:15 UTC]
 4f29522 chore: auto-update CLAUDE.md session snapshot [2026-04-10 21:02 UTC]
 be0b051 chore: auto-update CLAUDE.md session snapshot [2026-04-10 21:02 UTC]
-ecbd637 feat: add /bookings page with GBP booking URL support
-3842625 chore: add Claude Code session memory system
 ```
