@@ -123,6 +123,8 @@ const About = () => {
         <meta property="og:title" content="About Eritage ENT Care | ENT Specialists in Uganda" />
         <meta property="og:description" content="Specialist-led ENT platform with over 10 years of clinical experience. Evidence-based care and patient education for all ages across Uganda." />
         <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://eritageentcare.com/about" />
+        <meta property="og:image" content="https://eritageentcare.com/eritage-logo.png" />
         <meta name="keywords" content="about Eritage ENT Care, ENT specialists Uganda, ear nose throat experts, Fahad Juma ENT, evidence-based ENT care" />
         <link rel="canonical" href="https://eritageentcare.com/about" />
         <script type="application/ld+json">

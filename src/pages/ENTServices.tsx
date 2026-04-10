@@ -143,10 +143,12 @@ const ENTServices = () => {
     <>
       <Helmet>
         <title>ENT Specialist Services | Ear, Nose & Throat Care | Eritage ENT Care</title>
-        <meta name="description" content="Comprehensive ear, nose, and throat care from experienced ENT specialists. Expert diagnosis and treatment for hearing loss, sinus conditions, throat disorders, and more. Book your consultation today." />
+        <meta name="description" content="Comprehensive ear, nose, and throat care from experienced ENT specialists. Expert diagnosis and treatment for hearing loss, sinus conditions, and throat disorders across Uganda." />
         <meta property="og:title" content="ENT Specialist Services | Ear, Nose & Throat Care" />
         <meta property="og:description" content="Trusted ENT specialists providing expert treatment for ear infections, hearing loss, sinus problems, tonsillitis, and all ENT conditions across Uganda." />
         <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://eritageentcare.com/ent-services" />
+        <meta property="og:image" content="https://eritageentcare.com/eritage-logo.png" />
         <meta name="keywords" content="ENT specialist Uganda, ENT clinic, ear doctor, nose doctor, throat doctor, hearing test, sinus treatment Uganda, tonsillitis treatment, audiology Uganda" />
         <link rel="canonical" href="https://eritageentcare.com/ent-services" />
         <script type="application/ld+json">

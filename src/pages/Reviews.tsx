@@ -107,6 +107,8 @@ const Reviews = () => {
         <meta property="og:title" content="Patient Reviews – Eritage ENT Care" />
         <meta property="og:description" content="Read what our ENT patients say about Eritage ENT Care." />
         <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://eritageentcare.com/reviews" />
+        <meta property="og:image" content="https://eritageentcare.com/eritage-logo.png" />
         <link rel="canonical" href="https://eritageentcare.com/reviews" />
       </Helmet>
 

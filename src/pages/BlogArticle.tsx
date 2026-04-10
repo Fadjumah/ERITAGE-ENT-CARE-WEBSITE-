@@ -167,6 +167,7 @@ const BlogArticle = () => {
         <meta property="og:description" content={article.description} />
         <meta property="og:type" content="article" />
         <meta property="og:url" content={`https://eritageentcare.com/blog/${article.slug}`} />
+        <meta property="og:image" content="https://eritageentcare.com/eritage-logo.png" />
         <meta property="article:published_time" content={article.date} />
         <meta property="article:author" content={article.author} />
         <link rel="canonical" href={`https://eritageentcare.com/blog/${article.slug}`} />

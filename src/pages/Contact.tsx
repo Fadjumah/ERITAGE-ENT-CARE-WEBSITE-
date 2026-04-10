@@ -106,6 +106,8 @@ const Contact = () => {
         <meta property="og:title" content="Contact Eritage ENT Care | ENT Consultations in Uganda" />
         <meta property="og:description" content="Get in touch with Eritage ENT Care for professional ear, nose, and throat services. Multiple locations and digital consultation options available across Uganda." />
         <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://eritageentcare.com/contact" />
+        <meta property="og:image" content="https://eritageentcare.com/eritage-logo.png" />
         <meta name="keywords" content="contact ENT specialist Uganda, book ENT appointment, Eritage ENT Care contact, ENT consultation Uganda" />
         <link rel="canonical" href="https://eritageentcare.com/contact" />
         <script type="application/ld+json">

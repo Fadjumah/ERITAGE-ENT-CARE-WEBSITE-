@@ -118,6 +118,8 @@ const FAQ = () => {
         <meta property="og:title" content="FAQ – Eritage ENT Care" />
         <meta property="og:description" content="Find answers to common questions about our ENT services across Uganda." />
         <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://eritageentcare.com/faq" />
+        <meta property="og:image" content="https://eritageentcare.com/eritage-logo.png" />
         <link rel="canonical" href="https://eritageentcare.com/faq" />
         <script type="application/ld+json">
           {JSON.stringify(faqSchemaData)}

@@ -66,7 +66,9 @@ const Blog = () => {
         <meta name="description" content="Expert ENT health articles and tips from Eritage ENT Care specialists. Learn about ear infections, hearing loss prevention, allergies, and voice care." />
         <meta property="og:title" content="Health Articles & Tips | Eritage ENT Care" />
         <meta property="og:description" content="Expert ENT health articles and tips from Eritage ENT Care specialists." />
+        <meta property="og:type" content="website" />
         <meta property="og:url" content="https://eritageentcare.com/blog" />
+        <meta property="og:image" content="https://eritageentcare.com/eritage-logo.png" />
         <link rel="canonical" href="https://eritageentcare.com/blog" />
         <script type="application/ld+json">
           {JSON.stringify(breadcrumbSchemaData)}

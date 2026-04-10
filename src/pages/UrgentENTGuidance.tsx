@@ -43,11 +43,12 @@ const UrgentENTGuidance = () => {
     <>
       <Helmet>
         <title>Urgent ENT Guidance | Ear, Nose & Throat Help | Eritage ENT Care</title>
-        <meta name="description" content="Get urgent ENT guidance for sudden ear pain, throat bleeding, blocked ears, or hearing changes. Professional symptom review via WhatsApp. Fast, private, professional care from Eritage ENT Care." />
+        <meta name="description" content="Get urgent ENT guidance for sudden ear pain, throat bleeding, blocked ears, or hearing changes. Professional symptom review via WhatsApp from Eritage ENT Care." />
         <meta property="og:title" content="Urgent ENT Guidance | Ear, Nose & Throat Help" />
         <meta property="og:description" content="Professional ENT guidance for urgent symptoms. Review your symptoms via WhatsApp and get clear direction on next steps." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://eritageentcare.com/urgent-ent-guidance" />
+        <meta property="og:image" content="https://eritageentcare.com/eritage-logo.png" />
         <meta name="keywords" content="urgent ENT help, ear pain guidance, throat bleeding help, blocked ear advice, hearing changes, ENT symptoms Uganda, ENT WhatsApp consultation" />
         <link rel="canonical" href="https://eritageentcare.com/urgent-ent-guidance" />
         <script type="application/ld+json">

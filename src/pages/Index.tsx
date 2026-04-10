@@ -123,18 +123,28 @@ const Index = () => {
   const webSiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
+    "@id": "https://eritageentcare.com/#website",
     "name": "Eritage ENT Care",
-    "url": "https://eritageentcare.com"
+    "url": "https://eritageentcare.com",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://eritageentcare.com/blog?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
   };
 
    return (
     <>
       <Helmet>
         <title>Eritage ENT Care | Expert Ear, Nose & Throat Specialists in Uganda</title>
-        <meta name="description" content="Uganda's leading ENT specialists providing expert diagnosis and treatment for ear infections, hearing loss, sinusitis, tonsillitis, and more. Over 10 years clinical experience. Book your consultation today." />
+        <meta name="description" content="Uganda's leading ENT specialists providing expert diagnosis and treatment for ear infections, hearing loss, sinusitis, and tonsillitis. Over 10 years clinical experience." />
         <meta property="og:title" content="Eritage ENT Care | Expert ENT Specialists in Uganda" />
         <meta property="og:description" content="Uganda's trusted ENT specialists. Expert diagnosis and treatment for ear, nose, and throat conditions for adults and children nationwide." />
         <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://eritageentcare.com/" />
         <meta property="og:image" content="https://eritageentcare.com/eritage-logo.png" />
         <meta name="keywords" content="ENT specialist Uganda, ear doctor Uganda, nose doctor Uganda, throat doctor Uganda, hearing test Uganda, sinusitis treatment, tonsillitis treatment, ear infection treatment, Eritage ENT Care" />
         <meta name="robots" content="index, follow" />

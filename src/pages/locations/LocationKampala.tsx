@@ -45,6 +45,8 @@ const LocationKampala = () => {
         <meta property="og:title" content="Eritage ENT Care – Kampala | Coming Soon" />
         <meta property="og:description" content="Expert ENT care is coming to Kampala. Join our waitlist for updates on our new clinic opening." />
         <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://eritageentcare.com/locations/kampala" />
+        <meta property="og:image" content="https://eritageentcare.com/eritage-logo.png" />
         <link rel="canonical" href="https://eritageentcare.com/locations/kampala" />
         <script type="application/ld+json">
           {JSON.stringify(organizationSchema)}

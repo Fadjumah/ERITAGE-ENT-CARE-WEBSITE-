@@ -66,7 +66,7 @@ const HearingTests = () => {
     "@type": "MedicalOrganization",
     "name": "Eritage ENT Care",
     "description": "Professional hearing tests including PTA, tympanometry, OAE, ABR, and full audiology screening services across Uganda.",
-    "url": "https://eritageentcare.com/hearing-tests",
+    "url": "https://eritageentcare.com",
     "telephone": "+256740166778",
     "email": "info@eritageentcare.com",
     "areaServed": {
@@ -79,27 +79,27 @@ const HearingTests = () => {
       "name": "Hearing Test Services",
       "itemListElement": [
         {
-          "@type": "MedicalTest",
+          "@type": "MedicalProcedure",
           "name": "Pure Tone Audiometry (PTA)",
           "description": "Standard test for measuring hearing sensitivity across different frequencies"
         },
         {
-          "@type": "MedicalTest",
+          "@type": "MedicalProcedure",
           "name": "Tympanometry",
           "description": "Assesses middle ear function by measuring eardrum movement"
         },
         {
-          "@type": "MedicalTest",
+          "@type": "MedicalProcedure",
           "name": "Otoacoustic Emissions (OAE)",
           "description": "Non-invasive test measuring inner ear cochlear function"
         },
         {
-          "@type": "MedicalTest",
+          "@type": "MedicalProcedure",
           "name": "Auditory Brainstem Response (ABR)",
           "description": "Evaluates auditory nerve pathway from ear to brainstem"
         },
         {
-          "@type": "MedicalTest",
+          "@type": "MedicalProcedure",
           "name": "Newborn Hearing Screening",
           "description": "Early detection screening for infants to identify hearing issues at birth"
         }
@@ -122,12 +122,14 @@ const HearingTests = () => {
   return (
     <>
       <Helmet>
-        <title>Hearing Tests – PTA, Tympanometry & Audiology Screening | Eritage ENT Care</title>
+        <title>Hearing Tests – PTA, Tympanometry & Audiology | Eritage ENT Care</title>
         <meta name="description" content="Professional hearing tests including PTA, tympanometry, OAE, ABR, and full audiology screening. Book your hearing test at Eritage ENT Care today." />
         <meta name="keywords" content="hearing test Uganda, PTA hearing test, tympanometry, audiology, ENT hearing test, hearing screening Uganda, audiometry Uganda, newborn hearing screening" />
         <meta property="og:title" content="Hearing Tests – PTA, Tympanometry & Audiology | Eritage ENT Care" />
         <meta property="og:description" content="Professional hearing tests including PTA, tympanometry, OAE, ABR, and full audiology screening across Uganda." />
         <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://eritageentcare.com/hearing-tests" />
+        <meta property="og:image" content="https://eritageentcare.com/eritage-logo.png" />
         <link rel="canonical" href="https://eritageentcare.com/hearing-tests" />
         <script type="application/ld+json">
           {JSON.stringify(schemaData)}
