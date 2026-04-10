@@ -180,9 +180,9 @@ This means every committed change — including the bookings page and any future
 - **Branch:** `claude/identify-model-version-1t2Fe`
 - **Last 5 commits:**
 ```
+52edb3c chore: auto-update CLAUDE.md session snapshot [2026-04-10 23:26 UTC]
 e83fc35 chore: auto-update CLAUDE.md session snapshot [2026-04-10 23:20 UTC]
 0d6e421 chore: auto-update CLAUDE.md session snapshot [2026-04-10 23:17 UTC]
 f3f3f9b content: expand 7 stub articles to full clinical guides (800-1200+ words each)
 4acbca6 chore: auto-update CLAUDE.md session snapshot [2026-04-10 23:07 UTC]
-d018843 chore: auto-update CLAUDE.md session snapshot [2026-04-10 23:06 UTC]
 ```
