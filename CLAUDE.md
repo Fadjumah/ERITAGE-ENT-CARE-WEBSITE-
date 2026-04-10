@@ -165,9 +165,9 @@ The website is tightly correlated with the GBP listing. **Do not change these wi
 - **Branch:** `claude/add-bookings-google-profile-6OnyP`
 - **Last 5 commits:**
 ```
+be0b051 chore: auto-update CLAUDE.md session snapshot [2026-04-10 21:02 UTC]
 ecbd637 feat: add /bookings page with GBP booking URL support
 3842625 chore: add Claude Code session memory system
 5539193 Fix duplicate FAQPage schema causing Search Console rich result errors
 443c085 Merge: auto-generate sitemap + incorporate remote SEO improvements
-a804f0d Auto-generate sitemap.xml from article frontmatter at build time
 ```
