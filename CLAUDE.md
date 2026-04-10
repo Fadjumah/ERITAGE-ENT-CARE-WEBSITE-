@@ -176,13 +176,13 @@ This means every committed change — including the bookings page and any future
 
 ---
 
-## Last Session Snapshot (auto-updated: 2026-04-10 23:17 UTC)
+## Last Session Snapshot (auto-updated: 2026-04-10 23:20 UTC)
 - **Branch:** `main`
 - **Last 5 commits:**
 ```
+0d6e421 chore: auto-update CLAUDE.md session snapshot [2026-04-10 23:17 UTC]
 f3f3f9b content: expand 7 stub articles to full clinical guides (800-1200+ words each)
 4acbca6 chore: auto-update CLAUDE.md session snapshot [2026-04-10 23:07 UTC]
 d018843 chore: auto-update CLAUDE.md session snapshot [2026-04-10 23:06 UTC]
 4c51090 seo: fix og:image, og:url, schema, and meta description issues across all pages
-3961349 chore: auto-update CLAUDE.md session snapshot [2026-04-10 22:55 UTC]
 ```
