@@ -237,5 +237,7 @@ const sitemapXml =
   sitemapEntries.join("\n") +
   `\n</urlset>`;
 
+// Write to both public/ (source of truth for git) and dist/ (served by Vercel)
 fs.writeFileSync("public/sitemap.xml", sitemapXml);
-console.log(`✅ Sitemap generated — ${sitemapEntries.length} URLs written to public/sitemap.xml`);
+fs.writeFileSync(path.join(DIST_DIR, "sitemap.xml"), sitemapXml);
+console.log(`✅ Sitemap generated — ${sitemapEntries.length} URLs written to public/sitemap.xml and dist/sitemap.xml`);
