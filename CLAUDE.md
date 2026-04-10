@@ -13,7 +13,7 @@ Eritage ENT Care (`eritageentcare.com`) is a production ENT clinic website for a
 | Routing | React Router DOM v6 |
 | Styling | Tailwind CSS 3.4 + shadcn/ui (Radix UI) |
 | SEO metadata | React Helmet Async |
-| Static prerender | `prerender.mjs` — runs after `vite build`, generates static HTML for all 30 routes so Googlebot can crawl the SPA |
+| Static prerender | `prerender.mjs` — runs after `vite build`, generates static HTML for all 31 routes so Googlebot can crawl the SPA |
 | Blog | Markdown files in `src/content/articles/`, parsed by `src/utils/blogLoader.ts` |
 | Backend/DB | Supabase (client in `src/integrations/supabase/`) |
 | Analytics | `@vercel/analytics` |
@@ -65,7 +65,7 @@ No other runtime secrets — AdSense and analytics IDs are hardcoded in `src/con
 ERITAGE-ENT-CARE-WEBSITE-/
 ├── CLAUDE.md                        ← This file (auto-updated by stop hook)
 ├── index.html                       ← HTML entry + static fallback SEO meta + org schema
-├── prerender.mjs                    ← Post-build static HTML generator (30 routes)
+├── prerender.mjs                    ← Post-build static HTML generator (31 routes)
 ├── vercel.json                      ← Deployment config (www redirect, SPA rewrites, caching)
 ├── public/
 │   ├── sitemap.xml                  ← 30 routes with lastmod dates
@@ -84,6 +84,7 @@ ERITAGE-ENT-CARE-WEBSITE-/
 │   │   ├── Blog.tsx                 ← Blog listing
 │   │   ├── BlogArticle.tsx          ← Dynamic blog post (Article + FAQ schema)
 │   │   ├── Contact.tsx
+│   │   ├── Bookings.tsx             ← GBP booking URL page (/bookings) — ReserveAction schema
 │   │   ├── locations/
 │   │   │   ├── LocationEntebbe.tsx  ← PRIMARY GBP-correlated location page
 │   │   │   └── LocationKampala.tsx  ← Coming Soon
@@ -99,12 +100,12 @@ ERITAGE-ENT-CARE-WEBSITE-/
     ├── settings.json                ← Hook configuration
     └── hooks/
         ├── session-start.sh         ← Installs deps on session start
-        └── session-stop.sh          ← Auto-updates CLAUDE.md snapshot on session end
+        └── session-stop.sh          ← Auto-updates CLAUDE.md + commits + pushes to origin
 ```
 
 ---
 
-## Routes (30 total)
+## Routes (31 total)
 
 | Path | Page |
 |------|------|
@@ -116,6 +117,7 @@ ERITAGE-ENT-CARE-WEBSITE-/
 | `/faq` | FAQ |
 | `/reviews` | Reviews |
 | `/contact` | Contact |
+| `/bookings` | **GBP Booking URL** — inline form + ReserveAction schema |
 | `/locations/entebbe` | **Primary GBP location page** |
 | `/locations/kampala` | Coming Soon |
 | `/blog` | Blog index |
@@ -158,6 +160,19 @@ The website is tightly correlated with the GBP listing. **Do not change these wi
 - **Remote**: `origin` → `https://github.com/fadjumah/eritage-ent-care-website-`
 - **Production branch**: `main` (Vercel auto-deploys on push)
 - **Feature work**: branch off `main`, merge back when done
+
+---
+
+## Auto-Push on Session End
+
+The `session-stop.sh` hook runs automatically at the end of every Claude Code session and:
+1. Updates the **Last Session Snapshot** block in this file
+2. Commits the update (`chore: auto-update CLAUDE.md ...`)
+3. **Pushes the current branch to `origin`** (retries up to 4×, exponential backoff)
+
+This means every committed change — including the bookings page and any future work — is automatically pushed to GitHub so Vercel deploys without manual intervention.
+
+> Only committed changes are pushed. Uncommitted/WIP files are never auto-committed by the hook.
 
 ---
 
