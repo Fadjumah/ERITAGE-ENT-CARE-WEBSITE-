@@ -176,13 +176,13 @@ This means every committed change — including the bookings page and any future
 
 ---
 
-## Last Session Snapshot (auto-updated: 2026-04-11 09:49 UTC)
+## Last Session Snapshot (auto-updated: 2026-04-11 09:52 UTC)
 - **Branch:** `claude/identify-model-version-1t2Fe`
 - **Last 5 commits:**
 ```
+75fcb3d content: replace fake reviews with honest Google CTA on Reviews page
+4c4dd52 chore: auto-update CLAUDE.md session snapshot [2026-04-11 09:49 UTC]
 dcc074f chore: auto-update CLAUDE.md session snapshot [2026-04-11 09:49 UTC]
 16b9050 chore: auto-update CLAUDE.md session snapshot [2026-04-10 23:26 UTC]
 52edb3c chore: auto-update CLAUDE.md session snapshot [2026-04-10 23:26 UTC]
-e83fc35 chore: auto-update CLAUDE.md session snapshot [2026-04-10 23:20 UTC]
-0d6e421 chore: auto-update CLAUDE.md session snapshot [2026-04-10 23:17 UTC]
 ```
