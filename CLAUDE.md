@@ -176,13 +176,13 @@ This means every committed change — including the bookings page and any future
 
 ---
 
-## Last Session Snapshot (auto-updated: 2026-04-13 22:42 UTC)
-- **Branch:** `claude/implement-todo-item-LvwGJ`
+## Last Session Snapshot (auto-updated: 2026-04-13 22:45 UTC)
+- **Branch:** `main`
 - **Last 5 commits:**
 ```
+0659660 chore: auto-update CLAUDE.md session snapshot [2026-04-13 22:42 UTC]
 6b5b2cc feat: remove all Kampala coming soon references from site
 13b73e7 chore: auto-update CLAUDE.md session snapshot [2026-04-13 22:34 UTC]
 a03aacf chore: auto-update CLAUDE.md session snapshot [2026-04-13 22:33 UTC]
 ae2f804 chore: auto-update CLAUDE.md session snapshot [2026-04-13 22:32 UTC]
-c575f17 chore: auto-update CLAUDE.md session snapshot [2026-04-13 20:30 UTC]
 ```
