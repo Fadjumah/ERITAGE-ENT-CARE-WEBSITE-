@@ -158,6 +158,30 @@ const STATIC_ROUTES = [
     changefreq: "yearly",
     priority: 0.3,
   },
+  {
+    path: "/conditions/blocked-ear-entebbe",
+    title: "Blocked Ear Treatment in Entebbe, Uganda | Eritage ENT Care",
+    description: "Blocked ear in Entebbe? Same-day treatment at Eritage ENT Care. We treat earwax buildup, fluid, infection, and Eustachian tube problems. Call +256 740 166 778.",
+    lastmod: "2026-04-13",
+    changefreq: "monthly",
+    priority: 0.9,
+  },
+  {
+    path: "/conditions/ear-pain-entebbe",
+    title: "Ear Pain Relief in Entebbe, Uganda | ENT Specialist | Eritage ENT Care",
+    description: "Ear pain in Entebbe? Same-day ENT assessment at Eritage ENT Care. We diagnose and treat ear infections, earwax, perforated eardrums, and referred pain. Call +256 740 166 778.",
+    lastmod: "2026-04-13",
+    changefreq: "monthly",
+    priority: 0.9,
+  },
+  {
+    path: "/conditions/ear-discharge-entebbe",
+    title: "Ear Discharge Treatment in Entebbe, Uganda | Urgent ENT Care | Eritage ENT Care",
+    description: "Ear discharge in Entebbe? This is never normal. Get same-day ENT assessment at Eritage ENT Care. We treat otorrhea, perforated eardrums, and ear infections. Call +256 740 166 778.",
+    lastmod: "2026-04-13",
+    changefreq: "monthly",
+    priority: 0.9,
+  },
 ];
 
 // ── Dynamically read blog articles from src/content/articles/ ─────────────────

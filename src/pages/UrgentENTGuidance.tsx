@@ -242,9 +242,28 @@ const UrgentENTGuidance = () => {
                 </Link>
               </div>
 
+              {/* Condition-specific pages */}
+              <div className="mb-6">
+                <p className="text-muted-foreground mb-3 text-sm font-semibold text-center">Condition-specific pages — Entebbe:</p>
+                <div className="grid md:grid-cols-3 gap-3">
+                  <Link to="/conditions/ear-pain-entebbe" className="flex items-center justify-between p-3 bg-background rounded-lg border border-border hover:border-primary transition-colors">
+                    <span className="font-medium text-foreground text-sm">Ear Pain Relief</span>
+                    <ArrowRight className="h-4 w-4 text-primary" />
+                  </Link>
+                  <Link to="/conditions/ear-discharge-entebbe" className="flex items-center justify-between p-3 bg-background rounded-lg border border-border hover:border-primary transition-colors">
+                    <span className="font-medium text-foreground text-sm">Ear Discharge Urgent Care</span>
+                    <ArrowRight className="h-4 w-4 text-primary" />
+                  </Link>
+                  <Link to="/conditions/blocked-ear-entebbe" className="flex items-center justify-between p-3 bg-background rounded-lg border border-border hover:border-primary transition-colors">
+                    <span className="font-medium text-foreground text-sm">Blocked Ear Treatment</span>
+                    <ArrowRight className="h-4 w-4 text-primary" />
+                  </Link>
+                </div>
+              </div>
+
               {/* Additional Related Links */}
               <div className="text-center">
-                <p className="text-muted-foreground mb-4">Related Health Articles:</p>
+                <p className="text-muted-foreground mb-4 text-sm">Related Health Articles:</p>
                 <div className="flex flex-wrap justify-center gap-4">
                   <Link to="/blog/ear-discharge-otorrhea" className="text-primary hover:underline text-sm font-medium">
                     Ear Discharge — When to Seek Urgent Care
