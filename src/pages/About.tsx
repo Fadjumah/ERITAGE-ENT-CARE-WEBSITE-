@@ -33,7 +33,7 @@ const About = () => {
     {
       icon: Users,
       title: "Nationwide Accessibility",
-      description: "Serving patients across Uganda with multiple locations and digital consultation options."
+      description: "Serving patients across Uganda from our Entebbe clinic, with digital consultation options available nationwide."
     }
   ];
 
@@ -54,13 +54,6 @@ const About = () => {
       mapLink: "https://maps.app.goo.gl/jyV5xBRkD95u2i4B8",
       isOpen: true
     },
-    {
-      name: "Kampala",
-      address: "Coming Soon",
-      phone: "+256 740 166 778",
-      mapLink: "",
-      isOpen: false
-    }
   ];
 
   const organizationSchema = {
@@ -170,7 +163,7 @@ const About = () => {
                     <span className="font-semibold text-foreground">Eritage ENT Care</span> is an ENT specialist-led medical platform dedicated to evidence-based diagnosis and treatment of ear, nose, and throat conditions. Our ENT specialists combine clinical expertise with patient education to empower informed healthcare decisions for patients across Uganda.
                   </p>
                   <p className="text-base leading-relaxed">
-                    Our team of ENT specialists delivers personalized treatment plans designed to improve quality of life. With multiple locations and digital consultation options, we ensure expert ENT specialist guidance is accessible to all Ugandans while maintaining the highest standards of medical care.
+                    Our team of ENT specialists delivers personalized treatment plans designed to improve quality of life. Based in Entebbe with digital consultation options, we ensure expert ENT specialist guidance is accessible to all Ugandans while maintaining the highest standards of medical care.
                   </p>
                 </div>
               </div>
@@ -239,15 +232,16 @@ const About = () => {
                   Where to Find Us
                 </p>
                 <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
-                  Our Locations
+                  Our Location
                 </h2>
                 <p className="text-muted-foreground max-w-2xl mx-auto">
-                  Eritage ENT Care serves patients across Uganda. Visit us at one of our locations or schedule a digital consultation.
+                  Eritage ENT Care is based in Entebbe, Uganda. Visit us in clinic or schedule a digital consultation.
                 </p>
               </div>
-              <div className="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
+              <div className="flex justify-center">
+                <div className="w-full max-w-md">
                 {locations.map((location, index) => (
-                  <Card key={index} className={`${!location.isOpen ? 'opacity-75' : ''}`}>
+                  <Card key={index}>
                     <CardContent className="p-6">
                       <div className="flex items-center gap-2 mb-3">
                         <MapPin className="h-5 w-5 text-primary" />
@@ -255,18 +249,13 @@ const About = () => {
                           Eritage ENT Care – {location.name}
                         </h3>
                       </div>
-                      {!location.isOpen && (
-                        <span className="inline-block bg-primary/10 text-primary text-xs font-medium px-2 py-1 rounded-full mb-3">
-                          Coming Soon
-                        </span>
-                      )}
                       <p className="text-muted-foreground mb-2">{location.address}</p>
                       <p className="text-muted-foreground mb-4">{location.phone}</p>
-                      {location.isOpen && location.mapLink && (
+                      {location.mapLink && (
                         <Button asChild variant="outline" size="sm">
-                          <a 
-                            href={location.mapLink} 
-                            target="_blank" 
+                          <a
+                            href={location.mapLink}
+                            target="_blank"
                             rel="noopener noreferrer"
                           >
                             Get Directions
@@ -276,6 +265,7 @@ const About = () => {
                     </CardContent>
                   </Card>
                 ))}
+                </div>
               </div>
             </div>
           </div>

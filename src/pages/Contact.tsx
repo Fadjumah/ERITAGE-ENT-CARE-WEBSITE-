@@ -44,8 +44,8 @@ const Contact = () => {
     {
       icon: MapPin,
       title: "Locations",
-      primary: "Multiple locations across Uganda",
-      secondary: "See our clinics below",
+      primary: "Entebbe, Uganda",
+      secondary: "See our clinic below",
       action: "#locations",
       actionText: "View Locations"
     }
@@ -62,14 +62,6 @@ const Contact = () => {
       reviewLink: "https://g.page/r/Ceg235aaSzr6EBI/review",
       isOpen: true
     },
-    {
-      name: "Kampala",
-      address: "Coming Soon",
-      phone: "+256 740 166 778",
-      hours: "Opening Soon",
-      mapLink: "",
-      isOpen: false
-    }
   ];
 
   // JSON-LD Schema for Organization
@@ -104,7 +96,7 @@ const Contact = () => {
         <title>Contact & Locations | Eritage ENT Care | Book Consultation in Uganda</title>
         <meta name="description" content="Contact Eritage ENT Care for ear, nose, and throat consultations across Uganda. Reach us at +256 740 166 778, via WhatsApp, or visit our clinics." />
         <meta property="og:title" content="Contact Eritage ENT Care | ENT Consultations in Uganda" />
-        <meta property="og:description" content="Get in touch with Eritage ENT Care for professional ear, nose, and throat services. Multiple locations and digital consultation options available across Uganda." />
+        <meta property="og:description" content="Get in touch with Eritage ENT Care in Entebbe, Uganda for professional ear, nose, and throat services. Book in clinic or schedule a digital consultation." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://eritageentcare.com/contact" />
         <meta property="og:image" content="https://eritageentcare.com/eritage-logo.png" />
@@ -176,15 +168,16 @@ const Contact = () => {
                   Visit Us
                 </p>
                 <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
-                  Our Locations
+                  Our Location
                 </h2>
                 <p className="text-muted-foreground max-w-2xl mx-auto">
-                  Eritage ENT Care serves patients across Uganda. Visit one of our clinics for in-person consultations.
+                  Eritage ENT Care is based in Entebbe, Uganda. Visit us in clinic or schedule a digital consultation.
                 </p>
               </div>
-              <div className="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
+              <div className="flex justify-center">
+                <div className="w-full max-w-md">
                 {locations.map((location, index) => (
-                  <Card key={index} className={`${!location.isOpen ? 'opacity-75' : ''}`}>
+                  <Card key={index}>
                     <CardContent className="p-6">
                       <div className="flex items-center gap-2 mb-3">
                         <MapPin className="h-5 w-5 text-primary" />
@@ -192,11 +185,6 @@ const Contact = () => {
                           {location.gbpName ?? `Eritage ENT Care – ${location.name}`}
                         </h3>
                       </div>
-                      {!location.isOpen && (
-                        <span className="inline-block bg-primary/10 text-primary text-xs font-medium px-2 py-1 rounded-full mb-3">
-                          Coming Soon
-                        </span>
-                      )}
                       <div className="space-y-2 mb-4">
                         <p className="text-muted-foreground">{location.address}</p>
                         <div className="flex items-center gap-2 text-muted-foreground">
@@ -208,7 +196,7 @@ const Contact = () => {
                           <span>{location.hours}</span>
                         </div>
                       </div>
-                      {location.isOpen && location.mapLink && (
+                      {location.mapLink && (
                         <div className="space-y-2">
                           <Button asChild className="w-full">
                             <a
@@ -232,14 +220,10 @@ const Contact = () => {
                           )}
                         </div>
                       )}
-                      {!location.isOpen && (
-                        <Button variant="outline" className="w-full" disabled>
-                          Notify Me When Open
-                        </Button>
-                      )}
                     </CardContent>
                   </Card>
                 ))}
+                </div>
               </div>
             </div>
           </div>
@@ -291,7 +275,7 @@ const Contact = () => {
                 Ready to Book Your ENT Consultation?
               </h2>
               <p className="text-muted-foreground mb-8 leading-relaxed">
-                Contact us today for expert ear, nose, and throat care. Our specialist is ready to help you with personalized treatment at any of our locations.
+                Contact us today for expert ear, nose, and throat care. Our specialist is ready to help you with personalized treatment at our Entebbe clinic.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" className="gap-2" asChild>

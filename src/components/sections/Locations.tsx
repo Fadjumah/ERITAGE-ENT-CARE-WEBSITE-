@@ -12,7 +12,6 @@ interface Location {
   hours: string;
   mapLink: string;
   services: string[];
-  isComingSoon?: boolean;
 }
 
 const locations: Location[] = [
@@ -26,16 +25,6 @@ const locations: Location[] = [
     mapLink: "https://maps.app.goo.gl/jyV5xBRkD95u2i4B8",
     services: ["Ear Examinations", "Hearing Tests", "Sinus Treatment", "Emergency ENT"]
   },
-  {
-    id: "kampala",
-    name: "Kampala",
-    address: "Coming Soon",
-    phone: "+256 740 166 778",
-    hours: "Opening Soon",
-    mapLink: "",
-    services: ["Full ENT Services", "Audiology", "Specialist Consultations"],
-    isComingSoon: true
-  }
 ];
 
 const Locations = () => {
@@ -44,25 +33,18 @@ const Locations = () => {
       <div className="container mx-auto px-4">
         <ScrollReveal animation="fade-in">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-serif font-bold mb-4">Our Locations</h2>
+            <h2 className="text-3xl md:text-4xl font-serif font-bold mb-4">Our Location</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Eritage ENT Care serves patients across Uganda with specialized ear, nose, and throat services. 
-              Find a location near you.
+              Eritage ENT Care is based in Entebbe, serving patients from across the Central Region with specialist ear, nose, and throat care.
             </p>
           </div>
         </ScrollReveal>
 
-        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div className="flex justify-center">
+          <div className="w-full max-w-lg">
           {locations.map((location, index) => (
             <ScrollReveal key={location.id} animation="fade-in-up" delay={index * 150}>
-              <Card 
-                className={`relative overflow-hidden h-full hover:shadow-lg transition-all hover:scale-[1.02] ${location.isComingSoon ? 'opacity-75' : ''}`}
-              >
-                {location.isComingSoon && (
-                  <div className="absolute top-4 right-4 bg-primary text-primary-foreground text-xs font-medium px-3 py-1 rounded-full">
-                    Coming Soon
-                  </div>
-                )}
+              <Card className="relative overflow-hidden h-full hover:shadow-lg transition-all hover:scale-[1.02]">
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2 text-2xl">
                     <MapPin className="h-5 w-5 text-primary" />
@@ -104,22 +86,21 @@ const Locations = () => {
                   <div className="flex gap-3 pt-4">
                     <Button asChild className="flex-1">
                       <Link to={`/locations/${location.id}`}>
-                        {location.isComingSoon ? "Learn More" : "View Location"}
+                        View Location
                         <ArrowRight className="h-4 w-4 ml-2" />
                       </Link>
                     </Button>
-                    {!location.isComingSoon && (
-                      <Button variant="outline" asChild>
-                        <a href={location.mapLink} target="_blank" rel="noopener noreferrer">
-                          Directions
-                        </a>
-                      </Button>
-                    )}
+                    <Button variant="outline" asChild>
+                      <a href={location.mapLink} target="_blank" rel="noopener noreferrer">
+                        Directions
+                      </a>
+                    </Button>
                   </div>
                 </CardContent>
               </Card>
             </ScrollReveal>
           ))}
+          </div>
         </div>
 
         <ScrollReveal animation="fade-in" delay={300}>

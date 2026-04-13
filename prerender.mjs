@@ -125,15 +125,6 @@ const STATIC_ROUTES = [
     priority: 0.9,
   },
   {
-    path: "/locations/kampala",
-    title: "Eritage ENT Care – Kampala | Coming Soon | ENT Clinic Kampala",
-    description:
-      "Eritage ENT Care is expanding to Kampala. Join our waitlist to be notified when our new ENT clinic opens.",
-    lastmod: "2026-03-06",
-    changefreq: "monthly",
-    priority: 0.6,
-  },
-  {
     path: "/blog",
     title: "Health Articles & Tips | Eritage ENT Care",
     description:

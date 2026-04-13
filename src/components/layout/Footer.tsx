@@ -66,9 +66,6 @@ const Footer = () => {
                 <Link to="/locations/entebbe" className="block hover:underline opacity-90 hover:opacity-100">
                   Eritage ENT Care - Entebbe
                 </Link>
-                <Link to="/locations/kampala" className="block hover:underline opacity-90 hover:opacity-100">
-                  Eritage ENT Care – Kampala (Coming Soon)
-                </Link>
               </nav>
               {/* NAP block — exact match with Google Business Profile */}
               <address className="not-italic text-xs opacity-75 mb-3 leading-relaxed">

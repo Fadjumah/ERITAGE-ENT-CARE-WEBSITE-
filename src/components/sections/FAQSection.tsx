@@ -40,7 +40,7 @@ const faqItems: FAQItem[] = [
   },
   {
     question: "Where are your ENT specialist clinics located in Uganda?",
-    answer: "Eritage ENT Care operates ENT specialist clinics across Uganda. Our flagship clinic is located along Entebbe Road, Entebbe, Central Region. We're expanding with a new ENT specialist clinic coming soon in Kampala. Visit our locations page for directions and contact details."
+    answer: "Eritage ENT Care is located along Entebbe Road, Entebbe, Central Region, Uganda. Visit our location page for directions, hours, and contact details."
   },
   {
     question: "Do your ENT specialists treat both children and adults?",

@@ -19,7 +19,6 @@ import HearingTests from "@/pages/HearingTests";
 import Reviews from "@/pages/Reviews";
 import UrgentENTGuidance from "@/pages/UrgentENTGuidance";
 import LocationEntebbe from "@/pages/locations/LocationEntebbe";
-import LocationKampala from "@/pages/locations/LocationKampala";
 import PrivacyPolicy from "@/pages/legal/PrivacyPolicy";
 import TermsOfService from "@/pages/legal/TermsOfService";
 import Bookings from "@/pages/Bookings";
@@ -57,7 +56,6 @@ const App = () => (
 
             {/* Locations */}
             <Route path="/locations/entebbe" element={<LocationEntebbe />} />
-            <Route path="/locations/kampala" element={<LocationKampala />} />
 
             {/* Blog */}
             <Route path="/blog" element={<Blog />} />
