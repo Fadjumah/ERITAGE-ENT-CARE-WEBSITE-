@@ -176,13 +176,13 @@ This means every committed change — including the bookings page and any future
 
 ---
 
-## Last Session Snapshot (auto-updated: 2026-04-13 22:59 UTC)
-- **Branch:** `main`
+## Last Session Snapshot (auto-updated: 2026-04-13 23:43 UTC)
+- **Branch:** `claude/add-layout-search-styling-OkVy1`
 - **Last 5 commits:**
 ```
+ce941aa feat: add SiteNavigationElement schema and blog search for Google Sitelinks
+33c5685 chore: auto-update CLAUDE.md session snapshot [2026-04-13 22:59 UTC]
 5ee7ae6 feat: remove 'Expert ENT in Action' section, upgrade procedures to slide-left carousel
 51667c8 chore: auto-update CLAUDE.md session snapshot [2026-04-13 22:52 UTC]
 f07f093 chore: auto-update CLAUDE.md session snapshot [2026-04-13 22:47 UTC]
-d0ba9a9 chore: auto-update CLAUDE.md session snapshot [2026-04-13 22:45 UTC]
-0659660 chore: auto-update CLAUDE.md session snapshot [2026-04-13 22:42 UTC]
 ```
