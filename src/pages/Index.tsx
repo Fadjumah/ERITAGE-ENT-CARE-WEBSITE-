@@ -168,29 +168,21 @@ const Index = () => {
         <Header />
         <Hero />
         
-        {/* Animated ENT Procedures Showcase */}
-        <section className="py-12 bg-secondary/30">
-          <div className="container mx-auto px-4">
-            <h2 className="text-2xl md:text-3xl font-serif font-bold text-center text-foreground mb-8">
-              Expert ENT Care in Action
-            </h2>
-            <AnimatedImageShowcase variant="staggered" />
-          </div>
-        </section>
-        
         <Services />
         <About />
-        
-        {/* Second Image Showcase - Grid Style */}
-        <section className="py-12 bg-muted/50">
+
+        {/* ENT Procedures Showcase */}
+        <section className="py-16 bg-muted/50">
           <div className="container mx-auto px-4">
-            <h2 className="text-2xl md:text-3xl font-serif font-bold text-center text-foreground mb-2">
-              Our ENT Procedures
-            </h2>
-            <p className="text-center text-muted-foreground mb-8">
-              Advanced diagnostic and treatment equipment for ear, nose & throat conditions
-            </p>
-            <AnimatedImageShowcase variant="grid" />
+            <div className="text-center mb-8">
+              <h2 className="text-2xl md:text-3xl font-serif font-bold text-foreground mb-2">
+                Our ENT Procedures
+              </h2>
+              <p className="text-muted-foreground">
+                Advanced diagnostic and treatment equipment for ear, nose &amp; throat conditions
+              </p>
+            </div>
+            <AnimatedImageShowcase variant="slideLeft" />
           </div>
         </section>
         
