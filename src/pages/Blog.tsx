@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { BookOpen, Heart, Shield, Sparkles, Activity, Search, Droplets, Wind, LucideIcon } from "lucide-react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useSearchParams } from "react-router-dom";
 import { getArticleMetadata } from "@/utils/blogLoader";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
@@ -21,7 +21,25 @@ const iconMap: Record<string, LucideIcon> = {
 
 const Blog = () => {
   const navigate = useNavigate();
-  const articles = getArticleMetadata();
+  const [searchParams, setSearchParams] = useSearchParams();
+  const query = searchParams.get("q")?.trim() ?? "";
+  const allArticles = getArticleMetadata();
+
+  const articles = query
+    ? allArticles.filter(
+        (a) =>
+          a.title.toLowerCase().includes(query.toLowerCase()) ||
+          a.description.toLowerCase().includes(query.toLowerCase())
+      )
+    : allArticles;
+
+  const handleSearch = (value: string) => {
+    if (value.trim()) {
+      setSearchParams({ q: value.trim() });
+    } else {
+      setSearchParams({});
+    }
+  };
 
   const handleArticleClick = (slug: string) => {
     navigate(`/blog/${slug}`);
@@ -84,9 +102,27 @@ const Blog = () => {
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
               <h1 className="text-4xl md:text-5xl font-serif font-bold mb-4">Health Articles & Tips</h1>
-              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-6">
                 Expert advice and insights from our ENT specialists to help you maintain better ear, nose, and throat health
               </p>
+              <div className="relative max-w-lg mx-auto">
+                <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-muted-foreground pointer-events-none" />
+                <input
+                  type="search"
+                  placeholder="Search articles…"
+                  defaultValue={query}
+                  onChange={(e) => handleSearch(e.target.value)}
+                  className="w-full pl-10 pr-4 py-2.5 border border-border rounded-lg bg-background text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50"
+                  aria-label="Search ENT health articles"
+                />
+              </div>
+              {query && (
+                <p className="mt-3 text-sm text-muted-foreground">
+                  {articles.length === 0
+                    ? `No articles found for "${query}"`
+                    : `${articles.length} article${articles.length !== 1 ? "s" : ""} for "${query}"`}
+                </p>
+              )}
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">

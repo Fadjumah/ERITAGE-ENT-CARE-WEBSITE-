@@ -125,6 +125,8 @@ const Index = () => {
     "@type": "WebSite",
     "@id": "https://eritageentcare.com/#website",
     "name": "Eritage ENT Care",
+    "alternateName": "Eritage ENT Care Uganda",
+    "description": "Uganda's leading ENT specialists — expert ear, nose & throat care in Entebbe.",
     "url": "https://eritageentcare.com",
     "potentialAction": {
       "@type": "SearchAction",
@@ -134,6 +136,56 @@ const Index = () => {
       },
       "query-input": "required name=search_term_string"
     }
+  };
+
+  const siteNavigationSchema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Eritage ENT Care — Main Navigation",
+    "itemListElement": [
+      {
+        "@type": "SiteNavigationElement",
+        "position": 1,
+        "name": "Book an Appointment",
+        "description": "Book your ENT consultation online — same-week slots available",
+        "url": "https://eritageentcare.com/bookings"
+      },
+      {
+        "@type": "SiteNavigationElement",
+        "position": 2,
+        "name": "ENT Services",
+        "description": "Comprehensive ear, nose & throat diagnosis and treatment",
+        "url": "https://eritageentcare.com/ent-services"
+      },
+      {
+        "@type": "SiteNavigationElement",
+        "position": 3,
+        "name": "Hearing Tests & Audiology",
+        "description": "Pure tone audiometry, hearing loss screening, and audiology services",
+        "url": "https://eritageentcare.com/hearing-tests"
+      },
+      {
+        "@type": "SiteNavigationElement",
+        "position": 4,
+        "name": "Urgent ENT Guidance",
+        "description": "Emergency ENT advice — when to seek urgent care",
+        "url": "https://eritageentcare.com/urgent-ent-guidance"
+      },
+      {
+        "@type": "SiteNavigationElement",
+        "position": 5,
+        "name": "Contact Us",
+        "description": "Get in touch with Eritage ENT Care in Entebbe, Uganda",
+        "url": "https://eritageentcare.com/contact"
+      },
+      {
+        "@type": "SiteNavigationElement",
+        "position": 6,
+        "name": "ENT Health Blog",
+        "description": "Expert ENT health articles and tips from our specialists",
+        "url": "https://eritageentcare.com/blog"
+      }
+    ]
   };
 
    return (
@@ -161,6 +213,9 @@ const Index = () => {
         </script>
         <script type="application/ld+json">
           {JSON.stringify(webSiteSchema)}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify(siteNavigationSchema)}
         </script>
       </Helmet>
       
