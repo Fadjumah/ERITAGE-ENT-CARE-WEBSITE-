@@ -176,13 +176,13 @@ This means every committed change — including the bookings page and any future
 
 ---
 
-## Last Session Snapshot (auto-updated: 2026-04-11 09:53 UTC)
+## Last Session Snapshot (auto-updated: 2026-04-13 20:30 UTC)
 - **Branch:** `main`
 - **Last 5 commits:**
 ```
+9f00a46 feat: condition authority engine — Sprint 1 (blocked ear, ear pain, ear discharge)
+3f1c324 feat: add 3 condition landing pages + blocked ear blog article
+b527368 chore: add growth execution system TO_DO_LIST.md
+36528b8 chore: auto-update CLAUDE.md session snapshot [2026-04-11 09:53 UTC]
 facad4e chore: auto-update CLAUDE.md session snapshot [2026-04-11 09:52 UTC]
-75fcb3d content: replace fake reviews with honest Google CTA on Reviews page
-4c4dd52 chore: auto-update CLAUDE.md session snapshot [2026-04-11 09:49 UTC]
-dcc074f chore: auto-update CLAUDE.md session snapshot [2026-04-11 09:49 UTC]
-16b9050 chore: auto-update CLAUDE.md session snapshot [2026-04-10 23:26 UTC]
 ```
