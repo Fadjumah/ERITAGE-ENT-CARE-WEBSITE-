@@ -23,6 +23,9 @@ import LocationKampala from "@/pages/locations/LocationKampala";
 import PrivacyPolicy from "@/pages/legal/PrivacyPolicy";
 import TermsOfService from "@/pages/legal/TermsOfService";
 import Bookings from "@/pages/Bookings";
+import BlockedEar from "@/pages/conditions/BlockedEar";
+import EarPain from "@/pages/conditions/EarPain";
+import EarDischarge from "@/pages/conditions/EarDischarge";
 import NotFound from "@/pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -46,6 +49,11 @@ const App = () => (
             <Route path="/reviews" element={<Reviews />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/bookings" element={<Bookings />} />
+
+            {/* Condition pages */}
+            <Route path="/conditions/blocked-ear-entebbe" element={<BlockedEar />} />
+            <Route path="/conditions/ear-pain-entebbe" element={<EarPain />} />
+            <Route path="/conditions/ear-discharge-entebbe" element={<EarDischarge />} />
 
             {/* Locations */}
             <Route path="/locations/entebbe" element={<LocationEntebbe />} />

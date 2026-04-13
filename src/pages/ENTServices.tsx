@@ -245,13 +245,25 @@ const ENTServices = () => {
                 </Card>
               ))}
             </div>
-            <div className="text-center mt-8 space-y-2">
-              <p className="text-muted-foreground">
-                Experiencing ear problems? Read our guides on{" "}
+            <div className="text-center mt-8 space-y-4">
+              <p className="text-sm font-semibold text-foreground uppercase tracking-wide">Condition-specific pages — Entebbe</p>
+              <div className="flex flex-wrap justify-center gap-3">
+                <Link to="/conditions/blocked-ear-entebbe" className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full border border-primary/30 bg-primary/5 text-primary hover:bg-primary/10 transition-colors text-sm font-medium">
+                  Blocked Ear Treatment <ArrowRight className="h-3.5 w-3.5" />
+                </Link>
+                <Link to="/conditions/ear-pain-entebbe" className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full border border-primary/30 bg-primary/5 text-primary hover:bg-primary/10 transition-colors text-sm font-medium">
+                  Ear Pain Relief <ArrowRight className="h-3.5 w-3.5" />
+                </Link>
+                <Link to="/conditions/ear-discharge-entebbe" className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full border border-primary/30 bg-primary/5 text-primary hover:bg-primary/10 transition-colors text-sm font-medium">
+                  Ear Discharge Urgent Care <ArrowRight className="h-3.5 w-3.5" />
+                </Link>
+              </div>
+              <p className="text-muted-foreground text-sm">
+                Related reading:{" "}
                 <Link to="/blog/understanding-ear-infections" className="text-primary hover:underline font-medium">
                   Understanding Ear Infections
                 </Link>
-                {" "}and{" "}
+                {" "}·{" "}
                 <Link to="/blog/ear-discharge-otorrhea" className="text-primary hover:underline font-medium">
                   Ear Discharge: When to Seek Urgent Care
                 </Link>
