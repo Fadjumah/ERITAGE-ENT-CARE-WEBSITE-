@@ -176,13 +176,13 @@ This means every committed change — including the bookings page and any future
 
 ---
 
-## Last Session Snapshot (auto-updated: 2026-04-13 22:52 UTC)
+## Last Session Snapshot (auto-updated: 2026-04-13 22:59 UTC)
 - **Branch:** `main`
 - **Last 5 commits:**
 ```
+5ee7ae6 feat: remove 'Expert ENT in Action' section, upgrade procedures to slide-left carousel
+51667c8 chore: auto-update CLAUDE.md session snapshot [2026-04-13 22:52 UTC]
 f07f093 chore: auto-update CLAUDE.md session snapshot [2026-04-13 22:47 UTC]
 d0ba9a9 chore: auto-update CLAUDE.md session snapshot [2026-04-13 22:45 UTC]
 0659660 chore: auto-update CLAUDE.md session snapshot [2026-04-13 22:42 UTC]
-6b5b2cc feat: remove all Kampala coming soon references from site
-13b73e7 chore: auto-update CLAUDE.md session snapshot [2026-04-13 22:34 UTC]
 ```
