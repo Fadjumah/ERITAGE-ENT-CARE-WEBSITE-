@@ -176,13 +176,13 @@ This means every committed change — including the bookings page and any future
 
 ---
 
-## Last Session Snapshot (auto-updated: 2026-04-14 20:09 UTC)
+## Last Session Snapshot (auto-updated: 2026-04-14 20:10 UTC)
 - **Branch:** `main`
 - **Last 5 commits:**
 ```
+f2d9a82 chore: auto-update CLAUDE.md session snapshot [2026-04-14 20:09 UTC]
 34beeba fix: replace secondary phone number with +256 772 332 909
 03331de chore: auto-update CLAUDE.md session snapshot [2026-04-14 20:05 UTC]
 d1236fc chore: auto-update CLAUDE.md session snapshot [2026-04-14 19:49 UTC]
 347471e chore: auto-update CLAUDE.md session snapshot [2026-04-14 19:49 UTC]
-3be366f fix: correct AggregateRating, add physician schemas, expand location FAQ
 ```
