@@ -56,6 +56,15 @@ const About = () => {
     },
   ];
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://eritageentcare.com" },
+      { "@type": "ListItem", "position": 2, "name": "About Us", "item": "https://eritageentcare.com/about" }
+    ]
+  };
+
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "MedicalOrganization",
@@ -70,12 +79,14 @@ const About = () => {
     },
     "founder": {
       "@type": "Person",
-      "name": "Fahad Juma",
+      "name": "Lubega Fahad Juma",
       "jobTitle": "ENT Specialist",
       "description": "ENT specialist with over 10 years of clinical experience in ear, nose, and throat medicine."
     },
     "sameAs": [
-      "https://maps.app.goo.gl/jyV5xBRkD95u2i4B8"
+      "https://maps.app.goo.gl/jyV5xBRkD95u2i4B8",
+      "https://g.page/r/Ceg235aaSzr6EBI",
+      "https://twitter.com/eritageentcare"
     ]
   };
 
@@ -83,10 +94,25 @@ const About = () => {
     {
       "@context": "https://schema.org",
       "@type": "Physician",
+      "@id": "https://eritageentcare.com/about#dr-fahad-juma",
       "name": "Lubega Fahad Juma",
       "jobTitle": "ENT Specialist",
       "medicalSpecialty": "Otolaryngology",
       "description": "ENT specialist with over 10 years of clinical experience in ear, nose, and throat medicine, serving patients across Uganda.",
+      "hasCredential": {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "degree",
+        "name": "Clinical Otolaryngology"
+      },
+      "knowsAbout": [
+        "Ear infections and otitis media",
+        "Hearing loss diagnosis and treatment",
+        "Sinusitis and nasal conditions",
+        "Tonsillitis and adenoid disorders",
+        "Vertigo and balance disorders",
+        "Pediatric ENT care",
+        "Voice and swallowing disorders"
+      ],
       "worksFor": {
         "@type": "MedicalOrganization",
         "@id": "https://eritageentcare.com/#organization",
@@ -96,10 +122,25 @@ const About = () => {
     {
       "@context": "https://schema.org",
       "@type": "Physician",
+      "@id": "https://eritageentcare.com/about#dr-mukisa-joseph",
       "name": "Dr. Mukisa Joseph",
       "jobTitle": "ENT Specialist",
       "medicalSpecialty": "Otolaryngology",
       "description": "ENT specialist with over 13 years of clinical experience in otolaryngology, serving patients across Uganda.",
+      "hasCredential": {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "degree",
+        "name": "Clinical Otolaryngology"
+      },
+      "knowsAbout": [
+        "Ear surgery and microsurgery",
+        "Hearing loss and audiology",
+        "Chronic sinusitis management",
+        "Throat and laryngeal disorders",
+        "Sleep apnea and snoring",
+        "Head and neck conditions",
+        "Adult and pediatric ENT care"
+      ],
       "worksFor": {
         "@type": "MedicalOrganization",
         "@id": "https://eritageentcare.com/#organization",
@@ -120,6 +161,9 @@ const About = () => {
         <meta property="og:image" content="https://eritageentcare.com/eritage-logo.png" />
         <meta name="keywords" content="about Eritage ENT Care, ENT specialists Uganda, ear nose throat experts, Fahad Juma ENT, evidence-based ENT care" />
         <link rel="canonical" href="https://eritageentcare.com/about" />
+        <script type="application/ld+json">
+          {JSON.stringify(breadcrumbSchema)}
+        </script>
         <script type="application/ld+json">
           {JSON.stringify(organizationSchema)}
         </script>

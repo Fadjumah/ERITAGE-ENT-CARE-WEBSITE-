@@ -19,9 +19,16 @@ const Index = () => {
     "@type": "MedicalOrganization",
     "@id": "https://eritageentcare.com/#organization",
     "name": "Eritage ENT Care",
+    "alternateName": "Eritage ENT Care Uganda",
     "description": "Uganda's leading ENT specialists providing expert diagnosis and treatment for ear, nose, and throat conditions. Over 10 years clinical experience serving patients nationwide.",
     "url": "https://eritageentcare.com",
-    "logo": "https://eritageentcare.com/eritage-logo.png",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://eritageentcare.com/eritage-logo.png",
+      "width": 512,
+      "height": 512
+    },
+    "image": "https://eritageentcare.com/eritage-logo.png",
     "medicalSpecialty": "Otolaryngology",
     "knowsAbout": [
       "Ear infections",
@@ -38,14 +45,24 @@ const Index = () => {
       "@type": "Country",
       "name": "Uganda"
     },
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "telephone": "+256740166778",
-      "contactType": "customer service",
-      "availableLanguage": ["English", "Luganda"]
-    },
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "telephone": "+256740166778",
+        "contactType": "customer service",
+        "availableLanguage": ["English", "Luganda"]
+      },
+      {
+        "@type": "ContactPoint",
+        "telephone": "+256769616091",
+        "contactType": "customer service",
+        "availableLanguage": ["English", "Luganda"]
+      }
+    ],
     "sameAs": [
-      "https://maps.app.goo.gl/jyV5xBRkD95u2i4B8"
+      "https://maps.app.goo.gl/jyV5xBRkD95u2i4B8",
+      "https://g.page/r/Ceg235aaSzr6EBI",
+      "https://twitter.com/eritageentcare"
     ]
   };
 
@@ -110,13 +127,23 @@ const Index = () => {
         }
       ]
     },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        "opens": "00:00",
+        "closes": "23:59"
+      }
+    ],
     "parentOrganization": {
       "@type": "MedicalOrganization",
       "@id": "https://eritageentcare.com/#organization",
       "name": "Eritage ENT Care"
     },
     "sameAs": [
-      "https://maps.app.goo.gl/jyV5xBRkD95u2i4B8"
+      "https://maps.app.goo.gl/jyV5xBRkD95u2i4B8",
+      "https://g.page/r/Ceg235aaSzr6EBI",
+      "https://twitter.com/eritageentcare"
     ]
   };
 

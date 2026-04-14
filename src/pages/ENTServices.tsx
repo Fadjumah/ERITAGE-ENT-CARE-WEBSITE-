@@ -80,9 +80,10 @@ const ENTServices = () => {
   const schemaData = {
     "@context": "https://schema.org",
     "@type": "MedicalOrganization",
+    "@id": "https://eritageentcare.com/#organization",
     "name": "Eritage ENT Care",
     "description": "Specialist-led ENT care providing comprehensive ear, nose, and throat services across Uganda. Expert diagnosis and treatment for all ENT conditions.",
-    "url": "https://eritageentcare.com/ent-services",
+    "url": "https://eritageentcare.com",
     "telephone": "+256740166778",
     "areaServed": {
       "@type": "Country",
@@ -126,7 +127,9 @@ const ENTServices = () => {
       ]
     },
     "sameAs": [
-      "https://maps.app.goo.gl/jyV5xBRkD95u2i4B8"
+      "https://maps.app.goo.gl/jyV5xBRkD95u2i4B8",
+      "https://g.page/r/Ceg235aaSzr6EBI",
+      "https://twitter.com/eritageentcare"
     ]
   };
 
