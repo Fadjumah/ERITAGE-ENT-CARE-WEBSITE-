@@ -180,9 +180,9 @@ This means every committed change — including the bookings page and any future
 - **Branch:** `claude/improve-search-visibility-GTgRv`
 - **Last 5 commits:**
 ```
+347471e chore: auto-update CLAUDE.md session snapshot [2026-04-14 19:49 UTC]
 3be366f fix: correct AggregateRating, add physician schemas, expand location FAQ
 e45fa2a chore: auto-update CLAUDE.md session snapshot [2026-04-14 19:03 UTC]
 8e87f69 chore: auto-update CLAUDE.md session snapshot [2026-04-14 18:41 UTC]
 fcdee04 chore: auto-update CLAUDE.md session snapshot [2026-04-14 18:40 UTC]
-f4dc3a0 chore: auto-update CLAUDE.md session snapshot [2026-04-14 18:06 UTC]
 ```
