@@ -176,13 +176,13 @@ This means every committed change — including the bookings page and any future
 
 ---
 
-## Last Session Snapshot (auto-updated: 2026-04-14 18:41 UTC)
+## Last Session Snapshot (auto-updated: 2026-04-14 19:03 UTC)
 - **Branch:** `main`
 - **Last 5 commits:**
 ```
+8e87f69 chore: auto-update CLAUDE.md session snapshot [2026-04-14 18:41 UTC]
 fcdee04 chore: auto-update CLAUDE.md session snapshot [2026-04-14 18:40 UTC]
 f4dc3a0 chore: auto-update CLAUDE.md session snapshot [2026-04-14 18:06 UTC]
 e44d428 feat: expand authority — AggregateRating, breadcrumbs, sinusitis & tonsillitis pages
 d50aedd chore: auto-update CLAUDE.md session snapshot [2026-04-14 17:54 UTC]
-e5a2155 chore: auto-update CLAUDE.md session snapshot [2026-04-14 17:51 UTC]
 ```
