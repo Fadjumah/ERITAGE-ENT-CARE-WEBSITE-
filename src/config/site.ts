@@ -54,7 +54,7 @@ export const SITE = {
   // === SPECIALISTS ===
   specialists: [
     {
-      name: "Lubega Fahad Juma",
+      name: "Dr. Lubega Fahad Juma",
       title: "ENT Specialist",
       qualification: "Clinical Otolaryngology",
       experience: "10 years",

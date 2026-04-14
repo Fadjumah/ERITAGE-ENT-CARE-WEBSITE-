@@ -79,7 +79,7 @@ const About = () => {
     },
     "founder": {
       "@type": "Person",
-      "name": "Lubega Fahad Juma",
+      "name": "Dr. Lubega Fahad Juma",
       "jobTitle": "ENT Specialist",
       "description": "ENT specialist with over 10 years of clinical experience in ear, nose, and throat medicine."
     },
@@ -95,10 +95,19 @@ const About = () => {
       "@context": "https://schema.org",
       "@type": "Physician",
       "@id": "https://eritageentcare.com/about#dr-fahad-juma",
-      "name": "Lubega Fahad Juma",
+      "name": "Dr. Lubega Fahad Juma",
       "jobTitle": "ENT Specialist",
       "medicalSpecialty": "Otolaryngology",
       "description": "ENT specialist with over 10 years of clinical experience in ear, nose, and throat medicine, serving patients across Uganda.",
+      "url": "https://eritageentcare.com/about",
+      "telephone": "+256740166778",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Plot 34, 48 Berkeley Road, Entebbe Road",
+        "addressLocality": "Entebbe",
+        "addressRegion": "Central Region",
+        "addressCountry": "UG"
+      },
       "hasCredential": {
         "@type": "EducationalOccupationalCredential",
         "credentialCategory": "degree",
@@ -113,6 +122,11 @@ const About = () => {
         "Pediatric ENT care",
         "Voice and swallowing disorders"
       ],
+      "workLocation": {
+        "@type": "MedicalBusiness",
+        "@id": "https://eritageentcare.com/locations/entebbe#business",
+        "name": "Eritage ENT Care - Entebbe"
+      },
       "worksFor": {
         "@type": "MedicalOrganization",
         "@id": "https://eritageentcare.com/#organization",
@@ -127,6 +141,15 @@ const About = () => {
       "jobTitle": "ENT Specialist",
       "medicalSpecialty": "Otolaryngology",
       "description": "ENT specialist with over 13 years of clinical experience in otolaryngology, serving patients across Uganda.",
+      "url": "https://eritageentcare.com/about",
+      "telephone": "+256740166778",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Plot 34, 48 Berkeley Road, Entebbe Road",
+        "addressLocality": "Entebbe",
+        "addressRegion": "Central Region",
+        "addressCountry": "UG"
+      },
       "hasCredential": {
         "@type": "EducationalOccupationalCredential",
         "credentialCategory": "degree",
@@ -141,6 +164,11 @@ const About = () => {
         "Head and neck conditions",
         "Adult and pediatric ENT care"
       ],
+      "workLocation": {
+        "@type": "MedicalBusiness",
+        "@id": "https://eritageentcare.com/locations/entebbe#business",
+        "name": "Eritage ENT Care - Entebbe"
+      },
       "worksFor": {
         "@type": "MedicalOrganization",
         "@id": "https://eritageentcare.com/#organization",

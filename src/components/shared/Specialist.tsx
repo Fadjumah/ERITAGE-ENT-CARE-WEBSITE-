@@ -4,7 +4,7 @@ import doctorAvatar from "@/assets/doctor-avatar.jpg";
 
 const specialists = [
   {
-    name: "Lubega Fahad Juma",
+    name: "Dr. Lubega Fahad Juma",
     title: "ENT Specialist",
     experience: "10 years",
     qualification: "Clinical Otolaryngology",

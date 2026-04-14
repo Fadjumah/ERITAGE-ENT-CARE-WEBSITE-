@@ -95,8 +95,8 @@ const Index = () => {
     "priceRange": "$$",
     "aggregateRating": {
       "@type": "AggregateRating",
-      "ratingValue": "4.8",
-      "reviewCount": "50",
+      "ratingValue": "4.9",
+      "reviewCount": "12",
       "bestRating": "5",
       "worstRating": "1"
     },
@@ -164,6 +164,73 @@ const Index = () => {
       "query-input": "required name=search_term_string"
     }
   };
+
+  const physiciansSchema = [
+    {
+      "@context": "https://schema.org",
+      "@type": "Physician",
+      "@id": "https://eritageentcare.com/about#dr-fahad-juma",
+      "name": "Dr. Lubega Fahad Juma",
+      "jobTitle": "ENT Specialist",
+      "medicalSpecialty": "Otolaryngology",
+      "description": "ENT specialist with over 10 years of clinical experience in ear, nose, and throat medicine, serving patients across Uganda.",
+      "url": "https://eritageentcare.com/about",
+      "telephone": "+256740166778",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Plot 34, 48 Berkeley Road, Entebbe Road",
+        "addressLocality": "Entebbe",
+        "addressRegion": "Central Region",
+        "addressCountry": "UG"
+      },
+      "worksFor": {
+        "@type": "MedicalOrganization",
+        "@id": "https://eritageentcare.com/#organization",
+        "name": "Eritage ENT Care"
+      },
+      "knowsAbout": [
+        "Ear infections and otitis media",
+        "Hearing loss diagnosis and treatment",
+        "Sinusitis and nasal conditions",
+        "Tonsillitis and adenoid disorders",
+        "Vertigo and balance disorders",
+        "Pediatric ENT care",
+        "Voice and swallowing disorders"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Physician",
+      "@id": "https://eritageentcare.com/about#dr-mukisa-joseph",
+      "name": "Dr. Mukisa Joseph",
+      "jobTitle": "ENT Specialist",
+      "medicalSpecialty": "Otolaryngology",
+      "description": "ENT specialist with over 13 years of clinical experience in otolaryngology, serving patients across Uganda.",
+      "url": "https://eritageentcare.com/about",
+      "telephone": "+256740166778",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Plot 34, 48 Berkeley Road, Entebbe Road",
+        "addressLocality": "Entebbe",
+        "addressRegion": "Central Region",
+        "addressCountry": "UG"
+      },
+      "worksFor": {
+        "@type": "MedicalOrganization",
+        "@id": "https://eritageentcare.com/#organization",
+        "name": "Eritage ENT Care"
+      },
+      "knowsAbout": [
+        "Ear surgery and microsurgery",
+        "Hearing loss and audiology",
+        "Chronic sinusitis management",
+        "Throat and laryngeal disorders",
+        "Sleep apnea and snoring",
+        "Head and neck conditions",
+        "Adult and pediatric ENT care"
+      ]
+    }
+  ];
 
   const siteNavigationSchema = {
     "@context": "https://schema.org",
@@ -244,6 +311,11 @@ const Index = () => {
         <script type="application/ld+json">
           {JSON.stringify(siteNavigationSchema)}
         </script>
+        {physiciansSchema.map((schema, i) => (
+          <script key={i} type="application/ld+json">
+            {JSON.stringify(schema)}
+          </script>
+        ))}
       </Helmet>
       
       <div className="min-h-screen">

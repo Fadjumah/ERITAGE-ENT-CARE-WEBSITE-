@@ -137,8 +137,8 @@ const LocationEntebbe = () => {
     ],
     "aggregateRating": {
       "@type": "AggregateRating",
-      "ratingValue": "4.8",
-      "reviewCount": "50",
+      "ratingValue": "4.9",
+      "reviewCount": "12",
       "bestRating": "5",
       "worstRating": "1"
     }
@@ -169,6 +169,65 @@ const LocationEntebbe = () => {
     ]
   };
 
+  const physiciansSchema = [
+    {
+      "@context": "https://schema.org",
+      "@type": "Physician",
+      "@id": "https://eritageentcare.com/about#dr-fahad-juma",
+      "name": "Dr. Lubega Fahad Juma",
+      "jobTitle": "ENT Specialist",
+      "medicalSpecialty": "Otolaryngology",
+      "description": "ENT specialist with over 10 years of clinical experience in ear, nose, and throat medicine, serving patients across Uganda from the Entebbe clinic.",
+      "url": "https://eritageentcare.com/about",
+      "telephone": "+256740166778",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Plot 34, 48 Berkeley Road, Entebbe Road",
+        "addressLocality": "Entebbe",
+        "addressRegion": "Central Region",
+        "addressCountry": "UG"
+      },
+      "workLocation": {
+        "@type": "MedicalBusiness",
+        "@id": "https://eritageentcare.com/locations/entebbe#business",
+        "name": "Eritage ENT Care - Entebbe"
+      },
+      "worksFor": {
+        "@type": "MedicalOrganization",
+        "@id": "https://eritageentcare.com/#organization",
+        "name": "Eritage ENT Care"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Physician",
+      "@id": "https://eritageentcare.com/about#dr-mukisa-joseph",
+      "name": "Dr. Mukisa Joseph",
+      "jobTitle": "ENT Specialist",
+      "medicalSpecialty": "Otolaryngology",
+      "description": "ENT specialist with over 13 years of clinical experience in otolaryngology, serving patients across Uganda from the Entebbe clinic.",
+      "url": "https://eritageentcare.com/about",
+      "telephone": "+256740166778",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Plot 34, 48 Berkeley Road, Entebbe Road",
+        "addressLocality": "Entebbe",
+        "addressRegion": "Central Region",
+        "addressCountry": "UG"
+      },
+      "workLocation": {
+        "@type": "MedicalBusiness",
+        "@id": "https://eritageentcare.com/locations/entebbe#business",
+        "name": "Eritage ENT Care - Entebbe"
+      },
+      "worksFor": {
+        "@type": "MedicalOrganization",
+        "@id": "https://eritageentcare.com/#organization",
+        "name": "Eritage ENT Care"
+      }
+    }
+  ];
+
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -178,7 +237,15 @@ const LocationEntebbe = () => {
         "name": "Where is the Eritage ENT Specialist clinic in Entebbe located?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Eritage ENT Care – Entebbe is located along Entebbe Road, Entebbe, Central Region, Uganda. Our ENT specialist clinic is easily accessible from Kampala via the Kampala-Entebbe expressway."
+          "text": "Eritage ENT Care – Entebbe is located at Plot 34, 48 Berkeley Road, Entebbe Road, Entebbe, Central Region, Uganda. Our ENT specialist clinic is easily accessible from Kampala via the Kampala-Entebbe expressway."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Which ENT specialists work at the Eritage ENT clinic in Entebbe?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The Eritage ENT Care – Entebbe clinic is served by Dr. Lubega Fahad Juma, an ENT specialist with over 10 years of clinical experience, and Dr. Mukisa Joseph, an ENT specialist with over 13 years of experience in otolaryngology. Both specialists provide comprehensive ear, nose, and throat care for adults and children."
         }
       },
       {
@@ -195,6 +262,38 @@ const LocationEntebbe = () => {
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Our Entebbe ENT specialist clinic is available 24/7 for consultations. We recommend booking appointments in advance for routine visits, but we also handle emergency ENT cases immediately."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does the Eritage ENT clinic in Entebbe treat children?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Eritage ENT Care – Entebbe provides specialist paediatric ENT care for children of all ages. Our ENT specialists are experienced in managing ear infections, adenoid and tonsil problems, hearing concerns, and nasal conditions in children."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I book an appointment at the Eritage ENT clinic in Entebbe?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can book an appointment by calling +256 740 166 778, sending a WhatsApp message to the same number, or using the online booking form at eritageentcare.com/bookings. Same-day appointments are available for urgent ENT concerns."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is the Eritage ENT clinic near Entebbe International Airport?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Eritage ENT Care – Entebbe is conveniently located along Entebbe Road, close to Entebbe International Airport and easily reachable from Kampala via the Kampala-Entebbe expressway. The clinic is at Plot 34, 48 Berkeley Road, Entebbe Road."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I get a hearing test at the Entebbe ENT clinic?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Eritage ENT Care – Entebbe offers full audiological assessments including Pure Tone Audiometry (PTA), Tympanometry, and Otoacoustic Emissions (OAE) testing. These hearing tests are performed by our ENT specialists and are suitable for adults and children."
         }
       }
     ]
@@ -225,6 +324,11 @@ const LocationEntebbe = () => {
         <script type="application/ld+json">
           {JSON.stringify(faqSchema)}
         </script>
+        {physiciansSchema.map((schema, i) => (
+          <script key={i} type="application/ld+json">
+            {JSON.stringify(schema)}
+          </script>
+        ))}
       </Helmet>
 
       <div className="min-h-screen bg-background">
@@ -493,7 +597,7 @@ const LocationEntebbe = () => {
                 </Button>
               </div>
               <p className="text-xs text-muted-foreground mt-4">
-                Rated 4.8 ★ on Google Business Profile · Entebbe Road, Entebbe, Uganda
+                Rated 4.9 ★ on Google Business Profile · Entebbe Road, Entebbe, Uganda
               </p>
             </div>
           </div>
