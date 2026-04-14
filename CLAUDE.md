@@ -176,13 +176,13 @@ This means every committed change — including the bookings page and any future
 
 ---
 
-## Last Session Snapshot (auto-updated: 2026-04-14 17:51 UTC)
+## Last Session Snapshot (auto-updated: 2026-04-14 17:54 UTC)
 - **Branch:** `main`
 - **Last 5 commits:**
 ```
+e5a2155 chore: auto-update CLAUDE.md session snapshot [2026-04-14 17:51 UTC]
 576e6d3 feat: strengthen site authority — schema E-E-A-T, opening hours, sameAs
 fa422ac chore: auto-update CLAUDE.md session snapshot [2026-04-13 23:43 UTC]
 ce941aa feat: add SiteNavigationElement schema and blog search for Google Sitelinks
 33c5685 chore: auto-update CLAUDE.md session snapshot [2026-04-13 22:59 UTC]
-5ee7ae6 feat: remove 'Expert ENT in Action' section, upgrade procedures to slide-left carousel
 ```
