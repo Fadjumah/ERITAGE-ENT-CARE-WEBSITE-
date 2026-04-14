@@ -56,7 +56,7 @@ const FAQ = () => {
         "name": "How can I book an appointment with an ENT specialist?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "You can easily book an appointment with our ENT specialists by calling +256 740 166 778 or +256 769 616 091. You can also reach us via WhatsApp for quick ENT specialist appointment scheduling. We recommend booking in advance, though walk-ins are also welcome."
+          "text": "You can easily book an appointment with our ENT specialists by calling +256 740 166 778 or +256 772 332 909. You can also reach us via WhatsApp for quick ENT specialist appointment scheduling. We recommend booking in advance, though walk-ins are also welcome."
         }
       },
       {

@@ -18,12 +18,12 @@ const Hero = () => {
               <span>+256 740 166 778</span>
             </a>
             <span className="hidden md:inline text-primary-foreground/50">|</span>
-            <a 
-              href="tel:+256769616091" 
+            <a
+              href="tel:+256772332909"
               className="flex items-center gap-2 hover:opacity-80 transition-opacity"
             >
               <Phone className="h-4 w-4" />
-              <span>+256 769 616 091</span>
+              <span>+256 772 332 909</span>
             </a>
             <span className="hidden md:inline text-primary-foreground/50">|</span>
             <a 

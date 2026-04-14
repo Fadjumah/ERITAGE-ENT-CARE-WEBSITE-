@@ -20,8 +20,8 @@ export const SITE = {
   phone: {
     primary: "+256740166778",
     primaryFormatted: "+256 740 166 778",
-    secondary: "+256769616091",
-    secondaryFormatted: "+256 769 616 091",
+    secondary: "+256772332909",
+    secondaryFormatted: "+256 772 332 909",
   },
   email: "info@eritageentcare.com",
   whatsapp: "https://wa.me/256740166778",

@@ -19,12 +19,12 @@ const FloatingContactButtons = () => {
               <Phone className="h-4 w-4" />
               +256 740 166 778
             </a>
-            <a 
-              href="tel:+256769616091" 
+            <a
+              href="tel:+256772332909"
               className="flex items-center gap-2 text-sm text-foreground hover:text-primary transition-colors py-1"
             >
               <Phone className="h-4 w-4" />
-              +256 769 616 091
+              +256 772 332 909
             </a>
           </div>
         )}
