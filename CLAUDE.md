@@ -176,13 +176,13 @@ This means every committed change — including the bookings page and any future
 
 ---
 
-## Last Session Snapshot (auto-updated: 2026-04-14 19:49 UTC)
-- **Branch:** `claude/improve-search-visibility-GTgRv`
+## Last Session Snapshot (auto-updated: 2026-04-14 20:05 UTC)
+- **Branch:** `main`
 - **Last 5 commits:**
 ```
+d1236fc chore: auto-update CLAUDE.md session snapshot [2026-04-14 19:49 UTC]
 347471e chore: auto-update CLAUDE.md session snapshot [2026-04-14 19:49 UTC]
 3be366f fix: correct AggregateRating, add physician schemas, expand location FAQ
 e45fa2a chore: auto-update CLAUDE.md session snapshot [2026-04-14 19:03 UTC]
 8e87f69 chore: auto-update CLAUDE.md session snapshot [2026-04-14 18:41 UTC]
-fcdee04 chore: auto-update CLAUDE.md session snapshot [2026-04-14 18:40 UTC]
 ```
