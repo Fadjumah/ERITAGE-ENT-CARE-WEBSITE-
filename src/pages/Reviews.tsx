@@ -6,18 +6,60 @@ import Footer from "@/components/layout/Footer";
 import FloatingContactButtons from "@/components/layout/FloatingContactButtons";
 
 const Reviews = () => {
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://eritageentcare.com" },
+      { "@type": "ListItem", "position": 2, "name": "Patient Reviews", "item": "https://eritageentcare.com/reviews" }
+    ]
+  };
+
+  const aggregateRatingSchema = {
+    "@context": "https://schema.org",
+    "@type": "MedicalBusiness",
+    "@id": "https://eritageentcare.com/#business",
+    "name": "Eritage ENT Care",
+    "url": "https://eritageentcare.com",
+    "telephone": "+256740166778",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Plot 34, 48 Berkeley Road, Entebbe Road",
+      "addressLocality": "Entebbe",
+      "addressRegion": "Central Region",
+      "addressCountry": "UG"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "50",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "sameAs": [
+      "https://maps.app.goo.gl/jyV5xBRkD95u2i4B8",
+      "https://g.page/r/Ceg235aaSzr6EBI"
+    ]
+  };
+
   return (
     <>
       <Helmet>
         <title>Patient Reviews – Eritage ENT Care | ENT Clinic Entebbe Uganda</title>
-        <meta name="description" content="See what patients say about Eritage ENT Care on Google. Read real reviews and share your own experience with our ENT clinic in Entebbe, Uganda." />
+        <meta name="description" content="See what patients say about Eritage ENT Care on Google. Rated 4.8★ by 50+ patients. Read real reviews and share your own experience with our ENT clinic in Entebbe, Uganda." />
         <meta name="keywords" content="ENT clinic reviews, Eritage ENT Care reviews, ENT doctor Uganda reviews, hearing test reviews, patient testimonials" />
         <meta property="og:title" content="Patient Reviews – Eritage ENT Care" />
-        <meta property="og:description" content="Read real patient reviews for Eritage ENT Care on Google Maps." />
+        <meta property="og:description" content="Read real patient reviews for Eritage ENT Care on Google Maps. Rated 4.8★ by 50+ patients." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://eritageentcare.com/reviews" />
         <meta property="og:image" content="https://eritageentcare.com/eritage-logo.png" />
         <link rel="canonical" href="https://eritageentcare.com/reviews" />
+        <script type="application/ld+json">
+          {JSON.stringify(breadcrumbSchema)}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify(aggregateRatingSchema)}
+        </script>
       </Helmet>
 
       <div className="min-h-screen bg-background">

@@ -6,6 +6,15 @@ import FAQSection from "@/components/sections/FAQSection";
 import AskENTQuestion from "@/components/sections/AskENTQuestion";
 
 const FAQ = () => {
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://eritageentcare.com" },
+      { "@type": "ListItem", "position": 2, "name": "FAQ", "item": "https://eritageentcare.com/faq" }
+    ]
+  };
+
   const faqSchemaData = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -121,6 +130,9 @@ const FAQ = () => {
         <meta property="og:url" content="https://eritageentcare.com/faq" />
         <meta property="og:image" content="https://eritageentcare.com/eritage-logo.png" />
         <link rel="canonical" href="https://eritageentcare.com/faq" />
+        <script type="application/ld+json">
+          {JSON.stringify(breadcrumbSchema)}
+        </script>
         <script type="application/ld+json">
           {JSON.stringify(faqSchemaData)}
         </script>

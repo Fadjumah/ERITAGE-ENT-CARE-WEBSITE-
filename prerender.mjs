@@ -173,6 +173,22 @@ const STATIC_ROUTES = [
     changefreq: "monthly",
     priority: 0.9,
   },
+  {
+    path: "/conditions/sinusitis-entebbe",
+    title: "Sinusitis Treatment in Entebbe, Uganda | ENT Specialist | Eritage ENT Care",
+    description: "Sinusitis in Entebbe? Get expert diagnosis and treatment at Eritage ENT Care. We treat acute and chronic sinusitis, nasal polyps, and recurring sinus infections. Call +256 740 166 778.",
+    lastmod: "2026-04-14",
+    changefreq: "monthly",
+    priority: 0.9,
+  },
+  {
+    path: "/conditions/tonsillitis-entebbe",
+    title: "Tonsillitis Treatment in Entebbe, Uganda | ENT Specialist | Eritage ENT Care",
+    description: "Tonsillitis in Entebbe? Get expert ENT assessment and treatment at Eritage ENT Care. We treat sore throat, strep throat, peritonsillar abscess, and recurrent tonsillitis. Call +256 740 166 778.",
+    lastmod: "2026-04-14",
+    changefreq: "monthly",
+    priority: 0.9,
+  },
 ];
 
 // ── Dynamically read blog articles from src/content/articles/ ─────────────────

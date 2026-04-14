@@ -64,6 +64,15 @@ const Contact = () => {
     },
   ];
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://eritageentcare.com" },
+      { "@type": "ListItem", "position": 2, "name": "Contact & Locations", "item": "https://eritageentcare.com/contact" }
+    ]
+  };
+
   // JSON-LD Schema for Organization
   const schemaData = {
     "@context": "https://schema.org",
@@ -102,6 +111,9 @@ const Contact = () => {
         <meta property="og:image" content="https://eritageentcare.com/eritage-logo.png" />
         <meta name="keywords" content="contact ENT specialist Uganda, book ENT appointment, Eritage ENT Care contact, ENT consultation Uganda" />
         <link rel="canonical" href="https://eritageentcare.com/contact" />
+        <script type="application/ld+json">
+          {JSON.stringify(breadcrumbSchema)}
+        </script>
         <script type="application/ld+json">
           {JSON.stringify(schemaData)}
         </script>
