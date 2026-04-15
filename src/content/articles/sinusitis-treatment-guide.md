@@ -4,7 +4,7 @@ description: "A comprehensive guide to understanding sinusitis, its causes, symp
 slug: "sinusitis-treatment-guide"
 icon: "Wind"
 date: "2026-01-10"
-author: "Lubega Fahad Juma"
+author: "Dr. Lubega Fahad Juma"
 authorTitle: "Clinical Otolaryngologist"
 authorExperience: "10+ years"
 ---

@@ -4,7 +4,7 @@ description: "Essential guide for parents on recognizing and managing ear, nose,
 slug: "childhood-ent-problems"
 icon: "Baby"
 date: "2026-01-05"
-author: "Lubega Fahad Juma"
+author: "Dr. Lubega Fahad Juma"
 authorTitle: "Clinical Otolaryngologist"
 authorExperience: "10+ years"
 ---

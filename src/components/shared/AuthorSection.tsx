@@ -50,7 +50,7 @@ const AuthorSection = ({ authorName, authorTitle, authorExperience }: AuthorSect
           <p className="text-sm text-muted-foreground leading-relaxed">
             {authorName.includes("Lubega") ? (
               <>
-                Lubega Fahad Juma is a qualified Clinical Otolaryngologist with over 10 years of experience 
+                Dr. Lubega Fahad Juma is a qualified Clinical Otolaryngologist with over 10 years of experience
                 in diagnosing and treating ear, nose, and throat conditions. He leads the clinical team at 
                 Eritage ENT Care in Entebbe, providing expert care to patients across Uganda.
               </>

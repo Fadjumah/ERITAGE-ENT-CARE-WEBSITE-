@@ -3,7 +3,7 @@ title: "Blocked Ear & Earwax Removal in Entebbe: When to See a Specialist"
 slug: "blocked-ear-earwax-removal-entebbe"
 description: "A blocked ear can be caused by earwax, fluid, or infection. Learn what's causing your blocked ear in Entebbe, when home remedies help, and when to see an ENT specialist."
 date: "2026-04-13"
-author: "Lubega Fahad Juma, ENT Specialist"
+author: "Dr. Lubega Fahad Juma, ENT Specialist"
 category: "Ear Conditions"
 tags: ["blocked ear", "earwax removal", "Entebbe", "ENT Uganda", "ear care"]
 ---
@@ -112,4 +112,4 @@ Yes. Eritage ENT Care in Entebbe offers same-day assessment and earwax removal. 
 
 **Get your blocked ear treated today in Entebbe.** Visit [Eritage ENT Care — Blocked Ear Treatment](/conditions/blocked-ear-entebbe) to book an appointment or WhatsApp us at +256 740 166 778.
 
-*This article was written by Lubega Fahad Juma, ENT Specialist at Eritage ENT Care, Entebbe. All content is for educational purposes. It does not replace a clinical consultation.*
+*This article was written by Dr. Lubega Fahad Juma, ENT Specialist at Eritage ENT Care, Entebbe. All content is for educational purposes. It does not replace a clinical consultation.*
