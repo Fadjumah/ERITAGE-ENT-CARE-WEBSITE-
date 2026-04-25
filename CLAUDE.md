@@ -176,13 +176,13 @@ This means every committed change — including the bookings page and any future
 
 ---
 
-## Last Session Snapshot (auto-updated: 2026-04-25 11:00 UTC)
+## Last Session Snapshot (auto-updated: 2026-04-25 11:01 UTC)
 - **Branch:** `claude/fix-404-blank-page-ViOyZ`
 - **Last 5 commits:**
 ```
+64a7fd4 chore: auto-update CLAUDE.md session snapshot [2026-04-25 11:00 UTC]
 29405df fix: add explicit buildCommand and outputDirectory to vercel.json
 76da1ba chore: auto-update CLAUDE.md session snapshot [2026-04-15 19:07 UTC]
 bcbfb27 chore: auto-update CLAUDE.md session snapshot [2026-04-15 19:06 UTC]
 ea32ce2 fix: add Dr. prefix to Lubega Fahad Juma across all articles
-4d19b00 chore: auto-update CLAUDE.md session snapshot [2026-04-14 20:10 UTC]
 ```
