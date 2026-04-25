@@ -180,9 +180,9 @@ This means every committed change — including the bookings page and any future
 - **Branch:** `main`
 - **Last 5 commits:**
 ```
+0404edf chore: auto-update CLAUDE.md session snapshot [2026-04-25 11:28 UTC]
 4a056e8 chore: auto-update CLAUDE.md session snapshot [2026-04-25 11:12 UTC]
 9ae92cd chore: auto-update CLAUDE.md session snapshot [2026-04-25 11:12 UTC]
 9349459 fix: add SPA fallback middleware to dev server and fix host binding
 76da1ba chore: auto-update CLAUDE.md session snapshot [2026-04-15 19:07 UTC]
-bcbfb27 chore: auto-update CLAUDE.md session snapshot [2026-04-15 19:06 UTC]
 ```
