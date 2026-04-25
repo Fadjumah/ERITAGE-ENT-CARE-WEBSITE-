@@ -176,13 +176,13 @@ This means every committed change — including the bookings page and any future
 
 ---
 
-## Last Session Snapshot (auto-updated: 2026-04-25 11:30 UTC)
+## Last Session Snapshot (auto-updated: 2026-04-25 11:32 UTC)
 - **Branch:** `main`
 - **Last 5 commits:**
 ```
+9659c9e chore: auto-update CLAUDE.md session snapshot [2026-04-25 11:30 UTC]
 947df21 chore: auto-update CLAUDE.md session snapshot [2026-04-25 11:28 UTC]
 0404edf chore: auto-update CLAUDE.md session snapshot [2026-04-25 11:28 UTC]
 4a056e8 chore: auto-update CLAUDE.md session snapshot [2026-04-25 11:12 UTC]
 9ae92cd chore: auto-update CLAUDE.md session snapshot [2026-04-25 11:12 UTC]
-9349459 fix: add SPA fallback middleware to dev server and fix host binding
 ```
