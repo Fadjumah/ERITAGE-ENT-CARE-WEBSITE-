@@ -5,8 +5,16 @@ import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
   server: {
-    host: "::",
+    host: "localhost",
     port: 8080,
+    middleware: [
+      (req, res, next) => {
+        if (!req.url.includes(".") && !req.url.startsWith("/api")) {
+          req.url = "/index.html";
+        }
+        next();
+      },
+    ],
   },
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
   resolve: {
