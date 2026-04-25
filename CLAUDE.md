@@ -176,13 +176,13 @@ This means every committed change — including the bookings page and any future
 
 ---
 
-## Last Session Snapshot (auto-updated: 2026-04-15 19:07 UTC)
-- **Branch:** `main`
+## Last Session Snapshot (auto-updated: 2026-04-25 11:12 UTC)
+- **Branch:** `claude/fix-app-crash-get-error-AELo1`
 - **Last 5 commits:**
 ```
+9349459 fix: add SPA fallback middleware to dev server and fix host binding
+76da1ba chore: auto-update CLAUDE.md session snapshot [2026-04-15 19:07 UTC]
 bcbfb27 chore: auto-update CLAUDE.md session snapshot [2026-04-15 19:06 UTC]
 ea32ce2 fix: add Dr. prefix to Lubega Fahad Juma across all articles
 4d19b00 chore: auto-update CLAUDE.md session snapshot [2026-04-14 20:10 UTC]
-f2d9a82 chore: auto-update CLAUDE.md session snapshot [2026-04-14 20:09 UTC]
-34beeba fix: replace secondary phone number with +256 772 332 909
 ```
