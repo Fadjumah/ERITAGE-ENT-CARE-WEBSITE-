@@ -8,36 +8,36 @@ import { Phone, MessageCircle, AlertTriangle, CheckCircle, LifeBuoy, Info } from
 import { Link } from "react-router-dom";
 
 const BlockedEar = () => {
-  const breadcrumbSchema = {{
+  const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      {{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://eritageentcare.com" }},
-      {{ "@type": "ListItem", "position": 2, "name": "Conditions", "item": "https://eritageentcare.com/conditions" }},
-      {{ "@type": "ListItem", "position": 3, "name": "Blocked Ear Treatment Entebbe", "item": "https://eritageentcare.com/conditions/blocked-ear-entebbe" }}
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://eritageentcare.com" },
+      { "@type": "ListItem", "position": 2, "name": "Conditions", "item": "https://eritageentcare.com/conditions" },
+      { "@type": "ListItem", "position": 3, "name": "Blocked Ear Treatment Entebbe", "item": "https://eritageentcare.com/conditions/blocked-ear-entebbe" }
     ]
-  }};
+  };
 
-  const medicalConditionSchema = {{
+  const medicalConditionSchema = {
     "@context": "https://schema.org",
     "@type": "MedicalCondition",
     "name": "Blocked Ear",
     "description": "A common condition characterized by a feeling of fullness or pressure in the ear, often affecting hearing.",
-    "possibleTreatment": {{
+    "possibleTreatment": {
       "@type": "MedicalTherapy",
       "name": "Earwax removal, treatment of underlying infections, or management of Eustachian tube dysfunction.",
-      "medicalClinic": {{
+      "medicalClinic": {
         "@type": "MedicalClinic",
         "name": "Eritage ENT Care - Entebbe",
         "url": "https://eritageentcare.com/locations/entebbe"
-      }}
-    }},
-    "recognizingAuthority": {{
+      }
+    },
+    "recognizingAuthority": {
       "@type": "MedicalOrganization",
       "name": "Eritage ENT Care",
       "url": "https://eritageentcare.com"
-    }}
-  }};
+    }
+  };
 
   return (
     <>
