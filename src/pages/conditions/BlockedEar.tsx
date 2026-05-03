@@ -1,11 +1,11 @@
-import {{ Helmet }} from "react-helmet-async";
+import { Helmet } from "react-helmet-async";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import FloatingContactButtons from "@/components/layout/FloatingContactButtons";
-import {{ Button }} from "@/components/ui/button";
-import {{ Card, CardContent }} from "@/components/ui/card";
-import {{ Phone, MessageCircle, AlertTriangle, CheckCircle, LifeBuoy, Info }} from "lucide-react";
-import {{ Link }} from "react-router-dom";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import { Phone, MessageCircle, AlertTriangle, CheckCircle, LifeBuoy, Info } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const BlockedEar = () => {
   const breadcrumbSchema = {{
