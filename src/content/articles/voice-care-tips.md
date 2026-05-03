@@ -148,7 +148,7 @@ The voice is produced by vibration of the vocal cords (folds) in your larynx. Th
 - **Try swallowing instead**
 - **Sip water frequently**
 - **Use silent throat clear** (gentle cough)
-- **Address underlying causes** (reflux, allergies)
+- **Address underlying causes** (reflux, [allergies](/blog/managing-allergies-naturally))
 
 ## Professional Voice Users: Special Considerations
 

@@ -44,14 +44,14 @@ Ear discharge refers to any fluid that comes out of the ear canal. The discharge
 
 ## Common Causes of Ear Discharge
 
-### 1. Acute Otitis Media (Middle Ear Infection)
+### 1. [Acute Otitis Media (Middle Ear Infection)](/blog/understanding-ear-infections)
 
 The most common cause in children and adults:
 - **Symptoms**: Ear pain, fever, hearing loss followed by sudden discharge
 - **What happens**: Pressure from infected fluid ruptures the eardrum
 - **Treatment**: Antibiotics, pain relief, and monitoring
 
-### 2. Otitis Externa (Swimmer's Ear)
+### 2. [Otitis Externa (Swimmer's Ear)](/blog/understanding-ear-infections)
 
 Common in humid climates:
 - **Risk factors**: Swimming, humid weather, excessive ear cleaning
@@ -62,24 +62,24 @@ Common in humid climates:
 
 A serious condition requiring specialist care:
 - **Duration**: Discharge persisting more than 2 weeks
-- **Risk**: Can lead to permanent hearing loss
+- **Risk**: Can lead to permanent [hearing loss](/hearing-tests)
 - **Treatment**: Regular cleaning, targeted antibiotics, possible surgery
 
-### 4. Cholesteatoma
+### 4. [Cholesteatoma](/conditions/ear-discharge-entebbe)
 
 An abnormal skin growth in the middle ear:
 - **Warning signs**: Persistent foul-smelling discharge, hearing loss
 - **Danger**: Can erode bones and spread infection
 - **Treatment**: Surgical removal required
 
-### 5. Trauma and Foreign Bodies
+### 5. [Trauma and Foreign Bodies](/blog/foreign-bodies-uganda)
 
 Common scenarios:
 - **Cotton swab injuries**: Pushing wax deeper or puncturing eardrum
 - **Insect entry**: Cockroaches and other insects causing damage
 - **Foreign objects**: Especially in children during play
 
-### 6. Fungal Ear Infections (Otomycosis)
+### 6. [Fungal Ear Infections (Otomycosis)](/blog/understanding-ear-infections)
 
 Prevalent in tropical climates:
 - **Appearance**: Thick, white or dark discharge, itching
@@ -94,7 +94,7 @@ Prevalent in tropical climates:
 - Ear discharge with high fever (above 38.5°C)
 - Severe headache with ear discharge
 - Facial weakness or drooping on the affected side
-- Dizziness or loss of balance
+- [Dizziness or loss of balance](/blog/balance-problems-dizziness)
 - Discharge after head injury
 - Rapidly spreading redness or swelling
 

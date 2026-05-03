@@ -75,7 +75,7 @@ The submandibular lymph nodes enlarge in response to infections or inflammation 
 
 - Dental infections or abscesses — the most common cause of submandibular lymphadenopathy in Uganda and across Africa
 - Gum disease (periodontitis)
-- Tonsillitis or pharyngitis
+- [Tonsillitis or pharyngitis](/blog/tonsillitis-causes-symptoms)
 - Mouth ulcers or infections of the lips
 - Skin infections of the lower face
 

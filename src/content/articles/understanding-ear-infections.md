@@ -81,12 +81,12 @@ An ear infection occurs when bacteria or viruses affect the ear structures, most
 - Feeling of fullness or pressure in the ear
 - Hearing difficulty or muffled hearing
 - Fluid drainage from the ear
-- Ringing in the ear (tinnitus)
+- [Ringing in the ear (tinnitus)](/blog/tinnitus-ringing-sound-ears)
 
 **Associated symptoms:**
 - Low-grade fever
 - Headache
-- Loss of balance
+- [Loss of balance](/blog/balance-problems-dizziness)
 - General malaise
 
 ### Symptoms in Children:
@@ -165,12 +165,12 @@ An ear infection occurs when bacteria or viruses affect the ear structures, most
 
 ### Advanced Treatment Options:
 
-**Myringotomy (Ear Tube Insertion):**
+**[Myringotomy (Ear Tube Insertion)](/blog/childhood-ent-problems):**
 - For recurrent infections
 - Allows fluid drainage
 - Prevents future build-up
 
-**Adenoidectomy:**
+**[Adenoidectomy](/blog/childhood-ent-problems):**
 - Removal of enlarged adenoids
 - Helps improve Eustachian tube function
 - Often combined with tube insertion
@@ -222,7 +222,7 @@ An ear infection occurs when bacteria or viruses affect the ear structures, most
 **Short-term complications:**
 - Spread of infection to nearby structures
 - Temporary hearing loss
-- Eardrum perforation
+- [Eardrum perforation](/conditions/ear-discharge-entebbe)
 
 **Long-term complications:**
 - Chronic suppurative otitis media

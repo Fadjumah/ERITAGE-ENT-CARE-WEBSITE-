@@ -108,7 +108,7 @@ Meniere's disease causes recurrent episodes of vertigo along with hearing sympto
 **Classic symptom triad:**
 1. **Vertigo episodes**: Lasting 20 minutes to several hours
 2. **Fluctuating hearing loss**: Typically in one ear initially
-3. **Tinnitus**: Ringing, buzzing, or roaring in the affected ear
+3. **[Tinnitus](/blog/tinnitus-ringing-sound-ears)**: Ringing, buzzing, or roaring in the affected ear
 4. **Ear fullness**: Pressure or blocked sensation
 
 **What happens:**
@@ -150,7 +150,7 @@ Meniere's disease causes recurrent episodes of vertigo along with hearing sympto
 - Vestibular rehabilitation helps recovery
 - Some residual symptoms may persist
 
-### 4. Ear Infections Affecting Balance
+### 4. [Ear Infections Affecting Balance](/blog/understanding-ear-infections)
 
 **Middle ear problems:**
 
@@ -189,7 +189,7 @@ Ear infections, especially chronic ones, can affect balance:
 - Recurring episodes of vertigo
 - Dizziness affecting daily activities
 - Falls or near-falls due to balance
-- Sudden hearing loss in one or both ears
+- **[Sudden hearing loss](/hearing-tests)** in one or both ears
 - Persistent ringing in the ears
 - Dizziness with nausea lasting more than a day
 
@@ -213,7 +213,7 @@ Ear infections, especially chronic ones, can affect balance:
 - Balance and gait assessment
 - Cardiovascular screening
 
-**3. Hearing Tests:**
+**3. [Hearing Tests](/hearing-tests):**
 - Pure tone audiometry
 - Speech recognition testing
 - Tympanometry

@@ -46,7 +46,7 @@ Nasal allergies, also called allergic rhinitis or hay fever, occur when your imm
 - Coughing
 - Decreased sense of smell
 - Poor sleep quality
-- Ear fullness or popping
+- [Ear fullness or popping](/conditions/blocked-ear-entebbe)
 
 ### Differentiating Allergies from Colds:
 
@@ -302,8 +302,8 @@ Stress can worsen allergy symptoms by affecting immune function. Managing stress
 - Productivity at work or school suffers
 
 **Complications develop:**
-- Recurring sinus infections
-- Chronic sinusitis symptoms
+- [Recurring sinus infections](/blog/sinusitis-treatment-guide)
+- [Chronic sinusitis symptoms](/blog/sinusitis-treatment-guide)
 - Ear problems (pressure, infections)
 - Persistent cough or wheezing
 
