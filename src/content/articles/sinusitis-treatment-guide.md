@@ -34,10 +34,10 @@ Understanding which type of sinusitis you have guides the right treatment approa
 - May represent a transition between acute and chronic forms
 - Often bacterial in origin
 
-**Chronic Sinusitis:**
-- Persists for 12 weeks or longer despite treatment attempts
-- May involve structural problems, polyps, or ongoing allergic inflammation
-- Requires specialist ENT evaluation
+- **Chronic Sinusitis:**
+  - Persists for 12 weeks or longer despite treatment attempts
+  - May involve structural problems, polyps, or ongoing allergic inflammation
+  - Requires specialist ENT evaluation. For persistent symptoms, see our [Sinusitis Treatment in Entebbe](/conditions/sinusitis-entebbe).
 
 **Recurrent Acute Sinusitis:**
 - Four or more acute episodes per year
@@ -58,7 +58,7 @@ Understanding which type of sinusitis you have guides the right treatment approa
 
 ### Non-Infectious Triggers
 - **Allergic rhinitis** — ongoing nasal inflammation from dust, pollen, or mould keeps sinus drainage impaired
-- **Nasal polyps** — soft tissue growths that block sinus openings
+- **[Nasal polyps](/conditions/sinusitis-entebbe)** — soft tissue growths that block sinus openings
 - **Deviated nasal septum** — structural asymmetry that impairs drainage on one side
 - **Dental infections** — upper molar roots sit close to the maxillary sinus floor and can spread infection
 - **Air pollution and smoke** — common triggers in urban Uganda

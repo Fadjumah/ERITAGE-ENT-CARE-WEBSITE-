@@ -22,7 +22,7 @@ Several anatomical and physiological factors make children more prone to ENT pro
 - **Developing immune systems** — children have not yet built immunity to many viruses and bacteria
 - **Group settings** — schools and daycare centres facilitate rapid spread of respiratory infections
 
-## 1. Ear Infections (Otitis Media)
+## 1. [Ear Infections (Otitis Media)](/blog/understanding-ear-infections)
 
 Ear infections are the most common reason children under 5 visit a doctor. By age 3, approximately 80% of children will have had at least one ear infection.
 
@@ -45,7 +45,7 @@ A sudden infection of the middle ear, typically following a cold.
 Most cases resolve within a week. Antibiotics are reserved for children under 2, those with severe symptoms, or when there is no improvement after 48–72 hours.
 
 ### Otitis Media with Effusion (Glue Ear)
-Fluid accumulates in the middle ear without signs of acute infection. It is the leading cause of hearing loss in children.
+Fluid accumulates in the middle ear without signs of acute infection. It is the leading cause of [hearing loss](/hearing-tests) in children.
 
 **Signs to watch for:**
 - Not responding when called, especially from another room
@@ -77,7 +77,7 @@ The adenoids are a pad of lymphoid tissue at the back of the nasal cavity. They 
 
 Adenoidectomy is a short day-case procedure and recovery is typically 1–2 weeks.
 
-## 3. Tonsillitis and Tonsil Problems
+## 3. [Tonsillitis and Tonsil Problems](/blog/tonsillitis-causes-symptoms)
 
 The tonsils are two pads of lymphoid tissue at the back of the throat. They are part of the immune system but frequently become inflamed, particularly in school-age children.
 
@@ -96,7 +96,7 @@ The tonsils are two pads of lymphoid tissue at the back of the throat. They are 
 
 Tonsillectomy is one of the most common surgical procedures in children and is highly effective when indicated.
 
-## 4. Hearing Loss in Children
+## 4. [Hearing Loss in Children](/hearing-tests)
 
 Childhood hearing loss can have a significant impact on speech development, learning, and social skills. It may be present from birth (congenital) or develop later.
 
@@ -120,7 +120,7 @@ Childhood hearing loss can have a significant impact on speech development, lear
 
 **Any child with suspected hearing loss should be referred for audiological assessment promptly.** Early intervention (hearing aids or cochlear implants where needed) dramatically improves outcomes.
 
-## 5. Allergic Rhinitis
+## 5. [Allergic Rhinitis](/blog/managing-allergies-naturally)
 
 Allergic rhinitis — hay fever — is increasingly common in children and can significantly affect sleep, concentration, and school performance.
 
@@ -133,7 +133,7 @@ Allergic rhinitis — hay fever — is increasingly common in children and can s
 
 In Uganda, common triggers include dust mites, mould, pollen, and animal dander. Management includes reducing exposure to triggers, antihistamines, and nasal steroid sprays. Children with severe or persistent allergic rhinitis benefit from allergy testing to identify specific triggers.
 
-## 6. Foreign Bodies in the Ear and Nose
+## 6. [Foreign Bodies in the Ear and Nose](/blog/foreign-bodies-uganda)
 
 Children's natural curiosity sometimes leads to objects being placed in the ears or nose — beads, buttons, seeds, foam pieces, and food items are commonly retrieved.
 
@@ -141,7 +141,7 @@ Children's natural curiosity sometimes leads to objects being placed in the ears
 
 **Nasal foreign bodies:** A persistent one-sided foul-smelling discharge from the nose in a child should always raise suspicion of a nasal foreign body, even when the child does not report putting anything there. A button battery lodged in the nose is a true emergency requiring same-day removal due to the risk of severe tissue damage.
 
-## 7. Sleep-Disordered Breathing and Snoring
+## 7. [Sleep-Disordered Breathing and Snoring](/blog/snoring-sleep-apnea)
 
 Snoring in children is not normal and should not be ignored. Approximately 10–20% of children snore regularly, and in a proportion of these, snoring indicates obstructive sleep apnoea (OSA).
 

@@ -34,7 +34,7 @@ image: "/placeholder.svg"
  
  - **Age-related hearing changes** – As we get older, the delicate hair cells in our inner ear can become less effective
  - **Noise exposure** – Loud sounds from work, music, or machines can affect your hearing over time
- - **Earwax buildup** – Too much earwax can block your ear canal and cause sounds
+ - **[Earwax buildup](/conditions/blocked-ear-entebbe)** – Too much earwax can block your ear canal and cause sounds
  
  ### Ear Conditions
  

@@ -37,13 +37,13 @@ The exact mechanism triggering polyp formation is not fully understood, but it i
 
 ### Associated Conditions
 
-**Chronic rhinosinusitis (CRS):**
+**[Chronic rhinosinusitis (CRS)](/blog/sinusitis-treatment-guide):**
 The most common underlying cause. Prolonged inflammation of the nasal and sinus lining — lasting 12 weeks or more — creates the inflammatory environment in which polyps form. CRS with nasal polyps (CRSwNP) is a recognised clinical entity.
 
-**Allergic rhinitis:**
+**[Allergic rhinitis](/blog/managing-allergies-naturally):**
 Persistent nasal allergy causes chronic mucosal inflammation. People with allergic rhinitis are significantly more likely to develop nasal polyps.
 
-**Asthma:**
+**[Asthma](/ent-services):**
 Approximately 20–30% of people with nasal polyps also have asthma. The nasal passages and bronchial tree share the same type of mucous membrane and are affected by similar inflammatory processes.
 
 **Aspirin-exacerbated respiratory disease (AERD):**
@@ -55,7 +55,7 @@ Some patients develop polyps without identifiable allergy — driven instead by 
 **Cystic fibrosis:**
 Nasal polyps occur in up to 40% of patients with cystic fibrosis and may appear in early childhood.
 
-**Fungal sinusitis:**
+**[Fungal sinusitis](/blog/sinusitis-treatment-guide):**
 Allergic fungal sinusitis (AFS) is an increasingly recognised cause of polyps in tropical climates, including Uganda.
 
 ## Recognising Nasal Polyps: Symptoms
@@ -64,7 +64,7 @@ Nasal polyps are typically painless. Their symptoms arise from the physical obst
 
 ### Common Symptoms
 - **Persistent nasal obstruction** — blocked nose that does not resolve with decongestants
-- **Reduced or absent sense of smell (hyposmia/anosmia)** — often the most troubling symptom and one of the earliest to appear
+- **Reduced or absent [sense of smell (hyposmia/anosmia)](/blog/sinusitis-treatment-guide)** — often the most troubling symptom and one of the earliest to appear
 - **Reduced taste** — closely linked to loss of smell
 - **Runny nose** — often with thick, discoloured mucus
 - **Post-nasal drip** — mucus dripping down the back of the throat, causing throat clearing and cough
@@ -130,7 +130,7 @@ When medical treatment fails to provide adequate relief or when polyps are very 
 **Benefits of FESS:**
 - Restores nasal breathing
 - Improves or restores sense of smell in many patients
-- Reduces sinus infections
+- Reduces [sinus infections](/blog/sinusitis-treatment-guide)
 - Improves delivery of topical treatments post-surgery
 
 **Recovery:**

@@ -19,7 +19,7 @@ However, the tonsils can themselves become overwhelmed by infection — and in s
 
 There are different types of tonsillar tissue in the throat:
 - **Palatine tonsils** — the tonsils visible when you open your mouth wide (what most people refer to as "the tonsils")
-- **Adenoids (pharyngeal tonsils)** — located at the back of the nasal cavity, not directly visible
+- **[Adenoids (pharyngeal tonsils)](/blog/childhood-ent-problems)** — located at the back of the nasal cavity, not directly visible
 - **Lingual tonsils** — at the base of the tongue
 
 When people refer to tonsillitis, they usually mean inflammation of the palatine tonsils.
@@ -43,7 +43,7 @@ Viral tonsillitis is not treated with antibiotics — it requires supportive car
 - **Rheumatic fever** — an inflammatory condition affecting the heart, joints, and nervous system
 - **Rheumatic heart disease** — a leading cause of acquired heart disease in Uganda and the wider African region
 - **Post-streptococcal glomerulonephritis** — kidney inflammation
-- **Peritonsillar abscess** — a collection of pus beside the tonsil
+- **[Peritonsillar abscess](/blog/throat-pain-swallowing-difficulty)** — a collection of pus beside the tonsil
 
 This is why correctly identifying and treating streptococcal tonsillitis with antibiotics is important.
 
@@ -53,7 +53,7 @@ Symptoms vary depending on the cause and severity, but typically include:
 
 **Throat symptoms:**
 - Sore throat — often described as one of the worst sore throats the patient has experienced
-- Pain on swallowing (odynophagia), which may be severe enough to prevent eating and drinking
+- [Pain on swallowing (odynophagia)](/blog/throat-pain-swallowing-difficulty), which may be severe enough to prevent eating and drinking
 - Muffled or altered voice
 
 **General symptoms:**
@@ -123,7 +123,7 @@ The widely accepted **Paradise criteria** guide tonsillectomy recommendations:
 - **3 or more** episodes per year for 3 consecutive years
 
 Additional indications include:
-- Tonsils so large they obstruct breathing during sleep (obstructive sleep apnoea)
+- Tonsils so large they obstruct breathing during sleep ([obstructive sleep apnoea](/blog/snoring-sleep-apnea))
 - A peritonsillar abscess that has recurred
 - Suspicion of a tonsillar tumour (rare)
 
