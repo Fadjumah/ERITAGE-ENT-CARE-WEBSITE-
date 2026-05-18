@@ -36,7 +36,7 @@ Cockroaches, ants, and flying insects frequently enter ears, especially at night
 - Buzzing or crawling sensation
 - Intense pain
 - Panic and anxiety
-- Possible hearing loss
+- Possible [hearing loss](/hearing-tests)
 - Bleeding if the insect has sharp parts
 
 **Cotton and Tissue:**
@@ -110,8 +110,8 @@ Needles, pins, toothpicks, and safety pins cause serious injury when swallowed a
 - Severe pain or pressure in the ear
 - Bleeding from the ear canal
 - Sudden hearing loss or muffled hearing
-- Dizziness or vertigo
-- Discharge with foul smell (infection sign)
+- [Dizziness or vertigo](/blog/balance-problems-dizziness)
+- [Discharge with foul smell](/blog/ear-discharge-otorrhea) (infection sign)
 - Buzzing or movement sensation (live insect)
 - Previous removal attempts have failed
 
@@ -335,12 +335,12 @@ A large piece of meat became stuck while eating, and now you can't swallow.
 
 **Ear:**
 - Chronic infection
-- Eardrum perforation
+- [Eardrum perforation](/conditions/ear-discharge-entebbe)
 - Hearing loss
 - Cholesteatoma
 
 **Nose:**
-- Chronic sinusitis
+- [Chronic sinusitis](/blog/sinusitis-treatment-guide)
 - Septal perforation
 - Rhinolith formation (mineral deposits around object)
 - Aspiration if object falls into airway

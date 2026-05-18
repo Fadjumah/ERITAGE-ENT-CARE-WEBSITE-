@@ -40,7 +40,7 @@ Symptoms include a raw, scratchy throat, mild fever, and runny nose. Most resolv
 
 Strep throat requires antibiotic treatment to prevent complications including rheumatic fever and kidney problems.
 
-### Tonsillitis
+### [Tonsillitis](/blog/tonsillitis-causes-symptoms)
 
 Tonsillitis is inflammation of the tonsils, two masses of lymphatic tissue at the back of the throat. It causes:
 - Intense throat pain, especially on swallowing
@@ -50,7 +50,7 @@ Tonsillitis is inflammation of the tonsils, two masses of lymphatic tissue at th
 
 Recurrent tonsillitis (more than 5–7 episodes per year) may warrant tonsillectomy (surgical removal).
 
-### Peritonsillar Abscess
+### [Peritonsillar Abscess](/blog/tonsillitis-causes-symptoms)
 
 A peritonsillar abscess is a collection of pus that forms beside the tonsil — a serious complication of tonsillitis. It causes:
 - Severe, one-sided throat pain
@@ -61,7 +61,7 @@ A peritonsillar abscess is a collection of pus that forms beside the tonsil — 
 
 This is an ENT emergency requiring drainage, often under local or general anaesthesia, plus intravenous antibiotics.
 
-### Laryngopharyngeal Reflux (LPR)
+### [Laryngopharyngeal Reflux (LPR)](/blog/submandibular-lump-sensation)
 
 Acid from the stomach can travel up the oesophagus and reach the throat, causing chronic irritation. Unlike typical acid reflux (heartburn), LPR often presents with:
 - A persistent sensation of something stuck in the throat (globus)
@@ -99,7 +99,7 @@ Difficulty initiating the swallow — food or liquid may spill into the airway, 
 The sensation of food sticking in the chest or throat after swallowing has been initiated. Causes include:
 - Oesophageal stricture (narrowing from reflux scarring)
 - Motility disorders (the oesophagus fails to push food down normally)
-- Foreign body
+- [Foreign body](/blog/foreign-bodies-uganda)
 - Oesophageal cancer
 
 ## Red Flag Symptoms: Seek Urgent ENT Evaluation
@@ -110,7 +110,7 @@ The following symptoms require prompt specialist assessment as they may indicate
 - **Painful swallowing that is progressively worsening**
 - **Unintentional weight loss** associated with swallowing difficulty
 - **Blood in saliva or phlegm**
-- **A lump in the neck** that appears alongside throat symptoms
+- **[A lump in the neck](/blog/submandibular-lump-sensation)** that appears alongside throat symptoms
 - **Hoarseness persisting beyond 3 weeks**
 - **One-sided throat pain** (raises concern for peritonsillar abscess or, rarely, throat cancer)
 - **Difficulty breathing or stridor**

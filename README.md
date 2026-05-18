@@ -114,3 +114,6 @@ Push to GitHub → Vercel auto-deploys. The build command `vite build && node pr
 
 After first deploy, submit sitemap in Google Search Console:
 `https://eritageentcare.com/sitemap.xml`
+
+<!-- test commit by Gemini -->
+

@@ -19,10 +19,10 @@ Snoring occurs when airflow through the mouth and nose is partially blocked duri
 
 **Common anatomical contributors to snoring:**
 - **Excess soft palate tissue** — a long or thick soft palate narrows the airway
-- **Large tonsils or adenoids** — especially common in children
+- **[Large tonsils or adenoids](/blog/childhood-ent-problems)** — especially common in children
 - **Enlarged uvula** — the small tissue hanging at the back of the throat
 - **Excess throat tissue** — associated with overweight or obesity
-- **Nasal obstruction** — a deviated septum, nasal polyps, or chronic congestion forces mouth breathing, which predisposes to snoring
+- **Nasal obstruction** — a deviated septum, [nasal polyps](/blog/nasal-polyps-chronic-sinusitis), or chronic congestion forces mouth breathing, which predisposes to snoring
 - **Tongue position** — the tongue can fall backward during sleep, particularly in back-sleepers
 
 **Lifestyle factors that worsen snoring:**
@@ -143,7 +143,7 @@ A custom-fitted dental device that holds the lower jaw slightly forward during s
 Surgery is considered when there is a correctable anatomical cause, or when CPAP is not tolerated.
 
 **ENT surgical options include:**
-- **Tonsillectomy and adenoidectomy** — highly effective in children; can be curative in adults when tonsils are the primary obstruction
+- **[Tonsillectomy and adenoidectomy](/blog/childhood-ent-problems)** — highly effective in children; can be curative in adults when tonsils are the primary obstruction
 - **Septoplasty** — straightening a deviated nasal septum to improve nasal airflow
 - **Turbinate reduction** — reducing enlarged turbinate bones to open nasal passages
 - **Uvulopalatopharyngoplasty (UPPP)** — removing excess soft palate tissue, the uvula, and tonsils to widen the pharyngeal airway

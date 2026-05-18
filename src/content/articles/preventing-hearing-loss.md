@@ -46,7 +46,7 @@ Damage to any part can cause hearing loss, but inner ear damage (sensorineural h
 
 **Often treatable:**
 - Caused by blockages or damage to outer/middle ear
-- May result from ear wax, fluid, or infections
+- May result from [ear wax](/conditions/blocked-ear-entebbe), fluid, or infections
 - Often reversible with treatment
 - Regular check-ups help with early detection
 
@@ -104,7 +104,7 @@ Damage to any part can cause hearing loss, but inner ear damage (sensorineural h
 - Clean only the outer ear with a damp cloth
 - Let ear wax do its protective job
 - Keep ears dry after swimming or bathing
-- Treat ear infections promptly
+- Treat [ear infections](/blog/understanding-ear-infections) promptly
 
 **DON'T:**
 - Insert cotton swabs into the ear canal
@@ -142,7 +142,7 @@ Damage to any part can cause hearing loss, but inner ear damage (sensorineural h
 ### 5. Regular Hearing Check-ups
 
 **Recommended screening schedule:**
-- Baseline hearing test by age 21
+- Baseline [hearing test](/hearing-tests) by age 21
 - Every 10 years until age 50
 - Every 3 years after age 50
 - Annually if exposed to loud environments
@@ -171,7 +171,7 @@ Damage to any part can cause hearing loss, but inner ear damage (sensorineural h
 - Withdrawing from phone calls
 
 **Physical symptoms:**
-- Ringing, buzzing, or hissing in ears (tinnitus)
+- Ringing, buzzing, or hissing in ears ([tinnitus](/blog/tinnitus-ringing-sound-ears))
 - Ear fullness or pressure
 - Difficulty hearing high-pitched sounds
 - Sound seeming muffled or distant
@@ -241,10 +241,10 @@ Damage to any part can cause hearing loss, but inner ear damage (sensorineural h
 ### Consult an ENT Specialist If You Experience:
 
 **Immediate concerns:**
-- Sudden hearing loss in one or both ears
+- [Sudden hearing loss](/hearing-tests) in one or both ears
 - Severe ear pain
 - Drainage or bleeding from the ear
-- Dizziness with hearing changes
+- [Dizziness with hearing changes](/blog/balance-problems-dizziness)
 
 **Ongoing concerns:**
 - Persistent tinnitus (ringing in ears)
