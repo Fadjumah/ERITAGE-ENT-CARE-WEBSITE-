@@ -10,11 +10,11 @@
 
 | Metric | Target | Status |
 |--------|--------|--------|
-| Condition landing pages live | 10 | 0 / 10 |
-| Blog articles (AI-optimized) | 15 | 0 / 15 |
-| Routes in sitemap | 40+ | 31 current |
-| Structured data (MedicalCondition) | On all condition pages | 0 |
-| Internal links (condition ↔ blog) | Full mesh | Partial |
+| Condition landing pages live | 10 | 10 / 10 |
+| Blog articles (AI-optimized) | 15 | 10 / 15 |
+| Routes in sitemap | 40+ | 36 current |
+| Structured data (MedicalCondition) | On all condition pages | 10 |
+| Internal links (condition ↔ blog) | Full mesh | Full |
 | GBP reviews | 50+ | Unknown |
 
 ---
@@ -32,7 +32,7 @@ Each page must have: direct answer → causes → symptoms → when to seek help
 **Route**: `/conditions/blocked-ear-entebbe`
 **Target query**: "blocked ear treatment Entebbe" / "ear feels blocked Uganda"
 
-- [ ] **Create** `src/pages/conditions/BlockedEar.tsx`
+- [x] **Create** `src/pages/conditions/BlockedEar.tsx`
   - H1: "Blocked Ear Treatment in Entebbe, Uganda"
   - Section: What causes a blocked ear (earwax, fluid, infection, Eustachian tube)
   - Section: Symptoms (muffled hearing, fullness, pain, tinnitus)
@@ -41,11 +41,11 @@ Each page must have: direct answer → causes → symptoms → when to seek help
   - CTA: Book appointment / WhatsApp / Call button (above fold + bottom)
   - Schema: `MedicalCondition` JSON-LD + `MedicalClinic` breadcrumb
   - Canonical: `https://eritageentcare.com/conditions/blocked-ear-entebbe`
-- [ ] **Register** route in `src/App.tsx`
-- [ ] **Add** to `prerender.mjs` routes array
-- [ ] **Add** to `public/sitemap.xml`
-- [ ] **Internal links**: Link FROM `/ent-services`, `/blog/understanding-ear-infections`, `/blog/ear-discharge-otorrhea`
-- [ ] **Internal links**: Link TO `/conditions/ear-pain-entebbe`, `/conditions/ear-discharge-entebbe`, `/hearing-tests`
+- [x] **Register** route in `src/App.tsx`
+- [x] **Add** to `prerender.mjs` routes array
+- [x] **Add** to `public/sitemap.xml`
+- [x] **Internal links**: Link FROM `/ent-services`, `/blog/understanding-ear-infections`, `/blog/ear-discharge-otorrhea`
+- [x] **Internal links**: Link TO `/conditions/ear-pain-entebbe`, `/conditions/ear-discharge-entebbe`, `/hearing-tests`
 
 ---
 
@@ -53,7 +53,7 @@ Each page must have: direct answer → causes → symptoms → when to seek help
 **Route**: `/conditions/ear-pain-entebbe`
 **Target query**: "ear pain relief Entebbe" / "otalgia treatment Uganda"
 
-- [ ] **Create** `src/pages/conditions/EarPain.tsx`
+- [x] **Create** `src/pages/conditions/EarPain.tsx`
   - H1: "Ear Pain Relief in Entebbe, Uganda"
   - Section: Common causes (infection, wax, referred pain from throat/jaw, swimmer's ear)
   - Section: Symptoms to watch (sharp pain, throbbing, discharge, fever)
@@ -62,11 +62,11 @@ Each page must have: direct answer → causes → symptoms → when to seek help
   - CTA: WhatsApp for urgent triage + book appointment
   - Schema: `MedicalCondition` JSON-LD
   - Canonical: `https://eritageentcare.com/conditions/ear-pain-entebbe`
-- [ ] **Register** route in `src/App.tsx`
-- [ ] **Add** to `prerender.mjs`
-- [ ] **Add** to `public/sitemap.xml`
-- [ ] **Internal links**: Link FROM `/urgent-ent-guidance`, `/ent-services`, `/blog/understanding-ear-infections`
-- [ ] **Internal links**: Link TO `/conditions/blocked-ear-entebbe`, `/conditions/ear-discharge-entebbe`
+- [x] **Register** route in `src/App.tsx`
+- [x] **Add** to `prerender.mjs`
+- [x] **Add** to `public/sitemap.xml`
+- [x] **Internal links**: Link FROM `/urgent-ent-guidance`, `/ent-services`, `/blog/understanding-ear-infections`
+- [x] **Internal links**: Link TO `/conditions/blocked-ear-entebbe`, `/conditions/ear-discharge-entebbe`
 
 ---
 
@@ -74,7 +74,7 @@ Each page must have: direct answer → causes → symptoms → when to seek help
 **Route**: `/conditions/ear-discharge-entebbe`
 **Target query**: "ear discharge treatment Entebbe" / "otorrhea specialist Uganda"
 
-- [ ] **Create** `src/pages/conditions/EarDischarge.tsx`
+- [x] **Create** `src/pages/conditions/EarDischarge.tsx`
   - H1: "Ear Discharge (Otorrhea) — Urgent ENT Care in Entebbe"
   - Section: What ear discharge means (infection, perforation, cholesteatoma)
   - Section: Types (clear, yellow/green pus, bloody — what each means)
@@ -83,11 +83,11 @@ Each page must have: direct answer → causes → symptoms → when to seek help
   - CTA: "This is urgent — WhatsApp us now" (styled as alert)
   - Schema: `MedicalCondition` JSON-LD
   - Canonical: `https://eritageentcare.com/conditions/ear-discharge-entebbe`
-- [ ] **Register** route in `src/App.tsx`
-- [ ] **Add** to `prerender.mjs`
-- [ ] **Add** to `public/sitemap.xml`
-- [ ] **Internal links**: Link FROM `/urgent-ent-guidance`, `/blog/ear-discharge-otorrhea`
-- [ ] **Internal links**: Link TO `/conditions/ear-pain-entebbe`, `/conditions/blocked-ear-entebbe`
+- [x] **Register** route in `src/App.tsx`
+- [x] **Add** to `prerender.mjs`
+- [x] **Add** to `public/sitemap.xml`
+- [x] **Internal links**: Link FROM `/urgent-ent-guidance`, `/blog/ear-discharge-otorrhea`
+- [x] **Internal links**: Link TO `/conditions/ear-pain-entebbe`, `/conditions/blocked-ear-entebbe`
 
 ---
 
@@ -97,23 +97,23 @@ Build topical cluster. Each page = one condition, one Entebbe intent.
 
 ### P1: Additional Condition Pages (build after Sprint 1)
 
-| # | Route | Target Query | Priority |
-|---|-------|-------------|----------|
-| 4 | `/conditions/tinnitus-entebbe` | "ringing in ears treatment Entebbe" | HIGH |
-| 5 | `/conditions/hearing-loss-entebbe` | "hearing loss specialist Entebbe Uganda" | HIGH |
-| 6 | `/conditions/sinusitis-entebbe` | "sinusitis treatment Entebbe" | HIGH |
-| 7 | `/conditions/tonsillitis-entebbe` | "tonsillitis specialist Entebbe" | MEDIUM |
-| 8 | `/conditions/nasal-polyps-entebbe` | "nasal polyps Uganda" | MEDIUM |
-| 9 | `/conditions/vertigo-entebbe` | "vertigo dizziness ENT Entebbe" | MEDIUM |
-| 10 | `/conditions/snoring-entebbe` | "snoring treatment Entebbe" | LOW |
+| # | Route | Target Query | Priority | Status |
+|---|-------|-------------|----------|--------|
+| 4 | `/conditions/tinnitus-entebbe` | "ringing in ears treatment Entebbe" | HIGH | DONE |
+| 5 | `/conditions/hearing-loss-entebbe` | "hearing loss specialist Entebbe Uganda" | HIGH | DONE |
+| 6 | `/conditions/sinusitis-entebbe` | "sinusitis treatment Entebbe" | HIGH | DONE |
+| 7 | `/conditions/tonsillitis-entebbe` | "tonsillitis specialist Entebbe" | MEDIUM | DONE |
+| 8 | `/conditions/nasal-polyps-entebbe` | "nasal polyps Uganda" | MEDIUM | DONE |
+| 9 | `/conditions/vertigo-entebbe` | "vertigo dizziness ENT Entebbe" | MEDIUM | DONE |
+| 10 | `/conditions/snoring-entebbe` | "snoring treatment Entebbe" | LOW | DONE |
 
 For each:
-- [ ] Create `src/pages/conditions/[ConditionName].tsx`
-- [ ] Register route in `src/App.tsx`
-- [ ] Add to `prerender.mjs`
-- [ ] Add to `public/sitemap.xml`
-- [ ] Add `MedicalCondition` schema
-- [ ] Wire internal links
+- [x] Create `src/pages/conditions/[ConditionName].tsx`
+- [x] Register route in `src/App.tsx`
+- [x] Add to `prerender.mjs`
+- [x] Add to `public/sitemap.xml`
+- [x] Add `MedicalCondition` schema
+- [x] Wire internal links
 
 ---
 
@@ -134,16 +134,16 @@ For each article, check and fix:
 
 | Article | AI-Optimized | Location Signal | Condition CTA |
 |---------|-------------|-----------------|---------------|
-| `ear-discharge-otorrhea.md` | [ ] | [ ] | [ ] |
-| `tinnitus-ringing-sound-ears.md` | [ ] | [ ] | [ ] |
-| `understanding-ear-infections.md` | [ ] | [ ] | [ ] |
-| `sinusitis-treatment-guide.md` | [ ] | [ ] | [ ] |
-| `nasal-polyps-chronic-sinusitis.md` | [ ] | [ ] | [ ] |
-| `tonsillitis-causes-symptoms.md` | [ ] | [ ] | [ ] |
+| `ear-discharge-otorrhea.md` | [x] | [x] | [x] |
+| `tinnitus-ringing-sound-ears.md` | [x] | [x] | [x] |
+| `understanding-ear-infections.md` | [x] | [x] | [x] |
+| `sinusitis-treatment-guide.md` | [x] | [x] | [x] |
+| `nasal-polyps-chronic-sinusitis.md` | [x] | [x] | [x] |
+| `tonsillitis-causes-symptoms.md` | [x] | [x] | [x] |
 | `throat-pain-swallowing-difficulty.md` | [ ] | [ ] | [ ] |
-| `preventing-hearing-loss.md` | [ ] | [ ] | [ ] |
-| `balance-problems-dizziness.md` | [ ] | [ ] | [ ] |
-| `snoring-sleep-apnea.md` | [ ] | [ ] | [ ] |
+| `preventing-hearing-loss.md` | [x] | [x] | [x] |
+| `balance-problems-dizziness.md` | [x] | [x] | [x] |
+| `snoring-sleep-apnea.md` | [x] | [x] | [x] |
 | `childhood-ent-problems.md` | [ ] | [ ] | [ ] |
 | `foreign-bodies-uganda.md` | [ ] | [ ] | [ ] |
 | `managing-allergies-naturally.md` | [ ] | [ ] | [ ] |
@@ -180,8 +180,8 @@ Making Google and AI systems understand: **Eritage ENT Care = the ENT clinic in 
 - [ ] `LocationEntebbe.tsx`: Confirm full `MedicalClinic` schema with NAP + hours + geo
 - [ ] `About.tsx`: Confirm `Physician` schema for both specialists
 - [ ] `Bookings.tsx`: Confirm `ReserveAction` schema present
-- [ ] All new condition pages: Add `MedicalCondition` schema (see template below)
-- [ ] Add `BreadcrumbList` schema to all condition pages
+- [x] All new condition pages: Add `MedicalCondition` schema (see template below)
+- [x] Add `BreadcrumbList` schema to all condition pages
 
 ### MedicalCondition Schema Template
 ```json
