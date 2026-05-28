@@ -179,8 +179,8 @@ Making Google and AI systems understand: **Eritage ENT Care = the ENT clinic in 
 
 - [x] `Index.tsx`: Confirm `LocalBusiness` + `MedicalOrganization` + `FAQPage` schema present
 - [x] `LocationEntebbe.tsx`: Confirm full `MedicalClinic` schema with NAP + hours + geo
-- [ ] `About.tsx`: Confirm `Physician` schema for both specialists
-- [ ] `Bookings.tsx`: Confirm `ReserveAction` schema present
+- [x] `About.tsx`: Confirm `Physician` schema for both specialists
+- [x] `Bookings.tsx`: Confirm `ReserveAction` schema present
 - [x] All new condition pages: Add `MedicalCondition` schema (see template below)
 - [x] Add `BreadcrumbList` schema to all condition pages
 
