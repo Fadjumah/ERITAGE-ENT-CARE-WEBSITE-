@@ -11,7 +11,7 @@
 | Metric | Target | Status |
 |--------|--------|--------|
 | Condition landing pages live | 10 | 10 / 10 |
-| Blog articles (AI-optimized) | 15 | 10 / 15 |
+| Blog articles (AI-optimized) | 15 | 11 / 15 |
 | Routes in sitemap | 40+ | 36 current |
 | Structured data (MedicalCondition) | On all condition pages | 10 |
 | Internal links (condition ↔ blog) | Full mesh | Full |
@@ -149,6 +149,7 @@ For each article, check and fix:
 | `managing-allergies-naturally.md` | [ ] | [ ] | [ ] |
 | `submandibular-lump-sensation.md` | [ ] | [ ] | [ ] |
 | `voice-care-tips.md` | [ ] | [ ] | [ ] |
+| `uganda-seasonal-weather-changes-ent-health.md` | [x] | [x] | [x] |
 
 **New article needed** (gap identified — zero coverage):
 - [ ] **Create** `src/content/articles/blocked-ear-earwax-removal-entebbe.md`
