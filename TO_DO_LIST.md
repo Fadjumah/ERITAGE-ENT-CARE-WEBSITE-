@@ -1,7 +1,7 @@
 # Eritage ENT Care — Growth Execution System
 
 > **Mission**: Dominate local ENT search in Entebbe. Win AI citations. Convert visitors into patients.
-> **Last updated**: 2026-04-13
+> **Last updated**: 2026-05-28
 > **Owner**: Claude Code growth agent
 
 ---
@@ -167,18 +167,18 @@ Making Google and AI systems understand: **Eritage ENT Care = the ENT clinic in 
 
 ### Identity Standardization
 
-- [ ] Audit every page for NAP consistency:
+- [x] Audit every page for NAP consistency:
   - Name: `Eritage ENT Care - Entebbe` (exact GBP match)
   - Address: `Plot 34, 48 Berkeley Road, Entebbe Road, Entebbe`
   - Phone: `+256740166778`
-- [ ] Verify Footer NAP block matches exactly
-- [ ] Verify Contact page matches exactly
-- [ ] Verify LocationEntebbe schema matches exactly
+- [x] Verify Footer NAP block matches exactly
+- [x] Verify Contact page matches exactly
+- [x] Verify LocationEntebbe schema matches exactly
 
 ### Structured Data Audit
 
-- [ ] `Index.tsx`: Confirm `LocalBusiness` + `MedicalOrganization` + `FAQPage` schema present
-- [ ] `LocationEntebbe.tsx`: Confirm full `MedicalClinic` schema with NAP + hours + geo
+- [x] `Index.tsx`: Confirm `LocalBusiness` + `MedicalOrganization` + `FAQPage` schema present
+- [x] `LocationEntebbe.tsx`: Confirm full `MedicalClinic` schema with NAP + hours + geo
 - [ ] `About.tsx`: Confirm `Physician` schema for both specialists
 - [ ] `Bookings.tsx`: Confirm `ReserveAction` schema present
 - [x] All new condition pages: Add `MedicalCondition` schema (see template below)
