@@ -27,6 +27,11 @@ import EarPain from "@/pages/conditions/EarPain";
 import EarDischarge from "@/pages/conditions/EarDischarge";
 import Sinusitis from "@/pages/conditions/Sinusitis";
 import Tonsillitis from "@/pages/conditions/Tonsillitis";
+import Tinnitus from "@/pages/conditions/Tinnitus";
+import HearingLoss from "@/pages/conditions/HearingLoss";
+import NasalPolyps from "@/pages/conditions/NasalPolyps";
+import Vertigo from "@/pages/conditions/Vertigo";
+import Snoring from "@/pages/conditions/Snoring";
 import NotFound from "@/pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -57,6 +62,11 @@ const App = () => (
             <Route path="/conditions/ear-discharge-entebbe" element={<EarDischarge />} />
             <Route path="/conditions/sinusitis-entebbe" element={<Sinusitis />} />
             <Route path="/conditions/tonsillitis-entebbe" element={<Tonsillitis />} />
+            <Route path="/conditions/tinnitus-entebbe" element={<Tinnitus />} />
+            <Route path="/conditions/hearing-loss-entebbe" element={<HearingLoss />} />
+            <Route path="/conditions/nasal-polyps-entebbe" element={<NasalPolyps />} />
+            <Route path="/conditions/vertigo-entebbe" element={<Vertigo />} />
+            <Route path="/conditions/snoring-entebbe" element={<Snoring />} />
 
             {/* Locations */}
             <Route path="/locations/entebbe" element={<LocationEntebbe />} />

@@ -77,10 +77,10 @@ An ear infection occurs when bacteria or viruses affect the ear structures, most
 ### Symptoms in Adults:
 
 **Primary symptoms:**
-- Ear pain (sharp, dull, or throbbing)
-- Feeling of fullness or pressure in the ear
+- [Ear pain](/conditions/ear-pain-entebbe) (sharp, dull, or throbbing)
+- [Feeling of fullness or pressure](/conditions/blocked-ear-entebbe) in the ear
 - Hearing difficulty or muffled hearing
-- Fluid drainage from the ear
+- [Fluid drainage from the ear](/conditions/ear-discharge-entebbe)
 - Ringing in the ear (tinnitus)
 
 **Associated symptoms:**

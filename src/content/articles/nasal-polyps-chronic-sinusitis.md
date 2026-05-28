@@ -9,7 +9,7 @@ author: "Fahad Juma ENT Specialist"
 
 # Nasal Polyps: Understanding, Managing & Treating This Common ENT Condition
 
-Nasal polyps are soft, painless, noncancerous growths that develop in the lining of your nasal passages or sinuses. Often resulting from chronic inflammation due to rhinitis or sinusitis, these grape-like swellings can significantly impact your breathing, sense of smell, and overall quality of life. Despite being benign, nasal polyps are a common source of chronic suffering — and one that responds well to modern ENT treatment when properly managed.
+Nasal polyps are soft, painless, noncancerous growths that develop in the lining of your nasal passages or sinuses. Often resulting from chronic inflammation due to rhinitis or sinusitis, these grape-like swellings can significantly impact your breathing, sense of smell, and overall quality of life. Despite being benign, nasal polyps are a common source of chronic suffering — and one that responds well to modern ENT treatment when properly managed. At Eritage ENT Care, we provide specialized [nasal polyps treatment in Entebbe](/conditions/nasal-polyps-entebbe) to help you breathe freely again.
 
 ## What Are Nasal Polyps?
 

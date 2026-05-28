@@ -121,7 +121,7 @@ image: "/placeholder.svg"
  
  ## Get Expert Help at Eritage ENT Care
  
- If you're experiencing ringing, buzzing, or other sounds in your ears, don't ignore it. Our ENT specialists at Eritage ENT Care can help you understand what's causing your symptoms and recommend the best path forward.
+ If you're experiencing ringing, buzzing, or other sounds in your ears, don't ignore it. Our ENT specialists at Eritage ENT Care can help you understand what's causing your symptoms and recommend the best path forward. We offer specialized [tinnitus treatment in Entebbe](/conditions/tinnitus-entebbe) to help you find relief.
  
  **Contact Eritage ENT Care today:**
  - **Phone:** +256 740 166 778

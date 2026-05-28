@@ -189,6 +189,46 @@ const STATIC_ROUTES = [
     changefreq: "monthly",
     priority: 0.9,
   },
+  {
+    path: "/conditions/tinnitus-entebbe",
+    title: "Tinnitus Treatment in Entebbe, Uganda | Ringing in Ears | Eritage ENT Care",
+    description: "Persistent ringing in your ears? Get expert tinnitus assessment and management at Eritage ENT Care in Entebbe. We help identify causes and provide relief strategies. Call +256 740 166 778.",
+    lastmod: "2026-04-15",
+    changefreq: "monthly",
+    priority: 0.9,
+  },
+  {
+    path: "/conditions/hearing-loss-entebbe",
+    title: "Hearing Loss Specialist in Entebbe, Uganda | Eritage ENT Care",
+    description: "Experiencing hearing loss in Entebbe? Get expert audiological assessment and treatment at Eritage ENT Care. We treat all types of hearing impairment. Call +256 740 166 778.",
+    lastmod: "2026-04-15",
+    changefreq: "monthly",
+    priority: 0.9,
+  },
+  {
+    path: "/conditions/nasal-polyps-entebbe",
+    title: "Nasal Polyps Treatment in Entebbe, Uganda | ENT Specialist | Eritage ENT Care",
+    description: "Struggling with nasal polyps in Entebbe? Get expert diagnosis and treatment at Eritage ENT Care. We offer nasal endoscopy and advanced management. Call +256 740 166 778.",
+    lastmod: "2026-04-15",
+    changefreq: "monthly",
+    priority: 0.9,
+  },
+  {
+    path: "/conditions/vertigo-entebbe",
+    title: "Vertigo & Dizziness Treatment in Entebbe, Uganda | ENT Specialist | Eritage ENT Care",
+    description: "Struggling with vertigo or dizziness in Entebbe? Get expert diagnosis and treatment at Eritage ENT Care. We specialize in balance disorders. Call +256 740 166 778.",
+    lastmod: "2026-04-15",
+    changefreq: "monthly",
+    priority: 0.9,
+  },
+  {
+    path: "/conditions/snoring-entebbe",
+    title: "Snoring & Sleep Apnea Treatment in Entebbe, Uganda | Eritage ENT Care",
+    description: "Loud snoring or gasping at night? Get expert sleep apnea and snoring assessment at Eritage ENT Care in Entebbe. We offer medical and surgical relief. Call +256 740 166 778.",
+    lastmod: "2026-04-15",
+    changefreq: "monthly",
+    priority: 0.9,
+  },
 ];
 
 // ── Dynamically read blog articles from src/content/articles/ ─────────────────

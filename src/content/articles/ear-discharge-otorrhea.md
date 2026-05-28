@@ -13,7 +13,7 @@ Ear discharge, medically known as otorrhea, is one of the most concerning sympto
 
 ## Understanding Ear Discharge
 
-Ear discharge refers to any fluid that comes out of the ear canal. The discharge can vary in color, consistency, and odor—each characteristic providing important clues about the underlying cause.
+Ear discharge refers to any fluid that comes out of the ear canal. For patients in Entebbe, we provide specialized [ear discharge treatment and diagnosis](/conditions/ear-discharge-entebbe). The discharge can vary in color, consistency, and odor—each characteristic providing important clues about the underlying cause.
 
 ### Types of Ear Discharge
 

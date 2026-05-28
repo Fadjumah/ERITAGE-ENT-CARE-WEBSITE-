@@ -15,7 +15,8 @@ Sinusitis, commonly known as a sinus infection, is one of the most prevalent con
 
 ## What Is Sinusitis?
 
-Your sinuses are hollow, air-filled cavities located within the bones of your face and skull. There are four pairs: the maxillary sinuses (behind the cheeks), the ethmoid sinuses (between the eyes), the frontal sinuses (above the eyebrows), and the sphenoid sinuses (behind the nose). These cavities are lined with a thin mucous membrane that filters air and drains through small openings into the nasal passages.
+Your sinuses are hollow, air-filled cavities located within the bones of your face and skull. For more detailed information on our specialized care, you can visit our page on [sinusitis treatment in Entebbe](/conditions/sinusitis-entebbe). There are four pairs: the maxillary sinuses (behind the cheeks), the ethmoid sinuses (between the eyes), the frontal sinuses (above the eyebrows), and the sphenoid sinuses (behind the nose).
+ These cavities are lined with a thin mucous membrane that filters air and drains through small openings into the nasal passages.
 
 Sinusitis occurs when this lining becomes inflamed and swollen — usually due to infection, allergy, or another irritant — causing the drainage openings to become blocked. Mucus then accumulates inside the sinuses, creating an environment where bacteria, viruses, or fungi can thrive.
 

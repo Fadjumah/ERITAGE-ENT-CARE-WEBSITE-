@@ -9,7 +9,7 @@ author: "Dr. Fahad Juma, ENT Specialist"
 
 # Tonsillitis: Causes, Symptoms & When to Seek ENT Care
 
-Tonsillitis is one of the most common throat conditions we treat at Eritage ENT Care. Whether you are a parent worried about your child's recurring sore throats or an adult experiencing painful swallowing, understanding tonsillitis helps you know when home care is enough — and when professional ENT evaluation is essential.
+Tonsillitis is one of the most common throat conditions we treat at Eritage ENT Care. Whether you are a parent worried about your child's recurring sore throats or an adult experiencing painful swallowing, understanding tonsillitis helps you know when home care is enough — and when professional ENT evaluation is essential. For more information on our specific services, visit our [tonsillitis treatment page for Entebbe](/conditions/tonsillitis-entebbe).
 
 ## What Are the Tonsils?
 

@@ -9,7 +9,7 @@ author: "Fahad Juma ENT Specialist"
 
 # Preventing Hearing Loss: A Complete Guide to Lifelong Ear Health
 
-Hearing is one of our most precious senses, connecting us to loved ones, warning us of danger, and enriching our daily experiences. At Eritage ENT Care, we believe prevention is the best treatment. This comprehensive guide will help you protect your hearing for life.
+Hearing is one of our most precious senses, connecting us to loved ones, warning us of danger, and enriching our daily experiences. At Eritage ENT Care, we believe prevention is the best treatment. This comprehensive guide will help you protect your hearing for life. If you are already experiencing symptoms, you can learn more about our [hearing loss specialist services in Entebbe](/conditions/hearing-loss-entebbe).
 
 ## Understanding Hearing Loss
 

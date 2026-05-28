@@ -9,7 +9,7 @@ author: "Fahad Juma ENT Specialist"
 
 # Balance Problems and Dizziness: Understanding, Diagnosis & Treatment
 
-Balance problems and frequent dizziness are among the most common and concerning complaints we encounter in ENT practice. These symptoms can significantly impact your quality of life, affecting your ability to work, drive, and perform daily activities safely.
+Balance problems and frequent dizziness are among the most common and concerning complaints we encounter in ENT practice. These symptoms can significantly impact your quality of life, affecting your ability to work, drive, and perform daily activities safely. At Eritage ENT Care, we provide specialized [vertigo and balance treatment in Entebbe](/conditions/vertigo-entebbe) to help you get back on your feet.
 
 ## Understanding Balance and the Inner Ear
 
