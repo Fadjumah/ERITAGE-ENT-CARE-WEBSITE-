@@ -14,31 +14,32 @@ import {
   Stethoscope
 } from "lucide-react";
 import { Link } from "react-router-dom";
+import { SITE } from "@/config/site";
 
 const Contact = () => {
   const contactMethods = [
     {
       icon: Phone,
       title: "Phone",
-      primary: "+256 740 166 778",
+      primary: SITE.phone.primaryFormatted,
       secondary: "Available nationwide",
-      action: "tel:+256740166778",
+      action: `tel:${SITE.phone.primary}`,
       actionText: "Call Now"
     },
     {
       icon: MessageCircle,
       title: "WhatsApp",
-      primary: "+256 740 166 778",
+      primary: SITE.phone.primaryFormatted,
       secondary: "Quick responses during clinic hours",
-      action: "https://wa.me/256740166778",
+      action: SITE.whatsapp,
       actionText: "Message on WhatsApp"
     },
     {
       icon: Mail,
       title: "Email",
-      primary: "info@eritageentcare.com",
+      primary: SITE.email,
       secondary: "For inquiries and appointments",
-      action: "mailto:info@eritageentcare.com",
+      action: `mailto:${SITE.email}`,
       actionText: "Send Email"
     },
     {
@@ -54,12 +55,12 @@ const Contact = () => {
   const locations = [
     {
       name: "Entebbe",
-      gbpName: "Eritage ENT Care - Entebbe",
-      address: "Plot 34, 48 Berkeley Road, Entebbe Road, Entebbe, Uganda",
-      phone: "+256 740 166 778",
-      hours: "Open 24 hours",
-      mapLink: "https://maps.app.goo.gl/jyV5xBRkD95u2i4B8",
-      reviewLink: "https://g.page/r/Ceg235aaSzr6EBI/review",
+      gbpName: SITE.locations.entebbe.name,
+      address: SITE.locations.entebbe.address,
+      phone: SITE.phone.primaryFormatted,
+      hours: SITE.locations.entebbe.hours,
+      mapLink: SITE.locations.entebbe.mapUrl,
+      reviewLink: SITE.locations.entebbe.reviewUrl,
       isOpen: true
     },
   ];
@@ -68,8 +69,8 @@ const Contact = () => {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://eritageentcare.com" },
-      { "@type": "ListItem", "position": 2, "name": "Contact & Locations", "item": "https://eritageentcare.com/contact" }
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": SITE.url },
+      { "@type": "ListItem", "position": 2, "name": "Contact & Locations", "item": `${SITE.url}/contact` }
     ]
   };
 
@@ -77,17 +78,17 @@ const Contact = () => {
   const schemaData = {
     "@context": "https://schema.org",
     "@type": "MedicalOrganization",
-    "@id": "https://eritageentcare.com/#organization",
-    "name": "Eritage ENT Care",
-    "description": "Professional ENT care across Uganda offering expert ear, nose, and throat services.",
-    "url": "https://eritageentcare.com",
-    "telephone": "+256740166778",
+    "@id": `${SITE.url}/#organization`,
+    "name": SITE.name,
+    "description": SITE.description,
+    "url": SITE.url,
+    "telephone": SITE.phone.primary,
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Plot 34, 48 Berkeley Road, Entebbe Road",
-      "addressLocality": "Entebbe",
-      "addressRegion": "Central Region",
-      "addressCountry": "UG"
+      "streetAddress": SITE.locations.entebbe.streetAddress,
+      "addressLocality": SITE.locations.entebbe.addressLocality,
+      "addressRegion": SITE.locations.entebbe.addressRegion,
+      "addressCountry": SITE.locations.entebbe.addressCountry
     },
     "areaServed": {
       "@type": "Country",
@@ -95,22 +96,22 @@ const Contact = () => {
     },
     "medicalSpecialty": "Otolaryngology",
     "sameAs": [
-      "https://maps.app.goo.gl/jyV5xBRkD95u2i4B8"
+      SITE.locations.entebbe.gbpUrl
     ]
   };
 
   return (
     <>
       <Helmet>
-        <title>Contact & Locations | Eritage ENT Care | Book Consultation in Uganda</title>
-        <meta name="description" content="Contact Eritage ENT Care for ear, nose, and throat consultations across Uganda. Reach us at +256 740 166 778, via WhatsApp, or visit our clinics." />
-        <meta property="og:title" content="Contact Eritage ENT Care | ENT Consultations in Uganda" />
-        <meta property="og:description" content="Get in touch with Eritage ENT Care in Entebbe, Uganda for professional ear, nose, and throat services. Book in clinic or schedule a digital consultation." />
+        <title>Contact & Locations | {SITE.name} | Book Consultation in Uganda</title>
+        <meta name="description" content={`Contact ${SITE.name} for ear, nose, and throat consultations across Uganda. Reach us at ${SITE.phone.primaryFormatted}, via WhatsApp, or visit our clinics.`} />
+        <meta property="og:title" content={`Contact ${SITE.name} | ENT Consultations in Uganda`} />
+        <meta property="og:description" content={`Get in touch with ${SITE.name} in Entebbe, Uganda for professional ear, nose, and throat services. Book in clinic or schedule a digital consultation.`} />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://eritageentcare.com/contact" />
-        <meta property="og:image" content="https://eritageentcare.com/eritage-logo.png" />
+        <meta property="og:url" content={`${SITE.url}/contact`} />
+        <meta property="og:image" content={SITE.ogImage} />
         <meta name="keywords" content="contact ENT specialist Uganda, book ENT appointment, Eritage ENT Care contact, ENT consultation Uganda" />
-        <link rel="canonical" href="https://eritageentcare.com/contact" />
+        <link rel="canonical" href={`${SITE.url}/contact`} />
         <script type="application/ld+json">
           {JSON.stringify(breadcrumbSchema)}
         </script>
@@ -130,10 +131,10 @@ const Contact = () => {
                 Get in Touch
               </p>
               <h1 className="text-3xl md:text-5xl font-bold text-foreground mb-6 leading-tight">
-                Contact Eritage ENT Care
+                Contact {SITE.name}
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-                We're here to help with your ear, nose, and throat health concerns. Book an in-person consultation at one of our clinics or connect with us digitally.
+                We're here to help with your ear, nose, and throat health concerns. Book an in-person consultation at our Entebbe clinic or connect with us digitally.
               </p>
             </div>
           </div>
@@ -144,7 +145,7 @@ const Contact = () => {
           <div className="container mx-auto px-4">
             <div className="max-w-5xl mx-auto">
               <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-8 text-center">
-                Get in Touch
+                Ways to Reach Us
               </h2>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {contactMethods.map((method, index) => (
@@ -183,7 +184,7 @@ const Contact = () => {
                   Our Location
                 </h2>
                 <p className="text-muted-foreground max-w-2xl mx-auto">
-                  Eritage ENT Care is based in Entebbe, Uganda. Visit us in clinic or schedule a digital consultation.
+                  {SITE.name} is based in Entebbe, Uganda. Visit us in clinic or schedule a digital consultation.
                 </p>
               </div>
               <div className="flex justify-center">
@@ -194,7 +195,7 @@ const Contact = () => {
                       <div className="flex items-center gap-2 mb-3">
                         <MapPin className="h-5 w-5 text-primary" />
                         <h3 className="font-bold text-foreground text-lg">
-                          {location.gbpName ?? `Eritage ENT Care – ${location.name}`}
+                          {location.gbpName}
                         </h3>
                       </div>
                       <div className="space-y-2 mb-4">
@@ -249,24 +250,24 @@ const Contact = () => {
                 <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-2">
                   Find Our Flagship Clinic
                 </h2>
-                <p className="text-muted-foreground">Eritage ENT Care – Entebbe for in-person consultations</p>
+                <p className="text-muted-foreground">{SITE.locations.entebbe.displayName} for in-person consultations</p>
               </div>
               <div className="aspect-video rounded-lg overflow-hidden shadow-lg mb-6">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7582621366!2d32.4637!3d0.0512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMMKwMDMnMDQuMyJOIDMywrAyNyc0OS4zIkU!5e0!3m2!1sen!2sug!4v1234567890"
+                  src={SITE.locations.entebbe.mapEmbed}
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Eritage ENT Care – Entebbe Location"
+                  title={`${SITE.locations.entebbe.displayName} Location`}
                 ></iframe>
               </div>
               <div className="text-center">
                 <Button asChild size="lg" className="gap-2">
                   <a 
-                    href="https://maps.app.goo.gl/jyV5xBRkD95u2i4B8" 
+                    href={SITE.locations.entebbe.mapUrl} 
                     target="_blank" 
                     rel="noopener noreferrer"
                   >
@@ -291,15 +292,15 @@ const Contact = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" className="gap-2" asChild>
-                  <a href="https://wa.me/256740166778" target="_blank" rel="noopener noreferrer">
+                  <a href={SITE.whatsapp} target="_blank" rel="noopener noreferrer">
                     <MessageCircle className="h-5 w-5" />
                     Book via WhatsApp
                   </a>
                 </Button>
                 <Button size="lg" variant="outline" className="gap-2" asChild>
-                  <a href="tel:+256740166778">
+                  <a href={`tel:${SITE.phone.primary}`}>
                     <Phone className="h-5 w-5" />
-                    Call: +256 740 166 778
+                    Call: {SITE.phone.primaryFormatted}
                   </a>
                 </Button>
               </div>

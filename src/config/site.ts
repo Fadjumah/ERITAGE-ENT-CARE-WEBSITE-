@@ -34,7 +34,7 @@ export const SITE = {
       // Display name (em-dash variant, used in UI headings)
       displayName: "Eritage ENT Care – Entebbe",
       // Full NAP address — MUST match Google Business Profile precisely
-      address: "Plot 34, 48 Berkeley Road, Entebbe Road, Entebbe, Uganda",
+      address: "Plot 34, 48 Berkeley Road, Entebbe Road, Entebbe",
       // Schema-split address fields for structured data
       streetAddress: "Plot 34, 48 Berkeley Road, Entebbe Road",
       addressLocality: "Entebbe",

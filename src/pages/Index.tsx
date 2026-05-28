@@ -12,23 +12,24 @@ import AskENTQuestion from "@/components/sections/AskENTQuestion";
 import Footer from "@/components/layout/Footer";
 import FloatingContactButtons from "@/components/layout/FloatingContactButtons";
 import AnimatedImageShowcase from "@/components/sections/AnimatedImageShowcase";
+import { SITE } from "@/config/site";
 
 const Index = () => {
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "MedicalOrganization",
-    "@id": "https://eritageentcare.com/#organization",
-    "name": "Eritage ENT Care",
-    "alternateName": "Eritage ENT Care Uganda",
-    "description": "Uganda's leading ENT specialists providing expert diagnosis and treatment for ear, nose, and throat conditions. Over 10 years clinical experience serving patients nationwide.",
-    "url": "https://eritageentcare.com",
+    "@id": `${SITE.url}/#organization`,
+    "name": SITE.name,
+    "alternateName": `${SITE.name} Uganda`,
+    "description": SITE.description,
+    "url": SITE.url,
     "logo": {
       "@type": "ImageObject",
-      "url": "https://eritageentcare.com/eritage-logo.png",
+      "url": SITE.ogImage,
       "width": 512,
       "height": 512
     },
-    "image": "https://eritageentcare.com/eritage-logo.png",
+    "image": SITE.ogImage,
     "medicalSpecialty": "Otolaryngology",
     "knowsAbout": [
       "Ear infections",
@@ -48,44 +49,44 @@ const Index = () => {
     "contactPoint": [
       {
         "@type": "ContactPoint",
-        "telephone": "+256740166778",
+        "telephone": SITE.phone.primary,
         "contactType": "customer service",
         "availableLanguage": ["English", "Luganda"]
       },
       {
         "@type": "ContactPoint",
-        "telephone": "+256772332909",
+        "telephone": SITE.phone.secondary,
         "contactType": "customer service",
         "availableLanguage": ["English", "Luganda"]
       }
     ],
     "sameAs": [
-      "https://maps.app.goo.gl/jyV5xBRkD95u2i4B8",
-      "https://g.page/r/Ceg235aaSzr6EBI",
-      "https://twitter.com/eritageentcare"
+      SITE.locations.entebbe.mapUrl,
+      SITE.locations.entebbe.gbpUrl,
+      `https://twitter.com/${SITE.twitterHandle.replace('@', '')}`
     ]
   };
 
   const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "MedicalBusiness",
-    "@id": "https://eritageentcare.com/#business",
-    "name": "Eritage ENT Care",
-    "description": "Professional ENT clinic offering expert ear, nose, and throat care including hearing tests, sinus treatment, and emergency ENT services across Uganda.",
-    "url": "https://eritageentcare.com",
-    "telephone": "+256740166778",
-    "email": "info@eritageentcare.com",
+    "@id": `${SITE.url}/#business`,
+    "name": SITE.name,
+    "description": SITE.description,
+    "url": SITE.url,
+    "telephone": SITE.phone.primary,
+    "email": SITE.email,
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Plot 34, 48 Berkeley Road, Entebbe Road",
-      "addressLocality": "Entebbe",
-      "addressRegion": "Central Region",
-      "addressCountry": "UG"
+      "streetAddress": SITE.locations.entebbe.streetAddress,
+      "addressLocality": SITE.locations.entebbe.addressLocality,
+      "addressRegion": SITE.locations.entebbe.addressRegion,
+      "addressCountry": SITE.locations.entebbe.addressCountry
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": "0.0527778",
-      "longitude": "32.4580556"
+      "latitude": SITE.locations.entebbe.lat,
+      "longitude": SITE.locations.entebbe.lng
     },
     "areaServed": {
       "@type": "Country",
@@ -137,29 +138,29 @@ const Index = () => {
     ],
     "parentOrganization": {
       "@type": "MedicalOrganization",
-      "@id": "https://eritageentcare.com/#organization",
-      "name": "Eritage ENT Care"
+      "@id": `${SITE.url}/#organization`,
+      "name": SITE.name
     },
     "sameAs": [
-      "https://maps.app.goo.gl/jyV5xBRkD95u2i4B8",
-      "https://g.page/r/Ceg235aaSzr6EBI",
-      "https://twitter.com/eritageentcare"
+      SITE.locations.entebbe.mapUrl,
+      SITE.locations.entebbe.gbpUrl,
+      `https://twitter.com/${SITE.twitterHandle.replace('@', '')}`
     ]
   };
 
   const webSiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "@id": "https://eritageentcare.com/#website",
-    "name": "Eritage ENT Care",
-    "alternateName": "Eritage ENT Care Uganda",
-    "description": "Uganda's leading ENT specialists — expert ear, nose & throat care in Entebbe.",
-    "url": "https://eritageentcare.com",
+    "@id": `${SITE.url}/#website`,
+    "name": SITE.name,
+    "alternateName": `${SITE.name} Uganda`,
+    "description": SITE.description,
+    "url": SITE.url,
     "potentialAction": {
       "@type": "SearchAction",
       "target": {
         "@type": "EntryPoint",
-        "urlTemplate": "https://eritageentcare.com/blog?q={search_term_string}"
+        "urlTemplate": `${SITE.url}/blog?q={search_term_string}`
       },
       "query-input": "required name=search_term_string"
     }
@@ -169,24 +170,24 @@ const Index = () => {
     {
       "@context": "https://schema.org",
       "@type": "Physician",
-      "@id": "https://eritageentcare.com/about#dr-fahad-juma",
-      "name": "Dr. Lubega Fahad Juma",
-      "jobTitle": "ENT Specialist",
+      "@id": `${SITE.url}/about#dr-fahad-juma`,
+      "name": SITE.specialists[0].name,
+      "jobTitle": SITE.specialists[0].title,
       "medicalSpecialty": "Otolaryngology",
-      "description": "ENT specialist with over 10 years of clinical experience in ear, nose, and throat medicine, serving patients across Uganda.",
-      "url": "https://eritageentcare.com/about",
-      "telephone": "+256740166778",
+      "description": `ENT specialist with over ${SITE.specialists[0].experience} of clinical experience in ear, nose, and throat medicine, serving patients across Uganda.`,
+      "url": `${SITE.url}/about`,
+      "telephone": SITE.phone.primary,
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Plot 34, 48 Berkeley Road, Entebbe Road",
-        "addressLocality": "Entebbe",
-        "addressRegion": "Central Region",
-        "addressCountry": "UG"
+        "streetAddress": SITE.locations.entebbe.streetAddress,
+        "addressLocality": SITE.locations.entebbe.addressLocality,
+        "addressRegion": SITE.locations.entebbe.addressRegion,
+        "addressCountry": SITE.locations.entebbe.addressCountry
       },
       "worksFor": {
         "@type": "MedicalOrganization",
-        "@id": "https://eritageentcare.com/#organization",
-        "name": "Eritage ENT Care"
+        "@id": `${SITE.url}/#organization`,
+        "name": SITE.name
       },
       "knowsAbout": [
         "Ear infections and otitis media",
@@ -201,24 +202,24 @@ const Index = () => {
     {
       "@context": "https://schema.org",
       "@type": "Physician",
-      "@id": "https://eritageentcare.com/about#dr-mukisa-joseph",
-      "name": "Dr. Mukisa Joseph",
-      "jobTitle": "ENT Specialist",
+      "@id": `${SITE.url}/about#dr-mukisa-joseph`,
+      "name": SITE.specialists[1].name,
+      "jobTitle": SITE.specialists[1].title,
       "medicalSpecialty": "Otolaryngology",
-      "description": "ENT specialist with over 13 years of clinical experience in otolaryngology, serving patients across Uganda.",
-      "url": "https://eritageentcare.com/about",
-      "telephone": "+256740166778",
+      "description": `ENT specialist with over ${SITE.specialists[1].experience} of clinical experience in otolaryngology, serving patients across Uganda.`,
+      "url": `${SITE.url}/about`,
+      "telephone": SITE.phone.primary,
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Plot 34, 48 Berkeley Road, Entebbe Road",
-        "addressLocality": "Entebbe",
-        "addressRegion": "Central Region",
-        "addressCountry": "UG"
+        "streetAddress": SITE.locations.entebbe.streetAddress,
+        "addressLocality": SITE.locations.entebbe.addressLocality,
+        "addressRegion": SITE.locations.entebbe.addressRegion,
+        "addressCountry": SITE.locations.entebbe.addressCountry
       },
       "worksFor": {
         "@type": "MedicalOrganization",
-        "@id": "https://eritageentcare.com/#organization",
-        "name": "Eritage ENT Care"
+        "@id": `${SITE.url}/#organization`,
+        "name": SITE.name
       },
       "knowsAbout": [
         "Ear surgery and microsurgery",
@@ -235,49 +236,49 @@ const Index = () => {
   const siteNavigationSchema = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    "name": "Eritage ENT Care — Main Navigation",
+    "name": `${SITE.name} — Main Navigation`,
     "itemListElement": [
       {
         "@type": "SiteNavigationElement",
         "position": 1,
         "name": "Book an Appointment",
         "description": "Book your ENT consultation online — same-week slots available",
-        "url": "https://eritageentcare.com/bookings"
+        "url": `${SITE.url}/bookings`
       },
       {
         "@type": "SiteNavigationElement",
         "position": 2,
         "name": "ENT Services",
         "description": "Comprehensive ear, nose & throat diagnosis and treatment",
-        "url": "https://eritageentcare.com/ent-services"
+        "url": `${SITE.url}/ent-services`
       },
       {
         "@type": "SiteNavigationElement",
         "position": 3,
         "name": "Hearing Tests & Audiology",
         "description": "Pure tone audiometry, hearing loss screening, and audiology services",
-        "url": "https://eritageentcare.com/hearing-tests"
+        "url": `${SITE.url}/hearing-tests`
       },
       {
         "@type": "SiteNavigationElement",
         "position": 4,
         "name": "Urgent ENT Guidance",
         "description": "Emergency ENT advice — when to seek urgent care",
-        "url": "https://eritageentcare.com/urgent-ent-guidance"
+        "url": `${SITE.url}/urgent-ent-guidance`
       },
       {
         "@type": "SiteNavigationElement",
         "position": 5,
         "name": "Contact Us",
-        "description": "Get in touch with Eritage ENT Care in Entebbe, Uganda",
-        "url": "https://eritageentcare.com/contact"
+        "description": `Get in touch with ${SITE.name} in Entebbe, Uganda`,
+        "url": `${SITE.url}/contact`
       },
       {
         "@type": "SiteNavigationElement",
         "position": 6,
         "name": "ENT Health Blog",
         "description": "Expert ENT health articles and tips from our specialists",
-        "url": "https://eritageentcare.com/blog"
+        "url": `${SITE.url}/blog`
       }
     ]
   };
@@ -285,20 +286,20 @@ const Index = () => {
    return (
     <>
       <Helmet>
-        <title>Eritage ENT Care | Expert Ear, Nose & Throat Specialists in Uganda</title>
-        <meta name="description" content="Uganda's leading ENT specialists providing expert diagnosis and treatment for ear infections, hearing loss, sinusitis, and tonsillitis. Over 10 years clinical experience." />
-        <meta property="og:title" content="Eritage ENT Care | Expert ENT Specialists in Uganda" />
-        <meta property="og:description" content="Uganda's trusted ENT specialists. Expert diagnosis and treatment for ear, nose, and throat conditions for adults and children nationwide." />
+        <title>{SITE.name} | Expert Ear, Nose & Throat Specialists in Uganda</title>
+        <meta name="description" content={SITE.description} />
+        <meta property="og:title" content={`${SITE.name} | Expert ENT Specialists in Uganda`} />
+        <meta property="og:description" content={SITE.description} />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://eritageentcare.com/" />
-        <meta property="og:image" content="https://eritageentcare.com/eritage-logo.png" />
+        <meta property="og:url" content={`${SITE.url}/`} />
+        <meta property="og:image" content={SITE.ogImage} />
         <meta name="keywords" content="ENT specialist Uganda, ear doctor Uganda, nose doctor Uganda, throat doctor Uganda, hearing test Uganda, sinusitis treatment, tonsillitis treatment, ear infection treatment, Eritage ENT Care" />
         <meta name="robots" content="index, follow" />
         <meta name="geo.region" content="UG-C" />
         <meta name="geo.placename" content="Entebbe, Uganda" />
-        <meta name="geo.position" content="0.0527778;32.4580556" />
-        <meta name="ICBM" content="0.0527778, 32.4580556" />
-        <link rel="canonical" href="https://eritageentcare.com/" />
+        <meta name="geo.position" content={`${SITE.locations.entebbe.lat};${SITE.locations.entebbe.lng}`} />
+        <meta name="ICBM" content={`${SITE.locations.entebbe.lat}, ${SITE.locations.entebbe.lng}`} />
+        <link rel="canonical" href={`${SITE.url}/`} />
         <script type="application/ld+json">
           {JSON.stringify(organizationSchema)}
         </script>

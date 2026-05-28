@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Phone, MessageCircle, ArrowRight, Users, Stethoscope } from "lucide-react";
 import { Link } from "react-router-dom";
 import heroImage from "@/assets/hero-doctor-patient.jpg";
+import { SITE } from "@/config/site";
 
 const Hero = () => {
   return (
@@ -11,23 +12,23 @@ const Hero = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap items-center justify-center gap-4 md:gap-8 text-sm md:text-base font-medium">
             <a 
-              href="tel:+256740166778" 
+              href={`tel:${SITE.phone.primary}`} 
               className="flex items-center gap-2 hover:opacity-80 transition-opacity"
             >
               <Phone className="h-4 w-4" />
-              <span>+256 740 166 778</span>
+              <span>{SITE.phone.primaryFormatted}</span>
             </a>
             <span className="hidden md:inline text-primary-foreground/50">|</span>
             <a
-              href="tel:+256772332909"
+              href={`tel:${SITE.phone.secondary}`}
               className="flex items-center gap-2 hover:opacity-80 transition-opacity"
             >
               <Phone className="h-4 w-4" />
-              <span>+256 772 332 909</span>
+              <span>{SITE.phone.secondaryFormatted}</span>
             </a>
             <span className="hidden md:inline text-primary-foreground/50">|</span>
             <a 
-              href="https://wa.me/256740166778" 
+              href={SITE.whatsapp} 
               target="_blank" 
               rel="noopener noreferrer"
               className="flex items-center gap-2 bg-[#25D366] px-3 py-1 rounded-full hover:bg-[#25D366]/90 transition-colors"
@@ -43,7 +44,7 @@ const Hero = () => {
       <div className="relative min-h-[600px] md:min-h-[700px]">
         <img 
           src={heroImage} 
-          alt="ENT specialist providing compassionate care to a young patient at Eritage ENT Care clinic" 
+          alt={`ENT specialist providing compassionate care to a young patient at ${SITE.name} clinic`} 
           className="absolute inset-0 w-full h-full object-cover"
           loading="eager"
         />
@@ -57,7 +58,7 @@ const Hero = () => {
             </h1>
             
             <p className="text-lg md:text-xl mb-4 text-muted-foreground max-w-xl leading-relaxed">
-              Uganda's trusted ENT specialists delivering expert diagnosis and personalized treatment for ear, nose, and throat conditions—caring for adults and children across the nation.
+              {SITE.description}
             </p>
             
             {/* Educational Value Proposition */}
@@ -114,9 +115,9 @@ const Hero = () => {
                   className="gap-2 text-foreground hover:text-primary"
                   asChild
                 >
-                  <a href="tel:+256740166778">
+                  <a href={`tel:${SITE.phone.primary}`}>
                     <Phone className="h-4 w-4" />
-                    +256 740 166 778
+                    {SITE.phone.primaryFormatted}
                   </a>
                 </Button>
                 <Button 
@@ -124,7 +125,7 @@ const Hero = () => {
                   className="bg-[#25D366] hover:bg-[#25D366]/90 text-white gap-2"
                   asChild
                 >
-                  <a href="https://wa.me/256740166778" target="_blank" rel="noopener noreferrer">
+                  <a href={SITE.whatsapp} target="_blank" rel="noopener noreferrer">
                     <MessageCircle className="h-4 w-4" />
                     WhatsApp Us
                   </a>

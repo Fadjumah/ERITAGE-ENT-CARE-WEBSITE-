@@ -93,8 +93,8 @@ const BlockedEar = () => {
     ],
     "recognizingAuthority": {
       "@type": "MedicalOrganization",
-      "name": "Eritage ENT Care - Entebbe",
-      "url": "https://eritageentcare.com"
+      "name": SITE.locations.entebbe.name,
+      "url": SITE.url
     }
   };
 
@@ -102,9 +102,9 @@ const BlockedEar = () => {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://eritageentcare.com" },
-      { "@type": "ListItem", "position": 2, "name": "Conditions", "item": "https://eritageentcare.com/ent-services" },
-      { "@type": "ListItem", "position": 3, "name": "Blocked Ear Treatment Entebbe", "item": "https://eritageentcare.com/conditions/blocked-ear-entebbe" }
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": SITE.url },
+      { "@type": "ListItem", "position": 2, "name": "Conditions", "item": `${SITE.url}/ent-services` },
+      { "@type": "ListItem", "position": 3, "name": "Blocked Ear Treatment Entebbe", "item": `${SITE.url}/conditions/blocked-ear-entebbe` }
     ]
   };
 

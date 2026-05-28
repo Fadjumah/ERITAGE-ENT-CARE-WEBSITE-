@@ -7,6 +7,7 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import FloatingContactButtons from "@/components/layout/FloatingContactButtons";
 import { useState } from "react";
+import { SITE } from "@/config/site";
 
 const LocationEntebbe = () => {
   const [isMapOpen, setIsMapOpen] = useState(false);
@@ -25,34 +26,34 @@ const LocationEntebbe = () => {
   const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "MedicalBusiness",
-    "@id": "https://eritageentcare.com/locations/entebbe#business",
+    "@id": `${SITE.url}/locations/entebbe#business`,
     // Exact GBP name — must match Google Business Profile character-for-character
-    "name": "Eritage ENT Care - Entebbe",
+    "name": SITE.locations.entebbe.name,
     "alternateName": [
-      "Eritage ENT Care – Entebbe",
+      SITE.locations.entebbe.displayName,
       "Eritage ENT Clinic Entebbe",
       "Eritage Ear Nose Throat Entebbe",
       "ENT Specialist Entebbe",
       "ENT Clinic Entebbe Road"
     ],
-    "description": "Professional ENT specialist clinic at Plot 34, 48 Berkeley Road, Entebbe Road, Entebbe, Uganda. Expert ear, nose, and throat care including hearing tests, sinus treatment, tonsillitis care, and emergency ENT services.",
-    "url": "https://eritageentcare.com/locations/entebbe",
-    "telephone": "+256740166778",
-    "email": "info@eritageentcare.com",
-    "image": "https://eritageentcare.com/eritage-logo.png",
-    "logo": "https://eritageentcare.com/eritage-logo.png",
+    "description": `Professional ENT specialist clinic at ${SITE.locations.entebbe.address}. Expert ear, nose, and throat care including hearing tests, sinus treatment, tonsillitis care, and emergency ENT services.`,
+    "url": `${SITE.url}/locations/entebbe`,
+    "telephone": SITE.phone.primary,
+    "email": SITE.email,
+    "image": SITE.ogImage,
+    "logo": SITE.ogImage,
     "address": {
       "@type": "PostalAddress",
       // Exact GBP address — must match Google Business Profile precisely
-      "streetAddress": "Plot 34, 48 Berkeley Road, Entebbe Road",
-      "addressLocality": "Entebbe",
-      "addressRegion": "Central Region",
-      "addressCountry": "UG"
+      "streetAddress": SITE.locations.entebbe.streetAddress,
+      "addressLocality": SITE.locations.entebbe.addressLocality,
+      "addressRegion": SITE.locations.entebbe.addressRegion,
+      "addressCountry": SITE.locations.entebbe.addressCountry
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": "0.0527778",
-      "longitude": "32.4580556"
+      "latitude": SITE.locations.entebbe.lat,
+      "longitude": SITE.locations.entebbe.lng
     },
     "openingHoursSpecification": [
       {
@@ -118,15 +119,15 @@ const LocationEntebbe = () => {
     ],
     "parentOrganization": {
       "@type": "MedicalOrganization",
-      "@id": "https://eritageentcare.com/#organization",
-      "name": "Eritage ENT Care",
-      "url": "https://eritageentcare.com"
+      "@id": `${SITE.url}/#organization`,
+      "name": SITE.name,
+      "url": SITE.url
     },
     "sameAs": [
-      "https://maps.app.goo.gl/jyV5xBRkD95u2i4B8",
-      "https://g.page/r/Ceg235aaSzr6EBI"
+      SITE.locations.entebbe.mapUrl,
+      SITE.locations.entebbe.gbpUrl
     ],
-    "hasMap": "https://maps.app.goo.gl/jyV5xBRkD95u2i4B8",
+    "hasMap": SITE.locations.entebbe.mapUrl,
     "isAcceptingNewPatients": true,
     "knowsAbout": [
       "Ear infections in Entebbe",
@@ -152,19 +153,19 @@ const LocationEntebbe = () => {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://eritageentcare.com"
+        "item": SITE.url
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Locations",
-        "item": "https://eritageentcare.com/#locations"
+        "item": `${SITE.url}/#locations`
       },
       {
         "@type": "ListItem",
         "position": 3,
-        "name": "Eritage ENT Care – Entebbe",
-        "item": "https://eritageentcare.com/locations/entebbe"
+        "name": SITE.locations.entebbe.displayName,
+        "item": `${SITE.url}/locations/entebbe`
       }
     ]
   };
@@ -173,57 +174,57 @@ const LocationEntebbe = () => {
     {
       "@context": "https://schema.org",
       "@type": "Physician",
-      "@id": "https://eritageentcare.com/about#dr-fahad-juma",
-      "name": "Dr. Lubega Fahad Juma",
-      "jobTitle": "ENT Specialist",
+      "@id": `${SITE.url}/about#dr-fahad-juma`,
+      "name": SITE.specialists[0].name,
+      "jobTitle": SITE.specialists[0].title,
       "medicalSpecialty": "Otolaryngology",
-      "description": "ENT specialist with over 10 years of clinical experience in ear, nose, and throat medicine, serving patients across Uganda from the Entebbe clinic.",
-      "url": "https://eritageentcare.com/about",
-      "telephone": "+256740166778",
+      "description": `ENT specialist with over ${SITE.specialists[0].experience} of clinical experience in ear, nose, and throat medicine, serving patients across Uganda from the Entebbe clinic.`,
+      "url": `${SITE.url}/about`,
+      "telephone": SITE.phone.primary,
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Plot 34, 48 Berkeley Road, Entebbe Road",
-        "addressLocality": "Entebbe",
-        "addressRegion": "Central Region",
-        "addressCountry": "UG"
+        "streetAddress": SITE.locations.entebbe.streetAddress,
+        "addressLocality": SITE.locations.entebbe.addressLocality,
+        "addressRegion": SITE.locations.entebbe.addressRegion,
+        "addressCountry": SITE.locations.entebbe.addressCountry
       },
       "workLocation": {
         "@type": "MedicalBusiness",
-        "@id": "https://eritageentcare.com/locations/entebbe#business",
-        "name": "Eritage ENT Care - Entebbe"
+        "@id": `${SITE.url}/locations/entebbe#business`,
+        "name": SITE.locations.entebbe.name
       },
       "worksFor": {
         "@type": "MedicalOrganization",
-        "@id": "https://eritageentcare.com/#organization",
-        "name": "Eritage ENT Care"
+        "@id": `${SITE.url}/#organization`,
+        "name": SITE.name
       }
     },
     {
       "@context": "https://schema.org",
       "@type": "Physician",
-      "@id": "https://eritageentcare.com/about#dr-mukisa-joseph",
-      "name": "Dr. Mukisa Joseph",
-      "jobTitle": "ENT Specialist",
+      "@id": `${SITE.url}/about#dr-mukisa-joseph`,
+      "name": SITE.specialists[1].name,
+      "jobTitle": SITE.specialists[1].title,
       "medicalSpecialty": "Otolaryngology",
-      "description": "ENT specialist with over 13 years of clinical experience in otolaryngology, serving patients across Uganda from the Entebbe clinic.",
-      "url": "https://eritageentcare.com/about",
-      "telephone": "+256740166778",
+      "description": `ENT specialist with over ${SITE.specialists[1].experience} of clinical experience in otolaryngology, serving patients across Uganda from the Entebbe clinic.`,
+      "url": `${SITE.url}/about`,
+      "telephone": SITE.phone.primary,
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Plot 34, 48 Berkeley Road, Entebbe Road",
-        "addressLocality": "Entebbe",
-        "addressRegion": "Central Region",
-        "addressCountry": "UG"
+        "streetAddress": SITE.locations.entebbe.streetAddress,
+        "addressLocality": SITE.locations.entebbe.addressLocality,
+        "addressRegion": SITE.locations.entebbe.addressRegion,
+        "addressCountry": SITE.locations.entebbe.addressCountry
       },
       "workLocation": {
         "@type": "MedicalBusiness",
-        "@id": "https://eritageentcare.com/locations/entebbe#business",
-        "name": "Eritage ENT Care - Entebbe"
+        "@id": `${SITE.url}/locations/entebbe#business`,
+        "name": SITE.locations.entebbe.name
       },
       "worksFor": {
         "@type": "MedicalOrganization",
-        "@id": "https://eritageentcare.com/#organization",
-        "name": "Eritage ENT Care"
+        "@id": `${SITE.url}/#organization`,
+        "name": SITE.name
       }
     }
   ];
@@ -237,7 +238,7 @@ const LocationEntebbe = () => {
         "name": "Where is the Eritage ENT Specialist clinic in Entebbe located?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Eritage ENT Care – Entebbe is located at Plot 34, 48 Berkeley Road, Entebbe Road, Entebbe, Central Region, Uganda. Our ENT specialist clinic is easily accessible from Kampala via the Kampala-Entebbe expressway."
+          "text": `${SITE.locations.entebbe.displayName} is located at ${SITE.locations.entebbe.address}, ${SITE.locations.entebbe.addressRegion}, Uganda. Our ENT specialist clinic is easily accessible from Kampala via the Kampala-Entebbe expressway.`
         }
       },
       {
@@ -245,7 +246,7 @@ const LocationEntebbe = () => {
         "name": "Which ENT specialists work at the Eritage ENT clinic in Entebbe?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The Eritage ENT Care – Entebbe clinic is served by Dr. Lubega Fahad Juma, an ENT specialist with over 10 years of clinical experience, and Dr. Mukisa Joseph, an ENT specialist with over 13 years of experience in otolaryngology. Both specialists provide comprehensive ear, nose, and throat care for adults and children."
+          "text": `The ${SITE.locations.entebbe.displayName} clinic is served by ${SITE.specialists[0].name}, an ENT specialist with over ${SITE.specialists[0].experience} of clinical experience, and ${SITE.specialists[1].name}, an ENT specialist with over ${SITE.specialists[1].experience} of experience in otolaryngology. Both specialists provide comprehensive ear, nose, and throat care for adults and children.`
         }
       },
       {
@@ -261,7 +262,7 @@ const LocationEntebbe = () => {
         "name": "What are the opening hours for Eritage ENT Entebbe?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Our Entebbe ENT specialist clinic is available 24/7 for consultations. We recommend booking appointments in advance for routine visits, but we also handle emergency ENT cases immediately."
+          "text": `Our Entebbe ENT specialist clinic is ${SITE.locations.entebbe.hours} for consultations. We recommend booking appointments in advance for routine visits, but we also handle emergency ENT cases immediately.`
         }
       },
       {
@@ -269,7 +270,7 @@ const LocationEntebbe = () => {
         "name": "Does the Eritage ENT clinic in Entebbe treat children?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes. Eritage ENT Care – Entebbe provides specialist paediatric ENT care for children of all ages. Our ENT specialists are experienced in managing ear infections, adenoid and tonsil problems, hearing concerns, and nasal conditions in children."
+          "text": `Yes. ${SITE.locations.entebbe.displayName} provides specialist paediatric ENT care for children of all ages. Our ENT specialists are experienced in managing ear infections, adenoid and tonsil problems, hearing concerns, and nasal conditions in children.`
         }
       },
       {
@@ -277,7 +278,7 @@ const LocationEntebbe = () => {
         "name": "How do I book an appointment at the Eritage ENT clinic in Entebbe?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "You can book an appointment by calling +256 740 166 778, sending a WhatsApp message to the same number, or using the online booking form at eritageentcare.com/bookings. Same-day appointments are available for urgent ENT concerns."
+          "text": `You can book an appointment by calling ${SITE.phone.primaryFormatted}, sending a WhatsApp message to the same number, or using the online booking form at eritageentcare.com/bookings. Same-day appointments are available for urgent ENT concerns.`
         }
       },
       {
@@ -285,7 +286,7 @@ const LocationEntebbe = () => {
         "name": "Is the Eritage ENT clinic near Entebbe International Airport?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes. Eritage ENT Care – Entebbe is conveniently located along Entebbe Road, close to Entebbe International Airport and easily reachable from Kampala via the Kampala-Entebbe expressway. The clinic is at Plot 34, 48 Berkeley Road, Entebbe Road."
+          "text": `Yes. ${SITE.locations.entebbe.displayName} is conveniently located along Entebbe Road, close to Entebbe International Airport and easily reachable from Kampala via the Kampala-Entebbe expressway. The clinic is at ${SITE.locations.entebbe.address}.`
         }
       },
       {
@@ -293,7 +294,7 @@ const LocationEntebbe = () => {
         "name": "Can I get a hearing test at the Entebbe ENT clinic?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes. Eritage ENT Care – Entebbe offers full audiological assessments including Pure Tone Audiometry (PTA), Tympanometry, and Otoacoustic Emissions (OAE) testing. These hearing tests are performed by our ENT specialists and are suitable for adults and children."
+          "text": `Yes. ${SITE.locations.entebbe.displayName} offers full audiological assessments including Pure Tone Audiometry (PTA), Tympanometry, and Otoacoustic Emissions (OAE) testing. These hearing tests are performed by our ENT specialists and are suitable for adults and children.`
         }
       }
     ]
@@ -302,19 +303,19 @@ const LocationEntebbe = () => {
   return (
     <>
       <Helmet>
-        <title>Eritage ENT Care - Entebbe | ENT Specialist Clinic, Plot 34 Berkeley Road</title>
-        <meta name="description" content="Eritage ENT Care - Entebbe. ENT specialist clinic at Plot 34, 48 Berkeley Road, Entebbe Road, Entebbe, Uganda. Hearing tests, sinus care, urgent ENT services. Call +256 740 166 778." />
+        <title>{SITE.locations.entebbe.name} | ENT Specialist Clinic, Plot 34 Berkeley Road</title>
+        <meta name="description" content={`${SITE.locations.entebbe.name}. ENT specialist clinic at ${SITE.locations.entebbe.address}. Hearing tests, sinus care, urgent ENT services. Call ${SITE.phone.primaryFormatted}.`} />
         <meta name="keywords" content="ENT specialist Entebbe, ENT clinic Entebbe Road, ear doctor Entebbe, ENT doctor Entebbe Uganda, hearing test Entebbe, sinus treatment Entebbe, throat doctor Entebbe Uganda, Berkeley Road ENT clinic, Plot 34 Entebbe ENT" />
-        <meta property="og:title" content="Eritage ENT Care - Entebbe | ENT Specialist Clinic in Entebbe" />
-        <meta property="og:description" content="Expert ENT specialist care at Plot 34, 48 Berkeley Road, Entebbe Road, Entebbe. Comprehensive ear, nose, and throat services. Call +256 740 166 778." />
+        <meta property="og:title" content={`${SITE.locations.entebbe.name} | ENT Specialist Clinic in Entebbe`} />
+        <meta property="og:description" content={`Expert ENT specialist care at ${SITE.locations.entebbe.address}. Comprehensive ear, nose, and throat services. Call ${SITE.phone.primaryFormatted}.`} />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://eritageentcare.com/locations/entebbe" />
+        <meta property="og:url" content={`${SITE.url}/locations/entebbe`} />
         <meta property="og:locale" content="en_UG" />
         <meta name="geo.region" content="UG-C" />
         <meta name="geo.placename" content="Entebbe" />
-        <meta name="geo.position" content="0.0527778;32.4580556" />
-        <meta name="ICBM" content="0.0527778, 32.4580556" />
-        <link rel="canonical" href="https://eritageentcare.com/locations/entebbe" />
+        <meta name="geo.position" content={`${SITE.locations.entebbe.lat};${SITE.locations.entebbe.lng}`} />
+        <meta name="ICBM" content={`${SITE.locations.entebbe.lat}, ${SITE.locations.entebbe.lng}`} />
+        <link rel="canonical" href={`${SITE.url}/locations/entebbe`} />
         <script type="application/ld+json">
           {JSON.stringify(localBusinessSchema)}
         </script>
@@ -342,24 +343,24 @@ const LocationEntebbe = () => {
               Flagship ENT Specialist Clinic
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-foreground mb-4">
-              Eritage ENT Care - Entebbe
+              {SITE.locations.entebbe.name}
             </h1>
             <p className="text-base text-muted-foreground mb-2">
-              Plot 34, 48 Berkeley Road, Entebbe Road, Entebbe, Uganda
+              {SITE.locations.entebbe.address}
             </p>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto mb-8">
               Your trusted ENT specialist clinic on Entebbe Road, providing comprehensive ear, nose, and throat care for Entebbe and the wider Central Region
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" asChild className="gap-2">
-                <a href="tel:+256740166778">
+                <a href={`tel:${SITE.phone.primary}`}>
                   <Phone className="h-5 w-5" />
-                  Call ENT Specialist: +256 740 166 778
+                  Call ENT Specialist: {SITE.phone.primaryFormatted}
                 </a>
               </Button>
               <Button size="lg" variant="outline" asChild className="gap-2">
                 <a 
-                  href="https://maps.app.goo.gl/jyV5xBRkD95u2i4B8" 
+                  href={SITE.locations.entebbe.mapUrl} 
                   target="_blank" 
                   rel="noopener noreferrer"
                 >
@@ -380,7 +381,7 @@ const LocationEntebbe = () => {
                 <Card className="h-full">
                   <CardContent className="p-8">
                     <h2 className="text-2xl font-serif font-bold mb-6">ENT Specialist Clinic Information</h2>
-                    
+
                     <div className="space-y-6">
                       <div className="flex items-start gap-4">
                         <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center shrink-0">
@@ -389,12 +390,12 @@ const LocationEntebbe = () => {
                         <div>
                           <h3 className="font-semibold text-lg">Address</h3>
                           <p className="text-muted-foreground">
-                            Plot 34, 48 Berkeley Road<br />
-                            Entebbe Road, Entebbe<br />
-                            Central Region, Uganda
+                            {SITE.locations.entebbe.streetAddress}<br />
+                            {SITE.locations.entebbe.addressLocality}<br />
+                            {SITE.locations.entebbe.addressRegion}, Uganda
                           </p>
                           <a
-                            href="https://maps.app.goo.gl/jyV5xBRkD95u2i4B8"
+                            href={SITE.locations.entebbe.mapUrl}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-sm text-primary hover:underline mt-1 inline-block"
@@ -411,8 +412,8 @@ const LocationEntebbe = () => {
                         <div>
                           <h3 className="font-semibold text-lg">Contact ENT Specialist</h3>
                           <p className="text-muted-foreground">
-                            Phone: <a href="tel:+256740166778" className="text-primary hover:underline">+256 740 166 778</a><br />
-                            Email: <a href="mailto:info@eritageentcare.com" className="text-primary hover:underline">info@eritageentcare.com</a>
+                            Phone: <a href={`tel:${SITE.phone.primary}`} className="text-primary hover:underline">{SITE.phone.primaryFormatted}</a><br />
+                            Email: <a href={`mailto:${SITE.email}`} className="text-primary hover:underline">{SITE.email}</a>
                           </p>
                         </div>
                       </div>
@@ -424,7 +425,7 @@ const LocationEntebbe = () => {
                         <div>
                           <h3 className="font-semibold text-lg">Hours</h3>
                           <p className="text-muted-foreground">
-                            Available 24/7 for ENT specialist consultations<br />
+                            {SITE.locations.entebbe.hours} for ENT specialist consultations<br />
                             Appointments recommended
                           </p>
                         </div>
@@ -434,7 +435,7 @@ const LocationEntebbe = () => {
                     <div className="mt-8 pt-6 border-t space-y-3">
                       <Button asChild className="w-full gap-2" size="lg">
                         <a
-                          href="https://g.page/r/Ceg235aaSzr6EBI/review"
+                          href={SITE.locations.entebbe.reviewUrl}
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -445,7 +446,7 @@ const LocationEntebbe = () => {
                       </Button>
                       <Button asChild variant="outline" className="w-full gap-2" size="lg">
                         <a
-                          href="https://maps.app.goo.gl/jyV5xBRkD95u2i4B8"
+                          href={SITE.locations.entebbe.gbpUrl}
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -495,24 +496,24 @@ const LocationEntebbe = () => {
                     Click to view map and directions to our Entebbe location
                   </p>
                 </div>
-                
+
                 <CollapsibleContent className="transition-all duration-300">
                   <div className="rounded-lg overflow-hidden shadow-lg mt-6">
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7584444444444!2d32.4580556!3d0.0527778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177d8a4b5c6d7e8f%3A0x1234567890abcdef!2sEritage%20Ear%2C%20Nose%20and%20throat%20home%20%E2%80%93Entebbe%20road!5e0!3m2!1sen!2sug!4v1701907200000!5m2!1sen!2sug"
+                      src={SITE.locations.entebbe.mapEmbed}
                       width="100%"
                       height="450"
                       style={{ border: 0 }}
                       allowFullScreen
                       loading="lazy"
                       referrerPolicy="no-referrer-when-downgrade"
-                      title="Eritage ENT Specialist Clinic Entebbe Location"
+                      title={`${SITE.locations.entebbe.displayName} Location`}
                     ></iframe>
                   </div>
-                  
+
                   <div className="text-center mt-6">
                     <a
-                      href="https://maps.app.goo.gl/jyV5xBRkD95u2i4B8"
+                      href={SITE.locations.entebbe.mapUrl}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-primary hover:underline font-semibold inline-flex items-center gap-2"
@@ -557,7 +558,7 @@ const LocationEntebbe = () => {
                   </div>
                   <h3 className="font-semibold text-lg mb-2">Flexible Scheduling</h3>
                   <p className="text-muted-foreground">
-                    24/7 ENT specialist availability with same-day appointments for urgent concerns.
+                    {SITE.locations.entebbe.hours} ENT specialist availability with same-day appointments for urgent concerns.
                   </p>
                 </div>
               </div>
@@ -571,13 +572,13 @@ const LocationEntebbe = () => {
             <div className="max-w-3xl mx-auto text-center">
               <h2 className="text-xl font-serif font-bold mb-3">Find Us on Google</h2>
               <p className="text-muted-foreground text-sm mb-6">
-                Search <strong>"Eritage ENT Care - Entebbe"</strong> on Google Maps or click below to find our clinic,
-                leave a review, or get turn-by-turn directions to Plot 34, 48 Berkeley Road, Entebbe Road.
+                Search <strong>"{SITE.locations.entebbe.name}"</strong> on Google Maps or click below to find our clinic,
+                leave a review, or get turn-by-turn directions to {SITE.locations.entebbe.streetAddress}.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 justify-center">
                 <Button asChild variant="outline" className="gap-2">
                   <a
-                    href="https://maps.app.goo.gl/jyV5xBRkD95u2i4B8"
+                    href={SITE.locations.entebbe.mapUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -587,7 +588,7 @@ const LocationEntebbe = () => {
                 </Button>
                 <Button asChild variant="outline" className="gap-2">
                   <a
-                    href="https://g.page/r/Ceg235aaSzr6EBI/review"
+                    href={SITE.locations.entebbe.reviewUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -613,18 +614,18 @@ const LocationEntebbe = () => {
               Book your appointment today and experience expert ENT specialist care at our flagship Entebbe location.
             </p>
             <p className="text-sm text-muted-foreground mb-8">
-              Plot 34, 48 Berkeley Road, Entebbe Road, Entebbe · Open 24 Hours · +256 740 166 778
+              {SITE.locations.entebbe.address} · {SITE.locations.entebbe.hours} · {SITE.phone.primaryFormatted}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" asChild className="gap-2">
-                <a href="tel:+256740166778">
+                <a href={`tel:${SITE.phone.primary}`}>
                   <Phone className="h-5 w-5" />
-                  Call ENT Specialist: +256 740 166 778
+                  Call ENT Specialist: {SITE.phone.primaryFormatted}
                 </a>
               </Button>
               <Button size="lg" variant="outline" asChild className="gap-2">
                 <a
-                  href="https://wa.me/256740166778?text=Hello%2C%20I%20would%20like%20to%20book%20an%20appointment%20with%20the%20ENT%20specialist%20at%20the%20Entebbe%20clinic."
+                  href={`${SITE.whatsapp}?text=Hello%2C%20I%20would%20like%20to%20book%20an%20appointment%20with%20the%20ENT%20specialist%20at%20the%20Entebbe%20clinic.`}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
