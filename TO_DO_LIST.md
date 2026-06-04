@@ -1,7 +1,7 @@
 # Eritage ENT Care — Growth Execution System
 
 > **Mission**: Dominate local ENT search in Entebbe. Win AI citations. Convert visitors into patients.
-> **Last updated**: 2026-05-28
+> **Last updated**: 2026-06-04
 > **Owner**: Claude Code growth agent
 
 ---
@@ -11,8 +11,8 @@
 | Metric | Target | Status |
 |--------|--------|--------|
 | Condition landing pages live | 10 | 10 / 10 |
-| Blog articles (AI-optimized) | 15 | 11 / 15 |
-| Routes in sitemap | 40+ | 36 current |
+| Blog articles (AI-optimized) | 18 | 18 / 18 |
+| Routes in sitemap | 40+ | 37 current |
 | Structured data (MedicalCondition) | On all condition pages | 10 |
 | Internal links (condition ↔ blog) | Full mesh | Full |
 | GBP reviews | 50+ | Unknown |
@@ -140,19 +140,21 @@ For each article, check and fix:
 | `sinusitis-treatment-guide.md` | [x] | [x] | [x] |
 | `nasal-polyps-chronic-sinusitis.md` | [x] | [x] | [x] |
 | `tonsillitis-causes-symptoms.md` | [x] | [x] | [x] |
-| `throat-pain-swallowing-difficulty.md` | [ ] | [ ] | [ ] |
+| `throat-pain-swallowing-difficulty.md` | [x] | [x] | [x] |
 | `preventing-hearing-loss.md` | [x] | [x] | [x] |
 | `balance-problems-dizziness.md` | [x] | [x] | [x] |
 | `snoring-sleep-apnea.md` | [x] | [x] | [x] |
-| `childhood-ent-problems.md` | [ ] | [ ] | [ ] |
-| `foreign-bodies-uganda.md` | [ ] | [ ] | [ ] |
-| `managing-allergies-naturally.md` | [ ] | [ ] | [ ] |
-| `submandibular-lump-sensation.md` | [ ] | [ ] | [ ] |
-| `voice-care-tips.md` | [ ] | [ ] | [ ] |
+| `childhood-ent-problems.md` | [x] | [x] | [x] |
+| `foreign-bodies-uganda.md` | [x] | [x] | [x] |
+| `managing-allergies-naturally.md` | [x] | [x] | [x] |
+| `submandibular-lump-sensation.md` | [x] | [x] | [x] |
+| `voice-care-tips.md` | [x] | [x] | [x] |
 | `uganda-seasonal-weather-changes-ent-health.md` | [x] | [x] | [x] |
+| `blocked-ear-earwax-removal-entebbe.md` | [x] | [x] | [x] |
+| `what-to-expect-first-ent-appointment.md` | [x] | [x] | [x] |
 
 **New article needed** (gap identified — zero coverage):
-- [ ] **Create** `src/content/articles/blocked-ear-earwax-removal-entebbe.md`
+- [x] **Create** `src/content/articles/blocked-ear-earwax-removal-entebbe.md`
   - Slug: `blocked-ear-earwax-removal-entebbe`
   - Title: "Blocked Ear & Earwax Removal in Entebbe: When to See a Specialist"
   - Target: "blocked ear Entebbe" / "earwax removal Uganda"
