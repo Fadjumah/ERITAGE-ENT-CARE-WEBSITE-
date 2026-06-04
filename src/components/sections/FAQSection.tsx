@@ -48,7 +48,14 @@ const faqItems: FAQItem[] = [
   },
   {
     question: "What should I expect during my first ENT specialist consultation?",
-    answer: "During your first visit, our ENT specialist will review your medical history, discuss your symptoms, and perform a thorough examination of your ears, nose, and throat. Depending on your condition, the ENT specialist may recommend diagnostic tests like hearing assessments or imaging studies to ensure accurate diagnosis."
+    answer: (
+      <span>
+        During your first visit, our ENT specialist will review your medical history, discuss your symptoms, and perform a thorough examination of your ears, nose, and throat. Depending on your condition, the ENT specialist may recommend diagnostic tests like hearing assessments or imaging studies. For a detailed roadmap, read our guide on{" "}
+        <a href="/blog/what-to-expect-first-ent-appointment" className="text-primary hover:underline font-medium">
+          preparing for your first ENT visit
+        </a>.
+      </span>
+    )
   },
   {
     question: "Do you offer emergency ENT specialist services?",
