@@ -145,7 +145,9 @@ const Sinusitis = () => {
         <meta property="og:image" content="https://eritageentcare.com/eritage-logo.png" />
         <meta name="geo.region" content="UG-C" />
         <meta name="geo.placename" content="Entebbe, Uganda" />
-        <link rel="canonical" href="https://eritageentcare.com/conditions/sinusitis-entebbe" />
+        <link rel="canonical" data-rh="true" href="https://eritageentcare.com/conditions/sinusitis-entebbe" />
+        <link rel="alternate" hreflang="en-UG" data-rh="true" href="https://eritageentcare.com/conditions/sinusitis-entebbe" />
+        <link rel="alternate" hreflang="en" data-rh="true" href="https://eritageentcare.com/conditions/sinusitis-entebbe" />
         <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(localBusinessSchema)}</script>

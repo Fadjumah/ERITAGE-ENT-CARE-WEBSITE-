@@ -338,7 +338,9 @@ const Index = () => {
         <meta name="geo.placename" content="Entebbe, Uganda" />
         <meta name="geo.position" content={`${SITE.locations.entebbe.lat};${SITE.locations.entebbe.lng}`} />
         <meta name="ICBM" content={`${SITE.locations.entebbe.lat}, ${SITE.locations.entebbe.lng}`} />
-        <link rel="canonical" href={`${SITE.url}/`} />
+        <link rel="canonical" data-rh="true" href={`${SITE.url}/`} />
+        <link rel="alternate" hreflang="en-UG" data-rh="true" href={`${SITE.url}/`} />
+        <link rel="alternate" hreflang="en" data-rh="true" href={`${SITE.url}/`} />
         <script type="application/ld+json">
           {JSON.stringify(organizationSchema)}
         </script>

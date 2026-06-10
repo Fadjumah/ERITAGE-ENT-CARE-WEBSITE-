@@ -153,7 +153,9 @@ const ENTServices = () => {
         <meta property="og:url" content="https://eritageentcare.com/ent-services" />
         <meta property="og:image" content="https://eritageentcare.com/eritage-logo.png" />
         <meta name="keywords" content="ENT specialist Uganda, ENT clinic, ear doctor, nose doctor, throat doctor, hearing test, sinus treatment Uganda, tonsillitis treatment, audiology Uganda" />
-        <link rel="canonical" href="https://eritageentcare.com/ent-services" />
+        <link rel="canonical" data-rh="true" href="https://eritageentcare.com/ent-services" />
+        <link rel="alternate" hreflang="en-UG" data-rh="true" href="https://eritageentcare.com/ent-services" />
+        <link rel="alternate" hreflang="en" data-rh="true" href="https://eritageentcare.com/ent-services" />
         <script type="application/ld+json">
           {JSON.stringify(schemaData)}
         </script>

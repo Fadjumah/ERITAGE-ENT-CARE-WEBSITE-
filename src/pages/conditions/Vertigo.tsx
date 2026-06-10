@@ -120,7 +120,9 @@ const Vertigo = () => {
         <meta property="og:url" content="https://eritageentcare.com/conditions/vertigo-entebbe" />
         <meta property="og:image" content="https://eritageentcare.com/eritage-logo.png" />
         <meta name="keywords" content="vertigo treatment Entebbe, dizziness specialist Uganda, balance disorder ENT Entebbe, Epley maneuver Uganda, inner ear doctor Entebbe, spinning sensation treatment" />
-        <link rel="canonical" href="https://eritageentcare.com/conditions/vertigo-entebbe" />
+        <link rel="canonical" data-rh="true" href="https://eritageentcare.com/conditions/vertigo-entebbe" />
+        <link rel="alternate" hreflang="en-UG" data-rh="true" href="https://eritageentcare.com/conditions/vertigo-entebbe" />
+        <link rel="alternate" hreflang="en" data-rh="true" href="https://eritageentcare.com/conditions/vertigo-entebbe" />
         <script type="application/ld+json">{JSON.stringify(conditionSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>

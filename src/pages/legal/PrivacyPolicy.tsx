@@ -9,7 +9,9 @@ const PrivacyPolicy = () => {
       <Helmet>
         <title>Privacy Policy | Eritage ENT Care</title>
         <meta name="description" content="Privacy Policy for Eritage ENT Care. Learn how we collect, use, and protect your personal information." />
-        <link rel="canonical" href="https://eritageentcare.com/privacy-policy" />
+        <link rel="canonical" data-rh="true" href="https://eritageentcare.com/privacy-policy" />
+        <link rel="alternate" hreflang="en-UG" data-rh="true" href="https://eritageentcare.com/privacy-policy" />
+        <link rel="alternate" hreflang="en" data-rh="true" href="https://eritageentcare.com/privacy-policy" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

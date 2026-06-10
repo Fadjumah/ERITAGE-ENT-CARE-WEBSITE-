@@ -315,7 +315,9 @@ const LocationEntebbe = () => {
         <meta name="geo.placename" content="Entebbe" />
         <meta name="geo.position" content={`${SITE.locations.entebbe.lat};${SITE.locations.entebbe.lng}`} />
         <meta name="ICBM" content={`${SITE.locations.entebbe.lat}, ${SITE.locations.entebbe.lng}`} />
-        <link rel="canonical" href={`${SITE.url}/locations/entebbe`} />
+        <link rel="canonical" data-rh="true" href={`${SITE.url}/locations/entebbe`} />
+        <link rel="alternate" hreflang="en-UG" data-rh="true" href={`${SITE.url}/locations/entebbe`} />
+        <link rel="alternate" hreflang="en" data-rh="true" href={`${SITE.url}/locations/entebbe`} />
         <script type="application/ld+json">
           {JSON.stringify(localBusinessSchema)}
         </script>

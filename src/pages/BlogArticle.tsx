@@ -13,6 +13,8 @@ import RelatedArticles from '@/components/shared/RelatedArticles';
 import { getArticleBySlug } from '@/utils/blogLoader';
 import { Helmet } from 'react-helmet-async';
 
+import { SITE } from '@/config/site';
+
 const BlogArticle = () => {
   const { slug } = useParams<{ slug: string }>();
   const navigate = useNavigate();
@@ -77,19 +79,19 @@ const BlogArticle = () => {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://eritageentcare.com"
+        "item": SITE.url
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Blog",
-        "item": "https://eritageentcare.com/blog"
+        "item": `${SITE.url}/blog`
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": article.title,
-        "item": `https://eritageentcare.com/blog/${article.slug}`
+        "item": `${SITE.url}/blog/${article.slug}`
       }
     ]
   };
@@ -103,7 +105,7 @@ const BlogArticle = () => {
     "dateModified": article.date,
     "image": {
       "@type": "ImageObject",
-      "url": "https://eritageentcare.com/eritage-logo.png",
+      "url": `${SITE.url}/eritage-logo.png`,
       "width": 800,
       "height": 600
     },
@@ -113,31 +115,31 @@ const BlogArticle = () => {
       "jobTitle": "ENT Specialist",
       "worksFor": {
         "@type": "MedicalBusiness",
-        "@id": "https://eritageentcare.com/#business",
+        "@id": `${SITE.url}/#business`,
         "name": "Eritage ENT Care"
       }
     },
     "publisher": {
       "@type": "Organization",
-      "@id": "https://eritageentcare.com/#organization",
+      "@id": `${SITE.url}/#organization`,
       "name": "Eritage ENT Care",
-      "url": "https://eritageentcare.com",
+      "url": SITE.url,
       "logo": {
         "@type": "ImageObject",
-        "url": "https://eritageentcare.com/eritage-logo.png",
+        "url": `${SITE.url}/eritage-logo.png`,
         "width": 600,
         "height": 60
       }
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `https://eritageentcare.com/blog/${article.slug}`
+      "@id": `${SITE.url}/blog/${article.slug}`
     },
-    "url": `https://eritageentcare.com/blog/${article.slug}`,
+    "url": `${SITE.url}/blog/${article.slug}`,
     "isPartOf": {
       "@type": "Blog",
       "name": "Eritage ENT Care Health Blog",
-      "url": "https://eritageentcare.com/blog"
+      "url": `${SITE.url}/blog`
     },
     "about": {
       "@type": "MedicalSpecialty",
@@ -166,11 +168,13 @@ const BlogArticle = () => {
         <meta property="og:title" content={article.title} />
         <meta property="og:description" content={article.description} />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content={`https://eritageentcare.com/blog/${article.slug}`} />
-        <meta property="og:image" content="https://eritageentcare.com/eritage-logo.png" />
+        <meta property="og:url" content={`${SITE.url}/blog/${article.slug}`} />
+        <meta property="og:image" content={`${SITE.url}/eritage-logo.png`} />
         <meta property="article:published_time" content={article.date} />
         <meta property="article:author" content={article.author} />
-        <link rel="canonical" href={`https://eritageentcare.com/blog/${article.slug}`} />
+        <link rel="canonical" data-rh="true" href={`${SITE.url}/blog/${article.slug}`} />
+        <link rel="alternate" hreflang="en-UG" data-rh="true" href={`${SITE.url}/blog/${article.slug}`} />
+        <link rel="alternate" hreflang="en" data-rh="true" href={`${SITE.url}/blog/${article.slug}`} />
         <script type="application/ld+json">
           {JSON.stringify(articleSchemaData)}
         </script>

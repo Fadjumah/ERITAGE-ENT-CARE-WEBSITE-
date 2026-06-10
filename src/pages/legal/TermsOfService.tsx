@@ -9,7 +9,9 @@ const TermsOfService = () => {
       <Helmet>
         <title>Terms of Service | Eritage ENT Care</title>
         <meta name="description" content="Terms of Service for Eritage ENT Care. Read our terms and conditions for using our website and healthcare services." />
-        <link rel="canonical" href="https://eritageentcare.com/terms-of-service" />
+        <link rel="canonical" data-rh="true" href="https://eritageentcare.com/terms-of-service" />
+        <link rel="alternate" hreflang="en-UG" data-rh="true" href="https://eritageentcare.com/terms-of-service" />
+        <link rel="alternate" hreflang="en" data-rh="true" href="https://eritageentcare.com/terms-of-service" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

@@ -129,7 +129,9 @@ const FAQ = () => {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://eritageentcare.com/faq" />
         <meta property="og:image" content="https://eritageentcare.com/eritage-logo.png" />
-        <link rel="canonical" href="https://eritageentcare.com/faq" />
+        <link rel="canonical" data-rh="true" href="https://eritageentcare.com/faq" />
+        <link rel="alternate" hreflang="en-UG" data-rh="true" href="https://eritageentcare.com/faq" />
+        <link rel="alternate" hreflang="en" data-rh="true" href="https://eritageentcare.com/faq" />
         <script type="application/ld+json">
           {JSON.stringify(breadcrumbSchema)}
         </script>

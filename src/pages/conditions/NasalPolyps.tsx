@@ -118,7 +118,9 @@ const NasalPolyps = () => {
         <meta property="og:url" content="https://eritageentcare.com/conditions/nasal-polyps-entebbe" />
         <meta property="og:image" content="https://eritageentcare.com/eritage-logo.png" />
         <meta name="keywords" content="nasal polyps treatment Entebbe, nasal polyposis Uganda, nose growths ENT Entebbe, chronic sinusitis polyps Uganda, ear doctor Entebbe, breathing problems Entebbe" />
-        <link rel="canonical" href="https://eritageentcare.com/conditions/nasal-polyps-entebbe" />
+        <link rel="canonical" data-rh="true" href="https://eritageentcare.com/conditions/nasal-polyps-entebbe" />
+        <link rel="alternate" hreflang="en-UG" data-rh="true" href="https://eritageentcare.com/conditions/nasal-polyps-entebbe" />
+        <link rel="alternate" hreflang="en" data-rh="true" href="https://eritageentcare.com/conditions/nasal-polyps-entebbe" />
         <script type="application/ld+json">{JSON.stringify(conditionSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>

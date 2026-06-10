@@ -124,7 +124,9 @@ const EarPain = () => {
         <meta property="og:url" content="https://eritageentcare.com/conditions/ear-pain-entebbe" />
         <meta property="og:image" content="https://eritageentcare.com/eritage-logo.png" />
         <meta name="keywords" content="ear pain Entebbe, earache treatment Uganda, otalgia ENT specialist Entebbe, ear infection pain Uganda, ear pain relief Entebbe" />
-        <link rel="canonical" href="https://eritageentcare.com/conditions/ear-pain-entebbe" />
+        <link rel="canonical" data-rh="true" href="https://eritageentcare.com/conditions/ear-pain-entebbe" />
+        <link rel="alternate" hreflang="en-UG" data-rh="true" href="https://eritageentcare.com/conditions/ear-pain-entebbe" />
+        <link rel="alternate" hreflang="en" data-rh="true" href="https://eritageentcare.com/conditions/ear-pain-entebbe" />
         <script type="application/ld+json">{JSON.stringify(conditionSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>

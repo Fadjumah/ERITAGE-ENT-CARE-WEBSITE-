@@ -120,7 +120,9 @@ const Tinnitus = () => {
         <meta property="og:url" content="https://eritageentcare.com/conditions/tinnitus-entebbe" />
         <meta property="og:image" content="https://eritageentcare.com/eritage-logo.png" />
         <meta name="keywords" content="tinnitus treatment Entebbe, ringing in ears Uganda, ear buzzing specialist Entebbe, tinnitus management Uganda, ENT specialist tinnitus Entebbe" />
-        <link rel="canonical" href="https://eritageentcare.com/conditions/tinnitus-entebbe" />
+        <link rel="canonical" data-rh="true" href="https://eritageentcare.com/conditions/tinnitus-entebbe" />
+        <link rel="alternate" hreflang="en-UG" data-rh="true" href="https://eritageentcare.com/conditions/tinnitus-entebbe" />
+        <link rel="alternate" hreflang="en" data-rh="true" href="https://eritageentcare.com/conditions/tinnitus-entebbe" />
         <script type="application/ld+json">{JSON.stringify(conditionSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>

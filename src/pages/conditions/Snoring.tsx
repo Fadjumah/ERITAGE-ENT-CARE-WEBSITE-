@@ -121,7 +121,9 @@ const Snoring = () => {
         <meta property="og:url" content="https://eritageentcare.com/conditions/snoring-entebbe" />
         <meta property="og:image" content="https://eritageentcare.com/eritage-logo.png" />
         <meta name="keywords" content="snoring treatment Entebbe, sleep apnea specialist Uganda, OSA treatment Entebbe, stop snoring Uganda, ENT sleep specialist Entebbe Road, tonsillectomy for snoring" />
-        <link rel="canonical" href="https://eritageentcare.com/conditions/snoring-entebbe" />
+        <link rel="canonical" data-rh="true" href="https://eritageentcare.com/conditions/snoring-entebbe" />
+        <link rel="alternate" hreflang="en-UG" data-rh="true" href="https://eritageentcare.com/conditions/snoring-entebbe" />
+        <link rel="alternate" hreflang="en" data-rh="true" href="https://eritageentcare.com/conditions/snoring-entebbe" />
         <script type="application/ld+json">{JSON.stringify(conditionSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>

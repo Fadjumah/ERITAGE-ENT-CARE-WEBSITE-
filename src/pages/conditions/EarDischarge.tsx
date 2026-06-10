@@ -140,7 +140,9 @@ const EarDischarge = () => {
         <meta property="og:url" content="https://eritageentcare.com/conditions/ear-discharge-entebbe" />
         <meta property="og:image" content="https://eritageentcare.com/eritage-logo.png" />
         <meta name="keywords" content="ear discharge Entebbe, otorrhea treatment Uganda, runny ear ENT specialist Entebbe, ear pus treatment Uganda, ear discharge urgent care Entebbe" />
-        <link rel="canonical" href="https://eritageentcare.com/conditions/ear-discharge-entebbe" />
+        <link rel="canonical" data-rh="true" href="https://eritageentcare.com/conditions/ear-discharge-entebbe" />
+        <link rel="alternate" hreflang="en-UG" data-rh="true" href="https://eritageentcare.com/conditions/ear-discharge-entebbe" />
+        <link rel="alternate" hreflang="en" data-rh="true" href="https://eritageentcare.com/conditions/ear-discharge-entebbe" />
         <script type="application/ld+json">{JSON.stringify(conditionSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>

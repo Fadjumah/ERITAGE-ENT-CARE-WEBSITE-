@@ -50,7 +50,9 @@ const UrgentENTGuidance = () => {
         <meta property="og:url" content="https://eritageentcare.com/urgent-ent-guidance" />
         <meta property="og:image" content="https://eritageentcare.com/eritage-logo.png" />
         <meta name="keywords" content="urgent ENT help, ear pain guidance, throat bleeding help, blocked ear advice, hearing changes, ENT symptoms Uganda, ENT WhatsApp consultation" />
-        <link rel="canonical" href="https://eritageentcare.com/urgent-ent-guidance" />
+        <link rel="canonical" data-rh="true" href="https://eritageentcare.com/urgent-ent-guidance" />
+        <link rel="alternate" hreflang="en-UG" data-rh="true" href="https://eritageentcare.com/urgent-ent-guidance" />
+        <link rel="alternate" hreflang="en" data-rh="true" href="https://eritageentcare.com/urgent-ent-guidance" />
         <script type="application/ld+json">
           {JSON.stringify(breadcrumbSchema)}
         </script>

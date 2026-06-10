@@ -87,7 +87,9 @@ const Blog = () => {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://eritageentcare.com/blog" />
         <meta property="og:image" content="https://eritageentcare.com/eritage-logo.png" />
-        <link rel="canonical" href="https://eritageentcare.com/blog" />
+        <link rel="canonical" data-rh="true" href="https://eritageentcare.com/blog" />
+        <link rel="alternate" hreflang="en-UG" data-rh="true" href="https://eritageentcare.com/blog" />
+        <link rel="alternate" hreflang="en" data-rh="true" href="https://eritageentcare.com/blog" />
         <script type="application/ld+json">
           {JSON.stringify(breadcrumbSchemaData)}
         </script>

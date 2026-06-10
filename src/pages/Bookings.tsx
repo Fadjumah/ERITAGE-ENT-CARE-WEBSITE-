@@ -170,7 +170,9 @@ const Bookings = () => {
           name="keywords"
           content="book ENT appointment Entebbe, ENT consultation Uganda, ear nose throat appointment, Eritage ENT booking, ENT specialist Entebbe"
         />
-        <link rel="canonical" href={canonical("/bookings")} />
+        <link rel="canonical" data-rh="true" href={canonical("/bookings")} />
+        <link rel="alternate" hreflang="en-UG" data-rh="true" href={canonical("/bookings")} />
+        <link rel="alternate" hreflang="en" data-rh="true" href={canonical("/bookings")} />
         {schemaData.map((schema, i) => (
           <script key={i} type="application/ld+json">
             {JSON.stringify(schema)}

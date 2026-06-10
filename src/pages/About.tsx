@@ -189,7 +189,9 @@ const About = () => {
         <meta property="og:url" content={`${SITE.url}/about`} />
         <meta property="og:image" content={SITE.ogImage} />
         <meta name="keywords" content="about Eritage ENT Care, ENT specialists Uganda, ear nose throat experts, Fahad Juma ENT, evidence-based ENT care" />
-        <link rel="canonical" href={`${SITE.url}/about`} />
+        <link rel="canonical" data-rh="true" href={`${SITE.url}/about`} />
+        <link rel="alternate" hreflang="en-UG" data-rh="true" href={`${SITE.url}/about`} />
+        <link rel="alternate" hreflang="en" data-rh="true" href={`${SITE.url}/about`} />
         <script type="application/ld+json">
           {JSON.stringify(breadcrumbSchema)}
         </script>

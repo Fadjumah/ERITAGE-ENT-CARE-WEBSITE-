@@ -53,7 +53,9 @@ const Reviews = () => {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://eritageentcare.com/reviews" />
         <meta property="og:image" content="https://eritageentcare.com/eritage-logo.png" />
-        <link rel="canonical" href="https://eritageentcare.com/reviews" />
+        <link rel="canonical" data-rh="true" href="https://eritageentcare.com/reviews" />
+        <link rel="alternate" hreflang="en-UG" data-rh="true" href="https://eritageentcare.com/reviews" />
+        <link rel="alternate" hreflang="en" data-rh="true" href="https://eritageentcare.com/reviews" />
         <script type="application/ld+json">
           {JSON.stringify(breadcrumbSchema)}
         </script>

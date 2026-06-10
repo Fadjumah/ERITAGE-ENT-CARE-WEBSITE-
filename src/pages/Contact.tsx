@@ -111,7 +111,9 @@ const Contact = () => {
         <meta property="og:url" content={`${SITE.url}/contact`} />
         <meta property="og:image" content={SITE.ogImage} />
         <meta name="keywords" content="contact ENT specialist Uganda, book ENT appointment, Eritage ENT Care contact, ENT consultation Uganda" />
-        <link rel="canonical" href={`${SITE.url}/contact`} />
+        <link rel="canonical" data-rh="true" href={`${SITE.url}/contact`} />
+        <link rel="alternate" hreflang="en-UG" data-rh="true" href={`${SITE.url}/contact`} />
+        <link rel="alternate" hreflang="en" data-rh="true" href={`${SITE.url}/contact`} />
         <script type="application/ld+json">
           {JSON.stringify(breadcrumbSchema)}
         </script>

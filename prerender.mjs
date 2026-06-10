@@ -273,7 +273,15 @@ for (const route of ALL_ROUTES) {
     )
     .replace(
       /<link rel="canonical"[^>]*>/,
-      `<link rel="canonical" href="${BASE_URL}${route.path}" />`
+      `<link rel="canonical" data-rh="true" href="${BASE_URL}${route.path}" />`
+    )
+    .replace(
+      /<link rel="alternate" hreflang="en-UG"[^>]*>/,
+      `<link rel="alternate" hreflang="en-UG" data-rh="true" href="${BASE_URL}${route.path}" />`
+    )
+    .replace(
+      /<link rel="alternate" hreflang="en"[^>]*>/,
+      `<link rel="alternate" hreflang="en" data-rh="true" href="${BASE_URL}${route.path}" />`
     )
     .replace(
       /<meta property="og:url"[^>]*>/,
